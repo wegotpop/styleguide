@@ -1,0 +1,36 @@
+#sidebar {
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+  flex: 20%;
+  height: 100%;
+}
+
+#sidebar-title {
+  width: 166px;
+  height: 92px;
+  margin: 15px;
+}
+
+.sidebar-menu {
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.sidebar-menu li {
+  margin: 1rem;
+}
+
+#sidebar-title {
+  width: 166px;
+  height: 92px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  color: #333333;
+  margin: 15px;
+}

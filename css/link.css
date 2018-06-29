@@ -1,0 +1,9 @@
+.link {
+  color: var(--brand-site);
+}
+
+.link:hover,
+.link:focus {
+  font-weight: bold;
+  color: var(--brand-site-dark, var(--brand-site));
+}
