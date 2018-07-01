@@ -10,6 +10,7 @@
   color: var(--brand-site-dark, var(--brand-site));
 }
 
-.disabled {
+.disabled,
+.disabled:hover {
   color: var(--disabled);
 }
