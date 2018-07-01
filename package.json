@@ -20,11 +20,11 @@
     "react-dom": "^16.4.1"
   },
   "lint-staged": {
-    "*.{js}": [
+    "*.js": [
       "yarn format:js",
       "git add"
     ],
-    "*.{css}": [
+    "*.css": [
       "yarn format:css",
       "git add"
     ]

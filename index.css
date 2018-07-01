@@ -1,0 +1,13 @@
+.content {
+  padding: 1rem;
+  flex: 80%;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+}
+
+.sidebar {
+  flex: 20%;
+}

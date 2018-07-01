@@ -1,7 +1,6 @@
 #sidebar {
   background-color: #ffffff;
-  border: solid 1px #cccccc;
-  flex: 20%;
+  border-right: solid 1px #cccccc;
   height: 100%;
 }
 

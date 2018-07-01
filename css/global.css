@@ -1,6 +1,7 @@
 :root {
   --brand-site: #4b949f;
   --brand-site-darl: #196c78;
+  --disabled: #cbcbcb;
 }
 
 html {
@@ -36,4 +37,18 @@ h5 {
 h6 {
   font-size: 18px;
   font-weight: bold;
+}
+
+a {
+  color: var(--brand-site);
+}
+
+a:hover,
+a:focus {
+  font-weight: bold;
+  color: var(--brand-site-dark, var(--brand-site));
+}
+
+section {
+  margin-top: 1rem;
 }

@@ -1,7 +1,18 @@
 .table {
-  margin: 1rem;
+  border-spacing: 0 1rem;
 }
 
-.table tbody tr td {
-  padding: 0.5rem;
+.table thead tr td {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.table tr td {
+  border-bottom: 0.1rem solid black;
+  text-align: center;
+}
+
+.table tr td {
+  padding: 1rem;
 }

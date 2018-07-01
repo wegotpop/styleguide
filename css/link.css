@@ -3,7 +3,13 @@
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.hover,
+.focus {
   font-weight: bold;
   color: var(--brand-site-dark, var(--brand-site));
+}
+
+.disabled {
+  color: var(--disabled);
 }
