@@ -7,8 +7,11 @@ import Typography from './pages/Typography';
 import Tables from './pages/Tables';
 import Language from './pages/Language';
 import Buttons from './pages/ButtonsAndLinks';
+import ThemeBuilder from './pages/ThemeBuilder';
 import './css/global.css';
 import styles from './index.css';
+import notificationStyle from './css/notifications.css';
+import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
 
 const PAGES = {
   home: () => <div>Home</div>,
@@ -17,12 +20,14 @@ const PAGES = {
   '/tables': Tables,
   '/language': Language,
   '/buttons': Buttons,
+  '/theme': ThemeBuilder,
   unknown: () => <div>Page could not be found</div>,
 };
 
 class App extends React.Component {
   constructor(props) {
     super(props);
+    loadCSSFromTheme();
     const path = window.location.pathname;
     let page = 'unknown';
     if (path == '/' || path === '' || !path) {
@@ -33,18 +38,29 @@ class App extends React.Component {
     this.state = { error: null, page };
   }
 
+  renderResetWarning() {
+    return (
+      <div className={notificationStyle.warning}>
+        <button onClick={resetTheme}>Reset</button> There are theme
+        customisations active
+      </div>
+    );
+  }
   render() {
     const Page = PAGES[this.state.page];
 
     return (
-      <div className={styles.container}>
-        <div className={styles.sidebar}>
-          <Sidebar />
+      <React.Fragment>
+        {themeActive() ? this.renderResetWarning() : null}
+        <div className={styles.container}>
+          <div className={styles.sidebar}>
+            <Sidebar />
+          </div>
+          <div className={styles.content}>
+            <Page />
+          </div>
         </div>
-        <div className={styles.content}>
-          <Page />
-        </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

@@ -1,7 +1,8 @@
 :root {
   --brand-site: #4b949f;
-  --brand-site-darl: #196c78;
+  --brand-site-dark: #196c78;
   --disabled: #cbcbcb;
+  --warning: #f5bb16;
 }
 
 /* CSS resets */

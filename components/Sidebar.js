@@ -40,5 +40,9 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem href="/content_containers" title="Content containers" />
       <MenuItem href="/notifications" title="Notifications" />
     </ul>
+    <ul className={styles['sidebar-menu']}>
+      <h6>Other</h6>
+      <MenuItem href="/theme" title="Theme builder" />
+    </ul>
   </div>
 );

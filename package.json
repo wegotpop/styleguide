@@ -7,7 +7,7 @@
     "format": "yarn format:js && yarn format:css",
     "format:js": "prettier ./*.js --write",
     "format:css": "prettier **/*.css --parser=css --write",
-    "dev": "parcel index.html",
+    "dev": "rm -rf ./.cache && parcel index.html",
     "precommit": "lint-staged"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
     "postcss-modules": "^1.1.0",
     "prettier": "^1.13.7",
     "react": "^16.4.1",
+    "react-color": "^2.14.1",
     "react-dom": "^16.4.1"
   },
   "lint-staged": {

@@ -16,9 +16,5 @@ table {
 
 .table tr td {
   border-bottom: 0.1rem solid black;
-  text-align: center;
-}
-
-.table tr td {
   padding: 1rem;
 }
