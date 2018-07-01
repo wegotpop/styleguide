@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "format": "yarn format:js && yarn format:css",
+    "format": "yarn format:js && yarn format:css && yarn format:md",
     "format:js": "prettier ./*.js --write",
     "format:css": "prettier **/*.css --parser=css --write",
+    "format:md": "prettier **/*.md --parser=markdown --write",
     "dev": "rm -rf ./.cache && parcel index.html",
     "precommit": "lint-staged"
   },
@@ -27,6 +28,10 @@
     ],
     "*.css": [
       "yarn format:css",
+      "git add"
+    ],
+    "*.md": [
+      "yarn format:md",
       "git add"
     ]
   },
