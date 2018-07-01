@@ -65,9 +65,29 @@ export default () => {
                 </a>
               </td>
             </tr>
-            <tr />
           </tbody>
         </table>
+        <div>
+          <h4>Usage:</h4>
+          <pre>
+            <pre
+            >{`import linkStyles from '@wegotpop/styleguide/link.css';`}</pre>
+          </pre>
+          <pre>
+            <code>{`<Component className={linkStyles.link} />`}</code>
+          </pre>
+          <p>
+            Hover and Focus are provided automatically when using the{' '}
+            <code>link</code> class.
+          </p>
+          <p>
+            They can also be accessed separately via the <code>hover</code> and{' '}
+            <code>focus</code> classes.
+          </p>
+          <p>
+            <code>disabled</code> is provided to styles a disbaled link.
+          </p>
+        </div>
       </section>
     </div>
   );

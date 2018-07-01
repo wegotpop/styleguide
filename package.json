@@ -28,6 +28,6 @@
       "yarn format:css",
       "git add"
     ]
-
-  }
+  },
+  "dependencies": {}
 }
