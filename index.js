@@ -13,9 +13,20 @@ import styles from './index.css';
 import notificationStyle from './css/notifications.css';
 import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
 import IconsAndMedia from './pages/IconsAndMedia';
+import Navigation from './pages/Navigation';
+import Animation from './pages/Animation';
+import CaseHeaders from './pages/CaseHeaders';
+import Notifications from './pages/Notifications';
+import ContentContainers from './pages/ContentContainers';
+import FormElements from './pages/FormElements';
 
 const PAGES = {
-  home: () => <div>Home</div>,
+  home: () => (
+    <div>
+      <h1>We Got POP - Style guide</h1>
+      <em>Work in progress</em>
+    </div>
+  ),
   '/colours': Colours,
   '/typography': Typography,
   '/tables': Tables,
@@ -23,6 +34,12 @@ const PAGES = {
   '/buttons': Buttons,
   '/theme': ThemeBuilder,
   '/icons_and_media': IconsAndMedia,
+  '/navigation': Navigation,
+  '/animation': Animation,
+  '/case_headers': CaseHeaders,
+  '/notifications': Notifications,
+  '/content_containers': ContentContainers,
+  '/forms': FormElements,
   unknown: () => <div>Page could not be found</div>,
 };
 
