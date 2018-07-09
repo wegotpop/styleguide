@@ -26,6 +26,12 @@ const PAGES = {
   unknown: () => <div>Page could not be found</div>,
 };
 
+const Banner = () => (
+  <div id={styles.banner}>
+    <h1>We Got POP Style guide</h1>
+  </div>
+);
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -73,6 +79,7 @@ class App extends React.Component {
             <Sidebar onClick={this.handleClick} />
           </div>
           <div className={styles.content}>
+            <Banner />
             <Page />
           </div>
         </div>

@@ -5,6 +5,27 @@ import tableStyles from '../css/tables.css';
 import styles from './css/ThemeBuilder.css';
 import * as themeManager from '../themeManager';
 
+const VARIABLES = [
+  ['Disabled', 'disabled'],
+  ['Warning', 'warning'],
+  ['Brand darker', 'brand-darker'],
+  ['Brand dark', 'brand-dark'],
+  ['Brand primary', 'brand-primary'],
+  ['Brand light', 'brand-light'],
+  ['Brand lighter', 'brand-lighter'],
+  ['Brand black', 'brand-black'],
+  ['Brand darkgrey', 'brand-darkgrey'],
+  ['Brand grey', 'brand-grey'],
+  ['Brand lightgrey', 'brand-lightgrey'],
+  ['Brand lightergrey', 'brand-lightergrey'],
+  ['Brand secondary dark', 'brand-secondary-dark'],
+  ['Brand secondary', 'brand-secondary'],
+  ['Brand-secondary soft', 'brand-secondary-soft'],
+  ['Brand feedback success', 'brand-feedback-success'],
+  ['Brand feedback warning', 'brand-feedback-warning'],
+  ['Brand feedback error', 'brand-feedback-error'],
+];
+
 class ColourPicker extends React.Component {
   constructor(props) {
     super(props);
@@ -62,9 +83,9 @@ class ThemeBuilder extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.renderRow('Brand site', 'brand-site')}
-            {this.renderRow('Brand site (dark)', 'brand-site-dark')}
-            {this.renderRow('Disabled', 'disabled')}
+            {VARIABLES.map(([name, variable]) =>
+              this.renderRow(name, variable),
+            )}
           </tbody>
         </table>
       </div>
