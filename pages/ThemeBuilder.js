@@ -30,6 +30,12 @@ class ColourPicker extends React.Component {
   constructor(props) {
     super(props);
     this.onChange = this.onChange.bind(this);
+    this.state = { open: false };
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick() {
+    this.setState({ open: !this.state.open });
   }
 
   onChange({ hex }) {
@@ -46,17 +52,8 @@ class ColourPicker extends React.Component {
   }
 
   render() {
-    const colour = this.getPropertyValue(`--${this.props.name}`);
-    return (
-      <span>
-        <Picker color={colour} onChange={this.onChange} />
-      </span>
-    );
-  }
-}
-
-class ThemeBuilder extends React.Component {
-  renderRow(title, name) {
+    const { title, name } = this.props;
+    const colour = this.getPropertyValue(`--${name}`);
     return (
       <tr>
         <td>
@@ -64,12 +61,25 @@ class ThemeBuilder extends React.Component {
           <pre>var(--{name})</pre>
         </td>
         <td>
-          <ColourPicker name={name} />
+          {this.state.open ? (
+            <React.Fragment>
+              <Picker color={colour} onChange={this.onChange} />
+              <button onClick={this.onClick}>Close</button>
+            </React.Fragment>
+          ) : (
+            <div
+              onClick={this.onClick}
+              className={styles.colourBox}
+              style={{ backgroundColor: `var(--${name})` }}
+            />
+          )}
         </td>
       </tr>
     );
   }
+}
 
+class ThemeBuilder extends React.Component {
   render() {
     return (
       <div>
@@ -83,9 +93,9 @@ class ThemeBuilder extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {VARIABLES.map(([name, variable]) =>
-              this.renderRow(name, variable),
-            )}
+            {VARIABLES.map(([title, name]) => (
+              <ColourPicker title={title} name={name} />
+            ))}
           </tbody>
         </table>
       </div>
