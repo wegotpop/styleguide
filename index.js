@@ -12,6 +12,7 @@ import './css/global.css';
 import styles from './index.css';
 import notificationStyle from './css/notifications.css';
 import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
+import IconsAndMedia from './pages/IconsAndMedia';
 
 const PAGES = {
   home: () => <div>Home</div>,
@@ -21,6 +22,7 @@ const PAGES = {
   '/language': Language,
   '/buttons': Buttons,
   '/theme': ThemeBuilder,
+  '/icons_and_media': IconsAndMedia,
   unknown: () => <div>Page could not be found</div>,
 };
 

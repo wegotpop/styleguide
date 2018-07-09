@@ -12,7 +12,7 @@
 .colour-box {
   margin: 0 1rem;
   padding: 1rem;
-  mix-blend-mode: screen;
+  color: white;
 }
 
 .column-container {
@@ -21,4 +21,18 @@
 
 .flex-container {
   flex: 1;
+}
+
+#meaning-list {
+  list-style: none;
+}
+
+.list-item span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.list-item {
+  padding: 0.5rem;
 }

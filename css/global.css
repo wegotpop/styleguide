@@ -1,113 +1,22 @@
 :root {
-  --brand-site: #4b949f;
-  --brand-site-dark: #196c78;
   --disabled: #cbcbcb;
   --warning: #f5bb16;
-  --brand-one: #196c78;
-  --brand-two: #307f8a;
-  --brand-three: #4b949f;
-  --brand-four: #78bac3;
-  --brand-five: #afdce2;
-  --brand-greyscale-one: #000000;
-  --brand-greyscale-two: #979797;
-  --brand-greyscale-three: #c0c0c0;
-  --brand-greyscale-four: #eeeeee;
-  --brand-greyscale-five: #f8f8f8;
-  --brand-secondary-one: #333d42;
-  --brand-secondary-two: #316685;
-  --brand-secondary-three: #6493dc;
-  --brand-feedback-one: #13ce66;
-  --brand-feedback-two: #f5bb16;
-  --brand-feedback-three: #ff4949;
-}
-
-/* CSS resets */
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
+  --brand-darker: #196c78;
+  --brand-dark: #307f8a;
+  --brand-primary: #4b949f;
+  --brand-light: #78bac3;
+  --brand-lighter: #afdce2;
+  --brand-black: #000000;
+  --brand-darkgrey: #979797;
+  --brand-grey: #c0c0c0;
+  --brand-lightgrey: #eeeeee;
+  --brand-lightergrey: #f8f8f8;
+  --brand-secondary-dark: #333d42;
+  --brand-secondary: #316685;
+  --brand-secondary-soft: #6493dc;
+  --brand-feedback-success: #13ce66;
+  --brand-feedback-warning: #f5bb16;
+  --brand-feedback-error: #ff4949;
 }
 
 :root {
@@ -149,18 +58,18 @@ body {
   font-size: 1.125rem;
 }
 
-p {
+:global(p) {
   font-size: 1rem;
+  margin: 0.5rem;
 }
 
-a {
-  color: var(--brand-site);
+:global(a) {
+  color: var(--brand-primary);
 }
 
-a:hover,
-a:focus {
+:global(a:hover, a:focus) {
   font-weight: bold;
-  color: var(--brand-site-dark, var(--brand-site));
+  color: var(--brand-darker, var(--brand-primary));
 }
 
 :global(section) {
