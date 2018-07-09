@@ -31,13 +31,15 @@ class App extends React.Component {
     super(props);
     loadCSSFromTheme();
     const path = window.location.pathname;
-    let page = 'unknown';
-    if (path == '/' || path === '' || !path) {
-      page = 'home';
-    } else if (Object.keys(PAGES).includes(path)) {
-      page = path;
-    }
-    this.state = { error: null, page };
+
+    this.state = { path };
+    this.handleClick = this.handleClick.bind(this);
+
+    window.onpopstate = e => {
+      if (e.state) {
+        this.setState({ path: e.state.path });
+      }
+    };
   }
 
   renderResetWarning() {
@@ -48,15 +50,27 @@ class App extends React.Component {
       </div>
     );
   }
+  handleClick(path) {
+    this.setState({ path });
+    window.history.pushState({}, '', path);
+  }
+
   render() {
-    const Page = PAGES[this.state.page];
+    const { path } = this.state;
+    let page = 'unknown';
+    if (path == '/' || path === '' || !path) {
+      page = 'home';
+    } else if (Object.keys(PAGES).includes(path)) {
+      page = path;
+    }
+    const Page = PAGES[page];
 
     return (
       <React.Fragment>
         {themeActive() ? this.renderResetWarning() : null}
         <div className={styles.container}>
           <div className={styles.sidebar}>
-            <Sidebar />
+            <Sidebar onClick={this.handleClick} />
           </div>
           <div className={styles.content}>
             <Page />

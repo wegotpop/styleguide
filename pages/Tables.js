@@ -8,7 +8,7 @@ export default () => {
         Use a table when displaying tabular data, or comparing data both
         vertically and horizontally.
       </p>
-      <p>
+      <div>
         <ul style={{ padding: '2rem' }}>
           <li>
             Tables should extend to 100% of the available space of the card;
@@ -26,7 +26,7 @@ export default () => {
           <li>Row actions, such as delete, should be in the last column;</li>
           <li>Checkboxes should be in the first column.</li>
         </ul>
-      </p>
+      </div>
     </div>
   );
 };
