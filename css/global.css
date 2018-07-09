@@ -3,6 +3,22 @@
   --brand-site-dark: #196c78;
   --disabled: #cbcbcb;
   --warning: #f5bb16;
+  --brand-one: #196c78;
+  --brand-two: #307f8a;
+  --brand-three: #4b949f;
+  --brand-four: #78bac3;
+  --brand-five: #afdce2;
+  --brand-greyscale-one: #000000;
+  --brand-greyscale-two: #979797;
+  --brand-greyscale-three: #c0c0c0;
+  --brand-greyscale-four: #eeeeee;
+  --brand-greyscale-five: #f8f8f8;
+  --brand-secondary-one: #333d42;
+  --brand-secondary-two: #316685;
+  --brand-secondary-three: #6493dc;
+  --brand-feedback-one: #13ce66;
+  --brand-feedback-two: #f5bb16;
+  --brand-feedback-three: #ff4949;
 }
 
 /* CSS resets */
@@ -94,39 +110,47 @@ video {
   vertical-align: baseline;
 }
 
-html {
+:root {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16;
 }
 
 h1 {
-  font-size: 39px;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 h3 {
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight: lighter;
 }
 
 h4 {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 h6 {
   font-size: 18px;
   font-weight: bold;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 a {
@@ -139,6 +163,6 @@ a:focus {
   color: var(--brand-site-dark, var(--brand-site));
 }
 
-section {
-  margin-top: 1rem;
+:global(section) {
+  margin-top: 2rem;
 }
