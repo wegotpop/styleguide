@@ -1,66 +1,31 @@
-:root {
-  --disabled: #cbcbcb;
-  --warning: #f5bb16;
-  --brand-darker: #196c78;
-  --brand-dark: #307f8a;
-  --brand-primary: #4b949f;
-  --brand-light: #78bac3;
-  --brand-lighter: #afdce2;
-  --brand-black: #000000;
-  --brand-darkgrey: #979797;
-  --brand-grey: #c0c0c0;
-  --brand-lightgrey: #eeeeee;
-  --brand-lightergrey: #f8f8f8;
-  --brand-secondary-dark: #333d42;
-  --brand-secondary: #316685;
-  --brand-secondary-soft: #6493dc;
-  --brand-feedback-success: #13ce66;
-  --brand-feedback-warning: #f5bb16;
-  --brand-feedback-error: #ff4949;
-}
-
-:root {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16;
-}
-
-h1 {
+@import './variables.css';
+:global(h1) {
   font-size: 2.5rem;
   font-weight: lighter;
 }
 
-h2 {
+:global(h2) {
   font-size: 2rem;
   font-weight: lighter;
 }
 
-h3 {
+:global(h3) {
   font-size: 1.75rem;
   font-weight: lighter;
 }
 
-h4 {
+:global(h4) {
   font-size: 1.5rem;
   font-weight: normal;
 }
 
-h5 {
+:global(h5) {
   font-size: 1.25rem;
   font-weight: bold;
 }
 
-h6 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
 body {
-  font-size: 1.125rem;
-}
-
-:global(p) {
   font-size: 1rem;
-  margin: 0.5rem 0;
 }
 
 :global(a) {
@@ -70,8 +35,4 @@ body {
 :global(a:hover, a:focus) {
   font-weight: bold;
   color: var(--brand-darker, var(--brand-primary));
-}
-
-:global(section) {
-  margin-top: 2rem;
 }

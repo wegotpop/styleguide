@@ -17,8 +17,8 @@ const remCalculator = elementName => {
     elem.remove();
   }
 
-  const x = parseInt(pixels);
-  const y = parseInt(
+  const x = parseFloat(pixels);
+  const y = parseFloat(
     getComputedStyle(document.querySelector(':root')).getPropertyValue(
       'font-size',
     ),
@@ -88,27 +88,8 @@ export default () => {
             </tr>
 
             <tr>
-              <td>
-                <h6>Heading Level 6</h6>
-              </td>
-              <td>
-                <strong>H6</strong> - {remCalculator('h6')}rem, bold weight;
-              </td>
-            </tr>
-
-            <tr>
-              <td>Body</td>
+              <td>Base</td>
               <td>Standard font size - {remCalculator('body')}rem</td>
-            </tr>
-            <tr>
-              <td>
-                <p>Paragraph</p>
-              </td>
-              <td>
-                Standard font size - {remCalculator('p')}rem ({getComputedStyle(
-                  document.querySelector('html'),
-                ).getPropertyValue('font-size')}) light weight
-              </td>
             </tr>
           </tbody>
         </table>

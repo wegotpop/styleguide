@@ -7,7 +7,6 @@ import * as themeManager from '../themeManager';
 
 const VARIABLES = [
   ['Disabled', 'disabled'],
-  ['Warning', 'warning'],
   ['Brand darker', 'brand-darker'],
   ['Brand dark', 'brand-dark'],
   ['Brand primary', 'brand-primary'],
