@@ -53,7 +53,13 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     loadCSSFromTheme();
-    const path = window.location.pathname;
+
+    let path = window.location.pathname;
+    debugger;
+
+    if (window.location.search && window.location.search !== '') {
+      path = location.search.replace('?p=', '');
+    }
 
     this.state = { path };
     this.handleClick = this.handleClick.bind(this);
@@ -75,13 +81,14 @@ class App extends React.Component {
   }
   handleClick(path) {
     this.setState({ path });
-    window.history.pushState({}, '', path);
+    const url = window.location.href.replace(/\/[^\/]*$/, path);
+    window.history.pushState({}, '', url);
   }
 
   render() {
     const { path } = this.state;
     let page = 'unknown';
-    if (path == '/' || path === '' || !path) {
+    if (['/', '', 'index.html', '/styleguide/'].includes(path) || !path) {
       page = 'home';
     } else if (Object.keys(PAGES).includes(path)) {
       page = path;

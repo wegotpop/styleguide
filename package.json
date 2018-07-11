@@ -13,7 +13,8 @@
     "format:css": "prettier **/*.css --parser=css --write",
     "format:md": "prettier **/*.md --parser=markdown --write",
     "dev": "rm -rf ./.cache && parcel index.html",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged && yarn build && git add docs",
+    "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html"
   },
   "devDependencies": {
     "husky": "^0.14.3",
