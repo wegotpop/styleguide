@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import styles from './Sidebar.css';
-import linkStyles from '../css/link.css';
+import linkStyles from '../../css/link.css';
 
 const MenuItem = ({ href, title, onClick }) => {
   return (
@@ -29,7 +29,7 @@ export const Sidebar = ({ onClick }) => (
     </ul>
 
     <ul className={styles['sidebar-menu']}>
-      <h6>Principles</h6>
+      <h4>Principles</h4>
       <MenuItem onClick={onClick} href="/colours" title="Colour palette" />
       <MenuItem onClick={onClick} href="/typography" title="Typography" />
       <MenuItem onClick={onClick} href="/language" title="Language and text" />
@@ -38,7 +38,7 @@ export const Sidebar = ({ onClick }) => (
     </ul>
 
     <ul className={styles['sidebar-menu']}>
-      <h6>Components</h6>
+      <h4>Components</h4>
       <MenuItem
         onClick={onClick}
         href="/icons_and_media"
@@ -56,7 +56,7 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/notifications" title="Notifications" />
     </ul>
     <ul className={styles['sidebar-menu']}>
-      <h6>Other</h6>
+      <h4>Other</h4>
       <MenuItem onClick={onClick} href="/theme" title="Theme builder" />
     </ul>
   </div>

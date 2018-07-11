@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Sidebar } from './components/Sidebar';
+import { Sidebar } from './pages/components/Sidebar';
 import Colours from './pages/Colors';
 import Typography from './pages/Typography';
 import Tables from './pages/Tables';
