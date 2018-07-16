@@ -1,5 +1,7 @@
 # We Got POP LTD Style guide
 
+[![npm version](https://badge.fury.io/js/%40wegotpop%2Fstyleguide.svg)](https://badge.fury.io/js/%40wegotpop%2Fstyleguide)
+
 ## Getting started
 
 This repository makes use of [Yarn](https://yarnpkg.com/en/). Please ensure this is installed before getting started.
