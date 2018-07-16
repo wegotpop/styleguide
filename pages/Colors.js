@@ -1,20 +1,28 @@
 import React from 'react';
 import colourStyles from './css/Colours.css';
 
-const PRIMARY_COLOURS = ['darker', 'dark', 'primary', 'light', 'lighter'];
+const PRIMARY_COLOURS = [
+  'brand-one',
+  'brand-two',
+  'brand-main',
+  'brand-three',
+  'brand-four',
+];
 const GREYSCALE_COLOURS = [
   'black',
-  'darkgrey',
-  'grey',
-  'lightgrey',
-  'lightergrey',
+  'greyscale-one',
+  'greyscale-two',
+  'greyscale-three',
+  'greyscale-four',
+  'white',
 ];
 
-const SECONDAY_COLOURS = ['secondary-dark', 'secondary', 'secondary-soft'];
+const SECONDAY_COLOURS = ['secondary-one', 'secondary-two'];
 const FEEDBACK_COLOURS = [
-  'feedback-success',
-  'feedback-warning',
-  'feedback-error',
+  'action-info',
+  'action-positive',
+  'action-warning',
+  'action-error',
 ];
 
 const ColourBox = ({ colour }) => (
@@ -23,14 +31,14 @@ const ColourBox = ({ colour }) => (
       key={colour}
       className={colourStyles['colour-box']}
       style={{
-        backgroundColor: `var(--brand-${colour})`,
+        backgroundColor: `var(--${colour})`,
       }}
     >
       {getComputedStyle(document.querySelector(':root')).getPropertyValue(
-        `--brand-${colour}`,
+        `--${colour}`,
       )}
     </div>
-    --brand-{colour}
+    --{colour}
   </div>
 );
 
@@ -70,7 +78,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--brand-secondary)',
+              backgroundColor: 'var(--action-info)',
             }}
           />{' '}
           Blue - Status - info / no issues
@@ -78,7 +86,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--brand-feedback-success)',
+              backgroundColor: 'var(--action-positive)',
             }}
           />{' '}
           Green - Successes, completions, increases, positive actions
@@ -87,7 +95,7 @@ export default () => (
           {' '}
           <span
             style={{
-              backgroundColor: 'var(--brand-feedback-warning)',
+              backgroundColor: 'var(--action-warning)',
             }}
           />{' '}
           Yellow - Warnings
@@ -95,7 +103,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--brand-feedback-error)',
+              backgroundColor: 'var(--action-error)',
             }}
           />{' '}
           Red - Errors, negative messaging, losses, high priority, overdue,

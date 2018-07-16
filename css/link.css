@@ -1,5 +1,5 @@
 .link {
-  color: var(--brand-primary);
+  color: var(--brand-main);
 }
 
 .link:hover,
@@ -7,7 +7,7 @@
 .hover,
 .focus {
   font-weight: bold;
-  color: var(--brand-darker, var(--brand-primary));
+  color: var(--brand-darker, var(--brand-main));
 }
 
 .disabled,

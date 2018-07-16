@@ -29,10 +29,10 @@ body {
 }
 
 :global(a) {
-  color: var(--brand-primary);
+  color: var(--brand-main);
 }
 
 :global(a:hover, a:focus) {
   font-weight: bold;
-  color: var(--brand-darker, var(--brand-primary));
+  color: var(--brand-one, var(--brand-main));
 }
