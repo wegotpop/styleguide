@@ -55,7 +55,6 @@ class App extends React.Component {
     loadCSSFromTheme();
 
     let path = window.location.pathname;
-    debugger;
 
     if (window.location.search && window.location.search !== '') {
       path = location.search.replace('?p=', '');
