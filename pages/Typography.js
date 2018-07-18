@@ -46,7 +46,7 @@ export default () => {
                 <h1>Heading Level 1</h1>
               </td>
               <td>
-                <strong>H1</strong> - {remCalculator('h1')}rem , light weight;
+                <strong>H1</strong> - {remCalculator('h1')}rem, light weight
               </td>
             </tr>
 
@@ -55,7 +55,7 @@ export default () => {
                 <h2>Heading Level 2</h2>
               </td>
               <td>
-                <strong>H2</strong> - {remCalculator('h2')}rem, regular weight;
+                <strong>H2</strong> - {remCalculator('h2')}rem, light weight
               </td>
             </tr>
 
@@ -64,7 +64,7 @@ export default () => {
                 <h3>Heading Level 3</h3>
               </td>
               <td>
-                <strong>H3</strong> - {remCalculator('h3')}rem, bold weight;
+                <strong>H3</strong> - {remCalculator('h3')}rem, light weight
               </td>
             </tr>
 
@@ -73,7 +73,7 @@ export default () => {
                 <h4>Heading Level 4</h4>
               </td>
               <td>
-                <strong>H4</strong> - {remCalculator('h4')}rem, bold weight;
+                <strong>H4</strong> - {remCalculator('h4')}rem, regular weight
               </td>
             </tr>
 
@@ -82,14 +82,13 @@ export default () => {
                 <h5>Heading Level 5</h5>
               </td>
               <td>
-                <strong>H5</strong> - {remCalculator('h5')}rem, bold weight,
-                uppercase;
+                <strong>H5</strong> - {remCalculator('h5')}rem, bold weight
               </td>
             </tr>
 
             <tr>
               <td>Base</td>
-              <td>Standard font size - {remCalculator('body')}rem</td>
+              <td>Standard font size - {remCalculator(':root')}rem</td>
             </tr>
           </tbody>
         </table>

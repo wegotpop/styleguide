@@ -40,3 +40,7 @@ or for a specific filetype:
 ```sh
 yarn format:<js|css|md>
 ```
+
+## Publishing
+
+Publishing can be done by running `npm publish`.

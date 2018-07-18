@@ -1,4 +1,8 @@
 @import './variables.css';
+:root {
+  font-size: var(--font-size);
+}
+
 :global(h1) {
   font-size: 2.5rem;
   font-weight: lighter;
@@ -24,9 +28,10 @@
   font-weight: bold;
 }
 
+/*
 body {
-  font-size: 1rem;
-}
+  font-size: var(--font-size);
+} */
 
 :global(a) {
   color: var(--brand-main);
