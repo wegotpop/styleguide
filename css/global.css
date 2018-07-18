@@ -34,10 +34,10 @@ body {
 } */
 
 :global(a) {
-  color: var(--brand-main);
+  color: var(--link-colour);
 }
 
 :global(a:hover, a:focus) {
   font-weight: bold;
-  color: var(--brand-one, var(--brand-main));
+  color: var(--brand-one, var(--link-colour));
 }

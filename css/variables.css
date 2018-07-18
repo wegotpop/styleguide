@@ -21,4 +21,5 @@
   --font-size: 15;
   font-family: var(--font-family);
   font-size: var(--font-size);
+  --link-colour: var(--brand-main);
 }
