@@ -18,7 +18,7 @@
   --action-warning: #f5bb16;
   --action-error: #ff4949;
   --font-family: 'Roboto', sans-serif;
-  --font-size: 15;
+  --font-size: 15px;
   font-family: var(--font-family);
   font-size: var(--font-size);
   --link-colour: var(--brand-main);
