@@ -14,7 +14,7 @@
     "format:js": "prettier ./*.js --write",
     "format:css": "prettier **/*.css --parser=css --write",
     "format:md": "prettier **/*.md --parser=markdown --write",
-    "dev": "rm -rf ./.cache && parcel index.html",
+    "dev": "parcel index.html --no-cache",
     "precommit": "lint-staged && yarn build && git add docs",
     "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html"
   },
