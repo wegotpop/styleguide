@@ -20,7 +20,7 @@
     --secondary-red: var(--action-error);
     --secondary-blue: var(--action-info);
     --secondary-green: var(--action-positive);
-    --font-family: "Roboto", sans-serif;
+    --font-family: 'Roboto', sans-serif;
     --font-size: 15px;
     font-family: var(--font-family);
     font-size: var(--font-size);
