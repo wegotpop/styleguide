@@ -28,6 +28,9 @@
     "react-color": "^2.14.1",
     "react-dom": "^16.4.1"
   },
+  "prettier": {
+    "singleQuote": true
+  },
   "lint-staged": {
     "*.js": [
       "yarn format:js",
