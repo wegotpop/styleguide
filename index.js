@@ -40,7 +40,7 @@ const PAGES = {
   '/notifications': Notifications,
   '/content_containers': ContentContainers,
   '/forms': FormElements,
-  unknown: () => <div>Page could not be found</div>,
+  unknown: () => <div>Page could not be found</div>
 };
 
 const Banner = () => (
