@@ -1,13 +1,13 @@
 function getTheme() {
-  return JSON.parse(localStorage.getItem('theme')) || {};
+  return JSON.parse(localStorage.getItem("theme")) || {};
 }
 
 export function resetTheme() {
   const theme = getTheme();
   Object.keys(theme).forEach(key => {
-    updateCSSValue(key, '');
+    updateCSSValue(key, "");
   });
-  localStorage.setItem('theme', '{}');
+  localStorage.setItem("theme", "{}");
   window.location.reload();
 }
 
@@ -15,7 +15,7 @@ export function saveValue(name, value) {
   const theme = getTheme();
 
   theme[name] = value;
-  localStorage.setItem('theme', JSON.stringify(theme));
+  localStorage.setItem("theme", JSON.stringify(theme));
 }
 
 export function loadCSSFromTheme() {
@@ -26,7 +26,7 @@ export function loadCSSFromTheme() {
 }
 
 export function updateCSSValue(name, value) {
-  document.querySelector(':root').style.setProperty(`--${name}`, value);
+  document.querySelector(":root").style.setProperty(`--${name}`, value);
 }
 
 export function themeActive() {

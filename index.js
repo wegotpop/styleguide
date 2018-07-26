@@ -1,24 +1,24 @@
-import * as React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from "react";
+import ReactDOM from "react-dom";
 
-import { Sidebar } from './pages/components/Sidebar';
-import Colours from './pages/Colors';
-import Typography from './pages/Typography';
-import Tables from './pages/Tables';
-import Language from './pages/Language';
-import Buttons from './pages/ButtonsAndLinks';
-import ThemeBuilder from './pages/ThemeBuilder';
-import './css/global.css';
-import styles from './index.css';
-import notificationStyle from './css/notifications.css';
-import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
-import IconsAndMedia from './pages/IconsAndMedia';
-import Navigation from './pages/Navigation';
-import Animation from './pages/Animation';
-import CaseHeaders from './pages/CaseHeaders';
-import Notifications from './pages/Notifications';
-import ContentContainers from './pages/ContentContainers';
-import FormElements from './pages/FormElements';
+import { Sidebar } from "./pages/components/Sidebar";
+import Colours from "./pages/Colors";
+import Typography from "./pages/Typography";
+import Tables from "./pages/Tables";
+import Language from "./pages/Language";
+import Buttons from "./pages/ButtonsAndLinks";
+import ThemeBuilder from "./pages/ThemeBuilder";
+import "./css/global.css";
+import styles from "./index.css";
+import notificationStyle from "./css/notifications.css";
+import { loadCSSFromTheme, themeActive, resetTheme } from "./themeManager";
+import IconsAndMedia from "./pages/IconsAndMedia";
+import Navigation from "./pages/Navigation";
+import Animation from "./pages/Animation";
+import CaseHeaders from "./pages/CaseHeaders";
+import Notifications from "./pages/Notifications";
+import ContentContainers from "./pages/ContentContainers";
+import FormElements from "./pages/FormElements";
 
 const PAGES = {
   home: () => (
@@ -27,20 +27,20 @@ const PAGES = {
       <em>Work in progress</em>
     </div>
   ),
-  '/colours': Colours,
-  '/typography': Typography,
-  '/tables': Tables,
-  '/language': Language,
-  '/buttons': Buttons,
-  '/theme': ThemeBuilder,
-  '/icons_and_media': IconsAndMedia,
-  '/navigation': Navigation,
-  '/animation': Animation,
-  '/case_headers': CaseHeaders,
-  '/notifications': Notifications,
-  '/content_containers': ContentContainers,
-  '/forms': FormElements,
-  unknown: () => <div>Page could not be found</div>,
+  "/colours": Colours,
+  "/typography": Typography,
+  "/tables": Tables,
+  "/language": Language,
+  "/buttons": Buttons,
+  "/theme": ThemeBuilder,
+  "/icons_and_media": IconsAndMedia,
+  "/navigation": Navigation,
+  "/animation": Animation,
+  "/case_headers": CaseHeaders,
+  "/notifications": Notifications,
+  "/content_containers": ContentContainers,
+  "/forms": FormElements,
+  unknown: () => <div>Page could not be found</div>
 };
 
 const Banner = () => (
@@ -56,8 +56,8 @@ class App extends React.Component {
 
     let path = window.location.pathname;
 
-    if (window.location.search && window.location.search !== '') {
-      path = location.search.replace('?p=', '');
+    if (window.location.search && window.location.search !== "") {
+      path = location.search.replace("?p=", "");
     }
 
     this.state = { path };
@@ -81,14 +81,14 @@ class App extends React.Component {
   handleClick(path) {
     this.setState({ path });
     const url = window.location.href.replace(/\/[^\/]*$/, path);
-    window.history.pushState({}, '', url);
+    window.history.pushState({}, "", url);
   }
 
   render() {
     const { path } = this.state;
-    let page = 'unknown';
-    if (['/', '', 'index.html', '/styleguide/'].includes(path) || !path) {
-      page = 'home';
+    let page = "unknown";
+    if (["/", "", "index.html", "/styleguide/"].includes(path) || !path) {
+      page = "home";
     } else if (Object.keys(PAGES).includes(path)) {
       page = path;
     }
@@ -111,4 +111,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('content'));
+ReactDOM.render(<App />, document.getElementById("content"));
