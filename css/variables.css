@@ -17,7 +17,10 @@
     --action-positive: #13ce66;
     --action-warning: #f5bb16;
     --action-error: #ff4949;
-    --font-family: 'Roboto', sans-serif;
+    --secondary-red: var(--action-error);
+    --secondary-blue: var(--action-info);
+    --secondary-green: var(--action-positive);
+    --font-family: "Roboto", sans-serif;
     --font-size: 15px;
     font-family: var(--font-family);
     font-size: var(--font-size);
