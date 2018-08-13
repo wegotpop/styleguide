@@ -6,7 +6,7 @@ const PRIMARY_COLOURS = [
   'brand-two',
   'brand-main',
   'brand-three',
-  'brand-four',
+  'brand-four'
 ];
 const GREYSCALE_COLOURS = [
   'black',
@@ -14,16 +14,35 @@ const GREYSCALE_COLOURS = [
   'greyscale-two',
   'greyscale-three',
   'greyscale-four',
-  'white',
+  'white'
 ];
-
-const SECONDAY_COLOURS = ['secondary-one', 'secondary-two'];
 const FEEDBACK_COLOURS = [
   'action-info',
   'action-positive',
   'action-warning',
-  'action-error',
+  'action-error'
 ];
+
+const SECONDARY = {
+  Other: ['secondary-one', 'secondary-two'],
+  Blue: ['blue-one', 'blue-two', 'blue-main', 'blue-three', 'blue-four'],
+  Purple: [
+    'purple-one',
+    'purple-two',
+    'purple-main',
+    'purple-three',
+    'purple-four'
+  ],
+  Green: ['green-one', 'green-two', 'green-main', 'green-three', 'green-four'],
+  Yellow: [
+    'yellow-one',
+    'yellow-two',
+    'yellow-main',
+    'yellow-three',
+    'yellow-four'
+  ],
+  Red: ['red-one', 'red-two', 'red-main', 'red-three', 'red-four']
+};
 
 const ColourBox = ({ colour }) => (
   <div className={colourStyles['bounding-box']}>
@@ -31,11 +50,11 @@ const ColourBox = ({ colour }) => (
       key={colour}
       className={colourStyles['colour-box']}
       style={{
-        backgroundColor: `var(--${colour})`,
+        backgroundColor: `var(--${colour})`
       }}
     >
       {getComputedStyle(document.querySelector(':root')).getPropertyValue(
-        `--${colour}`,
+        `--${colour}`
       )}
     </div>
     --{colour}
@@ -47,7 +66,9 @@ const Section = ({ name, colours }) => {
     <section className={colourStyles['flex-container']}>
       <h4>{name}</h4>
       <div className={colourStyles.container}>
-        {colours.map(colour => <ColourBox key={colour} colour={colour} />)}
+        {colours.map(colour => {
+          return <ColourBox key={colour} colour={colour} />;
+        })}
       </div>
     </section>
   );
@@ -70,7 +91,9 @@ export default () => (
     </p>
     <Section name="Primary" colours={PRIMARY_COLOURS} />
     <Section name="Greyscale" colours={GREYSCALE_COLOURS} />
-    <Section name="Secondary" colours={SECONDAY_COLOURS} />
+    {Object.keys(SECONDARY).map(key => (
+      <Section key={key} name={key} colours={SECONDARY[key]} />
+    ))}
     <Section name="System Feedback" colours={FEEDBACK_COLOURS} />
     <section>
       <h4>Meaning</h4>
@@ -78,7 +101,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--action-info)',
+              backgroundColor: 'var(--action-info)'
             }}
           />{' '}
           Blue - Status - info / no issues
@@ -86,7 +109,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--action-positive)',
+              backgroundColor: 'var(--action-positive)'
             }}
           />{' '}
           Green - Successes, completions, increases, positive actions
@@ -95,7 +118,7 @@ export default () => (
           {' '}
           <span
             style={{
-              backgroundColor: 'var(--action-warning)',
+              backgroundColor: 'var(--action-warning)'
             }}
           />{' '}
           Yellow - Warnings
@@ -103,7 +126,7 @@ export default () => (
         <li className={colourStyles['list-item']}>
           <span
             style={{
-              backgroundColor: 'var(--action-error)',
+              backgroundColor: 'var(--action-error)'
             }}
           />{' '}
           Red - Errors, negative messaging, losses, high priority, overdue,
