@@ -1,7 +1,7 @@
 import React from 'react';
 import tableStyles from '../css/tables.css';
 import linkStyles from '../css/link.css';
-
+import ButtonDiagram from './assets/button-diagram.svg';
 export default () => {
   return (
     <div>
@@ -15,7 +15,7 @@ export default () => {
       </p>
       <section>
         <h3>Buttons</h3>
-        <p>TO BE FILLED IN</p>
+        <ButtonDiagram />
       </section>
       <section>
         <h3>Links</h3>

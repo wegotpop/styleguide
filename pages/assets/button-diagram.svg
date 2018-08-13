@@ -1,0 +1,518 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1130" height="676" viewBox="0 0 1130 676">
+    <defs>
+        <path id="a" d="M910 517h220v115H910V517z"/>
+        <mask id="c" width="220" height="115" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path id="b" d="M910 24h220v155H910V24z"/>
+        <mask id="d" width="220" height="155" x="0" y="0" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <rect id="e" width="180" height="50" rx="3"/>
+        <filter id="f" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="h" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+        <rect id="j" width="200" height="50" rx="3"/>
+        <filter id="k" width="106%" height="124%" x="-3%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="m" d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+        <path id="o" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+        <rect id="q" width="155" height="51" rx="3"/>
+        <filter id="r" width="107.7%" height="123.5%" x="-3.9%" y="-7.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <rect id="t" width="180" height="50" rx="3"/>
+        <filter id="u" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="w" d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+        <rect id="y" width="155" height="50" rx="25"/>
+        <path id="A" d="M25 0h105c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h105c13.255 0 24-10.745 24-24S143.255 1 130 1H25z"/>
+        <circle id="C" cx="25" cy="25" r="25"/>
+        <filter id="D" width="124%" height="124%" x="-12%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="F" d="M12.5 4.688c-5.208 0-9.656 3.24-11.458 7.812 1.802 4.573 6.25 7.813 11.458 7.813s9.656-3.24 11.458-7.813c-1.802-4.573-6.25-7.813-11.458-7.813zm0 13.02A5.21 5.21 0 0 1 7.292 12.5 5.21 5.21 0 0 1 12.5 7.292a5.21 5.21 0 0 1 5.208 5.208 5.21 5.21 0 0 1-5.208 5.208zm0-8.333A3.12 3.12 0 0 0 9.375 12.5a3.12 3.12 0 0 0 3.125 3.125 3.12 3.12 0 0 0 3.125-3.125A3.12 3.12 0 0 0 12.5 9.375z"/>
+        <rect id="H" width="180" height="50" rx="25"/>
+        <filter id="I" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="K" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/>
+        <rect id="M" width="155" height="50" rx="25"/>
+        <filter id="N" width="107.7%" height="124%" x="-3.9%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <rect id="P" width="180" height="50" rx="25"/>
+        <path id="R" d="M25 0h130c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h130c13.255 0 24-10.745 24-24S168.255 1 155 1H25z"/>
+        <path id="T" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        <rect id="V" width="180" height="50" rx="25"/>
+        <path id="X" d="M25 0h130c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h130c13.255 0 24-10.745 24-24S168.255 1 155 1H25z"/>
+        <path id="Z" d="M20 6.52l-5.98 5.98L20 18.48 18.48 20l-5.98-5.98L6.52 20 5 18.48l5.98-5.98L5 6.52 6.52 5l5.98 5.98L18.48 5z"/>
+        <rect id="ab" width="180" height="50" rx="25"/>
+        <filter id="ac" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path id="ae" d="M7.91 9.5l4.59 4.327L17.09 9.5l1.41 1.332-6 5.668-6-5.668z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="632.186" y="49">Yes</tspan>
+        </text>
+        <text fill="#FF4949" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="974.217" y="49">Exceptions!</tspan>
+        </text>
+        <text fill="#FF4949" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="974.217" y="542">Exceptions!</tspan>
+        </text>
+        <use stroke="#FF4949" stroke-dasharray="10,5" stroke-width="2" mask="url(#c)" xlink:href="#a"/>
+        <use stroke="#FF4949" stroke-dasharray="10,5" stroke-width="2" mask="url(#d)" xlink:href="#b"/>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M632.419 60.5h35.185"/>
+            <path fill="#4B949F" d="M683 61l-16 7V54z"/>
+        </g>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="635.451" y="142">No</tspan>
+        </text>
+        <path fill="#4B949F" d="M84.5 0L169 61l-84.5 61L0 61z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+            <tspan x="42.344" y="58">Is it a primary</tspan> <tspan x="62.151" y="75">action?</tspan>
+        </text>
+        <path fill="#4B949F" d="M314.5 0L399 61l-84.5 61L230 61z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230)">
+            <tspan x="51.87" y="57">Secondary</tspan> <tspan x="37.2" y="74">action or form?</tspan>
+        </text>
+        <path fill="#4B949F" d="M314.5 183l84.5 61-84.5 61-84.5-61z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230 183)">
+            <tspan x="55.031" y="58">Search or</tspan> <tspan x="40.464" y="75">a third action?</tspan>
+        </text>
+        <path fill="#4B949F" d="M314.5 365l84.5 61-84.5 61-84.5-61z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230 365)">
+            <tspan x="35.099" y="49">No need for text</tspan> <tspan x="39.788" y="66">and it’s mobile</tspan> <tspan x="58.57" y="83">friendly?</tspan>
+        </text>
+        <path fill="#4B949F" d="M84.5 487l84.5 61-84.5 61L0 548z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(0 487)">
+            <tspan x="53.255" y="49">Icon helps</tspan> <tspan x="52.971" y="66">enhancing</tspan> <tspan x="50.938" y="83">the action?</tspan>
+        </text>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M405.347 426.5h265.257"/>
+            <path fill="#4B949F" d="M686 427l-16 7v-14z"/>
+        </g>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M173.21 547.5h497.394"/>
+            <path fill="#4B949F" d="M686 548l-16 7v-14z"/>
+        </g>
+        <path fill="#4B949F" d="M544.5 0L629 61l-84.5 61L460 61z"/>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(460)">
+            <tspan x="52.755" y="49">Icon helps</tspan> <tspan x="52.471" y="66">enhancing</tspan> <tspan x="50.438" y="83">the action?</tspan>
+        </text>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M405.419 60.5h35.185"/>
+            <path fill="#4B949F" d="M456 61l-16 7V54z"/>
+        </g>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M84.5 126.347v340.629"/>
+            <path fill="#4B949F" d="M84.5 484.047l-7-16h14z"/>
+        </g>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M317 128.919v35.185"/>
+            <path fill="#CCC" d="M316.5 179.5l-7-16h14z"/>
+        </g>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M175.419 60.5h35.185"/>
+            <path fill="#CCC" d="M226 61l-16 7V54z"/>
+        </g>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M317 308.919v35.185"/>
+            <path fill="#CCC" d="M316.5 359.5l-7-16h14z"/>
+        </g>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="272.451" y="338">No</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="403.186" y="49">Yes</tspan>
+        </text>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M546.5 153.5h124.104M544.5 153.5v-24"/>
+            <path fill="#CCC" d="M686 154l-16 7v-14z"/>
+        </g>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="48.186" y="339">Yes</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="272.451" y="159">No</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="183.451" y="49">No</tspan>
+        </text>
+        <g transform="translate(930 58)">
+            <mask id="g" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <g fill="#000">
+                <use filter="url(#f)" xlink:href="#e"/>
+                <use xlink:href="#e"/>
+            </g>
+            <g fill="#3F639A" mask="url(#g)">
+                <path d="M0 0h180v50H0z"/>
+            </g>
+        </g>
+        <g transform="translate(1076 73)">
+            <mask id="i" fill="#fff">
+                <use xlink:href="#h"/>
+            </mask>
+            <g fill="#FFF" mask="url(#i)">
+                <path d="M-13-13h50v50h-50z"/>
+            </g>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(930 58)">
+            <tspan x="20" y="32">Action Intent</tspan>
+        </text>
+        <g transform="translate(920 118)">
+            <mask id="l" fill="#fff">
+                <use xlink:href="#j"/>
+            </mask>
+            <g fill="#000">
+                <use filter="url(#k)" xlink:href="#j"/>
+                <use xlink:href="#j"/>
+            </g>
+            <g fill="#3F639A" mask="url(#l)">
+                <path d="M0 0h200v50H0z"/>
+            </g>
+        </g>
+        <g transform="translate(934 131)">
+            <mask id="n" fill="#fff">
+                <use xlink:href="#m"/>
+            </mask>
+            <g fill="#FFF" mask="url(#n)">
+                <path d="M-13-13h50v50h-50z"/>
+            </g>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(934 130)">
+            <tspan x="29.024" y="20">Action Intent</tspan>
+        </text>
+        <g transform="translate(1083 131)">
+            <mask id="p" fill="#fff">
+                <use xlink:href="#o"/>
+            </mask>
+            <g fill="#FFF" mask="url(#p)">
+                <path d="M-13-13h50v50h-50z"/>
+            </g>
+        </g>
+        <g transform="translate(704 128)">
+            <mask id="s" fill="#fff">
+                <use xlink:href="#q"/>
+            </mask>
+            <g fill="#000">
+                <use filter="url(#r)" xlink:href="#q"/>
+                <use xlink:href="#q"/>
+            </g>
+            <g fill="#4B949F" mask="url(#s)">
+                <path d="M0 0h155v51H0z"/>
+            </g>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(704 129)">
+            <tspan x="20.024" y="32">Action Intent</tspan>
+        </text>
+        <g transform="translate(704 36)">
+            <mask id="v" fill="#fff">
+                <use xlink:href="#t"/>
+            </mask>
+            <g fill="#000">
+                <use filter="url(#u)" xlink:href="#t"/>
+                <use xlink:href="#t"/>
+            </g>
+            <g fill="#979797" mask="url(#v)">
+                <path d="M0 0h180v50H0z"/>
+            </g>
+        </g>
+        <g transform="translate(722 49)">
+            <mask id="x" fill="#fff">
+                <use xlink:href="#w"/>
+            </mask>
+            <g fill="#FFF" mask="url(#x)">
+                <path d="M-13-13h50v50h-50z"/>
+            </g>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(751 49)">
+            <tspan x=".024" y="19">Action Intent</tspan>
+        </text>
+        <g transform="translate(704 317)">
+            <mask id="z" fill="#fff">
+                <use xlink:href="#y"/>
+            </mask>
+            <use fill="#D8D8D8" xlink:href="#y"/>
+            <g fill="#FFF" mask="url(#z)">
+                <path d="M0 1h155v50H0z"/>
+            </g>
+            <mask id="B" fill="#fff">
+                <use xlink:href="#A"/>
+            </mask>
+            <use fill="#D8D8D8" xlink:href="#A"/>
+            <g fill="#4B949F" mask="url(#B)">
+                <path d="M0 0h155v50H0z"/>
+            </g>
+        </g>
+        <text fill="#000" font-family="Roboto-Regular, Roboto" font-size="20" transform="translate(704 317)">
+            <tspan x="20.767" y="32">Action Intent</tspan>
+        </text>
+        <g transform="translate(704 402)">
+            <mask id="E" fill="#fff">
+                <use xlink:href="#C"/>
+            </mask>
+            <use fill="#000" filter="url(#D)" xlink:href="#C"/>
+            <use fill="#D8D8D8" xlink:href="#C"/>
+            <g fill="#6493DC" mask="url(#E)">
+                <path d="M0 0h50v50H0z"/>
+            </g>
+        </g>
+        <g transform="translate(717 415)">
+            <mask id="G" fill="#fff">
+                <use xlink:href="#F"/>
+            </mask>
+            <g fill="#FFF" mask="url(#G)">
+                <path d="M-13.542-13.542h52v52h-52z"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(704 528)">
+                <mask id="J" fill="#fff">
+                    <use xlink:href="#H"/>
+                </mask>
+                <g fill="#000">
+                    <use filter="url(#I)" xlink:href="#H"/>
+                    <use xlink:href="#H"/>
+                </g>
+                <g fill="#4B949F" mask="url(#J)">
+                    <path d="M0 0h180v50H0z"/>
+                </g>
+            </g>
+            <g transform="translate(722.514 541)">
+                <mask id="L" fill="#fff">
+                    <use xlink:href="#K"/>
+                </mask>
+                <g fill="#FFF" mask="url(#L)">
+                    <path d="M-13-13h50v50h-50z"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(751.027 541)">
+                <tspan x=".511" y="19">Action Intent</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(704 622)">
+                <mask id="O" fill="#fff">
+                    <use xlink:href="#M"/>
+                </mask>
+                <g fill="#000">
+                    <use filter="url(#N)" xlink:href="#M"/>
+                    <use xlink:href="#M"/>
+                </g>
+                <g fill="#4B949F" mask="url(#O)">
+                    <path d="M0 0h155v50H0z"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(704 622)">
+                <tspan x="20.024" y="32">Action Intent</tspan>
+            </text>
+        </g>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M405.419 244.5h35.185"/>
+            <path fill="#4B949F" d="M456 245l-16 7v-14z"/>
+        </g>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="403.186" y="233">Yes</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="403.186" y="413">Yes</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="403.186" y="533">Yes</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="632.186" y="233">Yes</tspan>
+        </text>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="635.451" y="326">No</tspan>
+        </text>
+        <g stroke="#4B949F">
+            <path stroke-linecap="square" stroke-width="5" d="M632.419 244.5h35.185"/>
+            <path fill="#4B949F" d="M683 245l-16 7v-14z"/>
+        </g>
+        <g>
+            <path fill="#4B949F" d="M544.5 184l84.5 61-84.5 61-84.5-61z"/>
+            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(460 184)">
+                <tspan x="53.255" y="49">Icon helps</tspan> <tspan x="52.971" y="66">enhancing</tspan> <tspan x="50.938" y="83">the action?</tspan>
+            </text>
+        </g>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M546.5 337.5h124.104M544.5 337.5v-24"/>
+            <path fill="#CCC" d="M686 338l-16 7v-14z"/>
+        </g>
+        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="406.451" y="629">No</tspan>
+        </text>
+        <g stroke="#CCC">
+            <path stroke-linecap="square" stroke-width="5" d="M85.497 640.5h585.107M84.5 640.5v-24"/>
+            <path fill="#CCC" d="M686 641l-16 7v-14z"/>
+        </g>
+        <g>
+            <g transform="translate(704 219)">
+                <mask id="Q" fill="#fff">
+                    <use xlink:href="#P"/>
+                </mask>
+                <use fill="#D8D8D8" xlink:href="#P"/>
+                <g fill="#FFF" mask="url(#Q)">
+                    <path d="M0 1h180v50H0z"/>
+                </g>
+                <mask id="S" fill="#fff">
+                    <use xlink:href="#R"/>
+                </mask>
+                <use fill="#D8D8D8" xlink:href="#R"/>
+                <g fill="#979797" mask="url(#S)">
+                    <path d="M0 0h180v50H0z"/>
+                </g>
+            </g>
+            <g transform="translate(845 232)">
+                <mask id="U" fill="#fff">
+                    <use xlink:href="#T"/>
+                </mask>
+                <g fill="#979797" mask="url(#U)">
+                    <path d="M-13-13h50v50h-50z"/>
+                </g>
+            </g>
+            <text fill="#979797" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" transform="translate(704 219)">
+                <tspan x="21" y="32">search..</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(909 219)">
+                <mask id="W" fill="#fff">
+                    <use xlink:href="#V"/>
+                </mask>
+                <use fill="#D8D8D8" xlink:href="#V"/>
+                <g fill="#FFF" mask="url(#W)">
+                    <path d="M0 1h180v50H0z"/>
+                </g>
+                <mask id="Y" fill="#fff">
+                    <use xlink:href="#X"/>
+                </mask>
+                <use fill="#D8D8D8" xlink:href="#X"/>
+                <g fill="#4B949F" mask="url(#Y)">
+                    <path d="M0 0h180v50H0z"/>
+                </g>
+            </g>
+            <g transform="translate(1050 232)">
+                <mask id="aa" fill="#fff">
+                    <use xlink:href="#Z"/>
+                </mask>
+                <use fill="#000" xlink:href="#Z"/>
+                <g fill="#979797" mask="url(#aa)">
+                    <path d="M5 5h15v15H5z"/>
+                </g>
+            </g>
+            <text fill="#000" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" transform="translate(909 219)">
+                <tspan x="21" y="32">example</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(931 562)">
+                <mask id="ad" fill="#fff">
+                    <use xlink:href="#ab"/>
+                </mask>
+                <g fill="#000">
+                    <use filter="url(#ac)" xlink:href="#ab"/>
+                    <use xlink:href="#ab"/>
+                </g>
+                <g fill="#4B949F" mask="url(#ad)">
+                    <path d="M0 0h180v50H0z"/>
+                </g>
+            </g>
+            <g transform="translate(1069 575)">
+                <mask id="af" fill="#fff">
+                    <use xlink:href="#ae"/>
+                </mask>
+                <use fill="#FFF" fill-rule="nonzero" transform="rotate(-90 12.5 13)" xlink:href="#ae"/>
+                <g fill="#FFF" mask="url(#af)">
+                    <path d="M5 5h15v15H5z"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(949 575)">
+                <tspan x=".024" y="19">Action Intent</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
