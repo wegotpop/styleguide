@@ -19,6 +19,7 @@ import CaseHeaders from './pages/CaseHeaders';
 import Notifications from './pages/Notifications';
 import ContentContainers from './pages/ContentContainers';
 import FormElements from './pages/FormElements';
+import BannerSVG from './pages/assets/banner.svg';
 
 const PAGES = {
   home: () => (
@@ -45,7 +46,7 @@ const PAGES = {
 
 const Banner = () => (
   <div id={styles.banner}>
-    <h1>We Got POP Style guide</h1>
+    <BannerSVG />
   </div>
 );
 

@@ -45,5 +45,7 @@
       "git add"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-plugin-inline-react-svg": "^0.5.4"
+  }
 }

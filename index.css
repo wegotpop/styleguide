@@ -1,29 +1,29 @@
 .content {
-  padding: 1rem;
-  flex: 80%;
+    padding: 1rem;
+    flex: 80%;
 }
 
 .container {
-  display: flex;
-  max-width: 1200px;
+    display: flex;
+    max-width: 1200px;
 }
 
 .sidebar {
-  flex: 20%;
+    flex: 20%;
 }
 
 #banner {
-  width: 100%;
-  height: 15%;
-  padding: 0;
-  margin: 0;
-  background-color: var(--brand-main);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--brand-main);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 :global(section) {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
