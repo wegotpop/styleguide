@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1143px" height="1247px" viewBox="0 0 1143 1247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>0C6480B6-13FC-44A8-B8FF-087580723173</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M2,0 L167,0 C168.104569,-2.02906125e-16 169,0.8954305 169,2 L169,48 C169,49.1045695 168.104569,50 167,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,1 C1.8954305,1 1,1.8954305 1,3 L1,47 C1,48.1045695 1.8954305,49 3,49 L166,49 C167.104569,49 168,48.1045695 168,47 L168,3 C168,1.8954305 167.104569,1 166,1 L3,1 Z" id="path-1"></path>
+        <polygon id="path-3" points="16.59 8.59 12 13.17 7.41 8.59 6 10 12 16 18 10"></polygon>
+        <path d="M803,814 L948,814 C950.761424,814 953,816.238576 953,819 L953,869 C953,871.761424 950.761424,874 948,874 L803,874 C800.238576,874 798,871.761424 798,869 L798,819 C798,816.238576 800.238576,814 803,814 Z" id="path-5"></path>
+        <filter x="-1.6%" y="-4.2%" width="103.2%" height="108.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.888605442   0 0 0 0 0.888605442   0 0 0 0 0.888605442  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="47.5" cy="12.5" r="9.5"></circle>
+        <filter x="-36.8%" y="-26.3%" width="173.7%" height="173.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-9" cx="12.6153846" cy="12.5" rx="9.61538462" ry="9.5"></ellipse>
+        <filter x="-36.4%" y="-26.3%" width="172.8%" height="173.7%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M19.7916667,3.125 L5.20833333,3.125 C4.05208333,3.125 3.125,4.0625 3.125,5.20833333 L3.125,19.7916667 C3.125,20.9375 4.05208333,21.875 5.20833333,21.875 L19.7916667,21.875 C20.9479167,21.875 21.875,20.9375 21.875,19.7916667 L21.875,5.20833333 C21.875,4.0625 20.9479167,3.125 19.7916667,3.125 L19.7916667,3.125 Z M10.4166667,17.7083333 L5.20833333,12.5 L6.67708333,11.03125 L10.4166667,14.7604167 L18.3229167,6.85416667 L19.7916667,8.33333333 L10.4166667,17.7083333 L10.4166667,17.7083333 Z" id="path-11"></path>
+        <path d="M19.7916667,5.20833333 L19.7916667,19.7916667 L5.20833333,19.7916667 L5.20833333,5.20833333 L19.7916667,5.20833333 L19.7916667,5.20833333 Z M19.7916667,3.125 L5.20833333,3.125 C4.0625,3.125 3.125,4.0625 3.125,5.20833333 L3.125,19.7916667 C3.125,20.9375 4.0625,21.875 5.20833333,21.875 L19.7916667,21.875 C20.9375,21.875 21.875,20.9375 21.875,19.7916667 L21.875,5.20833333 C21.875,4.0625 20.9375,3.125 19.7916667,3.125 L19.7916667,3.125 Z" id="path-13"></path>
+        <path d="M2,0 L208,0 C209.104569,-2.02906125e-16 210,0.8954305 210,2 L210,48 C210,49.1045695 209.104569,50 208,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,1 C1.8954305,1 1,1.8954305 1,3 L1,47 C1,48.1045695 1.8954305,49 3,49 L207,49 C208.104569,49 209,48.1045695 209,47 L209,3 C209,1.8954305 208.104569,1 207,1 L3,1 Z" id="path-15"></path>
+        <polygon id="path-17" points="16.59 8.59 12 13.17 7.41 8.59 6 10 12 16 18 10"></polygon>
+        <path d="M15.5,14 L14.71,14 L14.43,13.73 C15.41,12.59 16,11.11 16,9.5 C16,5.91 13.09,3 9.5,3 C5.91,3 3,5.91 3,9.5 C3,13.09 5.91,16 9.5,16 C11.11,16 12.59,15.41 13.73,14.43 L14,14.71 L14,15.5 L19,20.49 L20.49,19 L15.5,14 L15.5,14 Z M9.5,14 C7.01,14 5,11.99 5,9.5 C5,7.01 7.01,5 9.5,5 C11.99,5 14,7.01 14,9.5 C14,11.99 11.99,14 9.5,14 L9.5,14 Z" id="path-19"></path>
+        <path d="M2,0 L138,0 C139.104569,-2.02906125e-16 140,0.8954305 140,2 L140,48 C140,49.1045695 139.104569,50 138,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-21"></path>
+        <path d="M2,0 L138,0 C139.104569,-2.02906125e-16 140,0.8954305 140,2 L140,48 C140,49.1045695 139.104569,50 138,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,3 C1.8954305,3 1,3.8954305 1,5 L1,47 C1,48.1045695 1.8954305,49 3,49 L137,49 C138.104569,49 139,48.1045695 139,47 L139,5 C139,3.8954305 138.104569,3 137,3 L3,3 Z" id="path-23"></path>
+        <path d="M2,0 L173,0 C174.104569,-2.02906125e-16 175,0.8954305 175,2 L175,48 C175,49.1045695 174.104569,50 173,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-25"></path>
+        <path d="M2,0 L173,0 C174.104569,-2.02906125e-16 175,0.8954305 175,2 L175,48 C175,49.1045695 174.104569,50 173,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,3 C1.8954305,3 1,3.8954305 1,5 L1,47 C1,48.1045695 1.8954305,49 3,49 L172,49 C173.104569,49 174,48.1045695 174,47 L174,5 C174,3.8954305 173.104569,3 172,3 L3,3 Z" id="path-27"></path>
+        <path d="M9,11 L7,11 L7,13 L9,13 L9,11 L9,11 Z M13,11 L11,11 L11,13 L13,13 L13,11 L13,11 Z M17,11 L15,11 L15,13 L17,13 L17,11 L17,11 Z M19,4 L18,4 L18,2 L16,2 L16,4 L8,4 L8,2 L6,2 L6,4 L5,4 C3.89,4 3.01,4.9 3.01,6 L3,20 C3,21.1 3.89,22 5,22 L19,22 C20.1,22 21,21.1 21,20 L21,6 C21,4.9 20.1,4 19,4 L19,4 Z M19,20 L5,20 L5,9 L19,9 L19,20 L19,20 Z" id="path-29"></path>
+        <path d="M2,0 L260,0 C261.104569,-2.02906125e-16 262,0.8954305 262,2 L262,73 C262,74.1045695 261.104569,75 260,75 L2,75 C0.8954305,75 1.3527075e-16,74.1045695 0,73 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-31"></path>
+        <path d="M2,0 L260,0 C261.104569,-2.02906125e-16 262,0.8954305 262,2 L262,73 C262,74.1045695 261.104569,75 260,75 L2,75 C0.8954305,75 1.3527075e-16,74.1045695 0,73 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,3 C1.8954305,3 1,3.8954305 1,5 L1,72 C1,73.1045695 1.8954305,74 3,74 L259,74 C260.104569,74 261,73.1045695 261,72 L261,5 C261,3.8954305 260.104569,3 259,3 L3,3 Z" id="path-33"></path>
+        <path d="M2,0 L323,0 C324.104569,-2.02906125e-16 325,0.8954305 325,2 L325,48 C325,49.1045695 324.104569,50 323,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z M3,1 C1.8954305,1 1,1.8954305 1,3 L1,47 C1,48.1045695 1.8954305,49 3,49 L322,49 C323.104569,49 324,48.1045695 324,47 L324,3 C324,1.8954305 323.104569,1 322,1 L3,1 Z" id="path-35"></path>
+        <path d="M58.6363636,0 L86.6363636,0 C87.7409331,-2.02906125e-16 88.6363636,0.8954305 88.6363636,2 L88.6363636,48 C88.6363636,49.1045695 87.7409331,50 86.6363636,50 L58.6363636,50 L58.6363636,0 Z M59.6363636,1 L59.6363636,49 L85.6363636,49 C86.7409331,49 87.6363636,48.1045695 87.6363636,47 L87.6363636,3 C87.6363636,1.8954305 86.7409331,1 85.6363636,1 L59.6363636,1 Z" id="path-37"></path>
+        <polygon id="path-39" points="7.41 9 12 13.3265857 16.59 9 18 10.3319838 12 16 6 10.3319838"></polygon>
+        <rect id="path-41" x="0" y="0" width="95" height="35" rx="17.5"></rect>
+        <path d="M17.5,0 L77.5,0 C87.1649831,-1.7754286e-15 95,7.83501688 95,17.5 C95,27.1649831 87.1649831,35 77.5,35 L17.5,35 C7.83501688,35 1.18361906e-15,27.1649831 0,17.5 C-1.18361906e-15,7.83501688 7.83501688,1.7754286e-15 17.5,0 Z M17.5,1 C8.38730163,1 1,8.38730163 1,17.5 C1,26.6126984 8.38730163,34 17.5,34 L77.5,34 C86.6126984,34 94,26.6126984 94,17.5 C94,8.38730163 86.6126984,1 77.5,1 L17.5,1 Z" id="path-43"></path>
+        <polygon id="path-45" points="11.6666667 3.80369416 8.17869416 7.29166667 11.6666667 10.7796392 10.7796392 11.6666667 7.29166667 8.17869416 3.80369416 11.6666667 2.91666667 10.7796392 6.40463918 7.29166667 2.91666667 3.80369416 3.80369416 2.91666667 7.29166667 6.40463918 10.7796392 2.91666667"></polygon>
+        <rect id="path-47" x="0" y="0" width="95" height="35" rx="17.5"></rect>
+        <path d="M17.5,0 L77.5,0 C87.1649831,-1.7754286e-15 95,7.83501688 95,17.5 C95,27.1649831 87.1649831,35 77.5,35 L17.5,35 C7.83501688,35 1.18361906e-15,27.1649831 0,17.5 C-1.18361906e-15,7.83501688 7.83501688,1.7754286e-15 17.5,0 Z M17.5,1 C8.38730163,1 1,8.38730163 1,17.5 C1,26.6126984 8.38730163,34 17.5,34 L77.5,34 C86.6126984,34 94,26.6126984 94,17.5 C94,8.38730163 86.6126984,1 77.5,1 L17.5,1 Z" id="path-49"></path>
+        <polygon id="path-51" points="11.6666667 3.80369416 8.17869416 7.29166667 11.6666667 10.7796392 10.7796392 11.6666667 7.29166667 8.17869416 3.80369416 11.6666667 2.91666667 10.7796392 6.40463918 7.29166667 2.91666667 3.80369416 3.80369416 2.91666667 7.29166667 6.40463918 10.7796392 2.91666667"></polygon>
+        <path d="M12.5,7.29166667 C9.625,7.29166667 7.29166667,9.625 7.29166667,12.5 C7.29166667,15.375 9.625,17.7083333 12.5,17.7083333 C15.375,17.7083333 17.7083333,15.375 17.7083333,12.5 C17.7083333,9.625 15.375,7.29166667 12.5,7.29166667 L12.5,7.29166667 Z M12.5,2.08333333 C6.75,2.08333333 2.08333333,6.75 2.08333333,12.5 C2.08333333,18.25 6.75,22.9166667 12.5,22.9166667 C18.25,22.9166667 22.9166667,18.25 22.9166667,12.5 C22.9166667,6.75 18.25,2.08333333 12.5,2.08333333 L12.5,2.08333333 Z M12.5,20.8333333 C7.89583333,20.8333333 4.16666667,17.1041667 4.16666667,12.5 C4.16666667,7.89583333 7.89583333,4.16666667 12.5,4.16666667 C17.1041667,4.16666667 20.8333333,7.89583333 20.8333333,12.5 C20.8333333,17.1041667 17.1041667,20.8333333 12.5,20.8333333 L12.5,20.8333333 Z" id="path-53"></path>
+        <path d="M12.5,2.08333333 C6.75,2.08333333 2.08333333,6.75 2.08333333,12.5 C2.08333333,18.25 6.75,22.9166667 12.5,22.9166667 C18.25,22.9166667 22.9166667,18.25 22.9166667,12.5 C22.9166667,6.75 18.25,2.08333333 12.5,2.08333333 L12.5,2.08333333 Z M12.5,20.8333333 C7.89583333,20.8333333 4.16666667,17.1041667 4.16666667,12.5 C4.16666667,7.89583333 7.89583333,4.16666667 12.5,4.16666667 C17.1041667,4.16666667 20.8333333,7.89583333 20.8333333,12.5 C20.8333333,17.1041667 17.1041667,20.8333333 12.5,20.8333333 L12.5,20.8333333 Z" id="path-55"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-elements" transform="translate(-270.000000, -536.000000)">
+            <g id="Form-diagram" transform="translate(270.000000, 536.000000)">
+                <g id="Group">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Must-restrict-answer" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="44.4003906" y="57">Must restrict</tspan>
+                        <tspan x="31.0258789" y="74">answer response</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 0.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Is-it-true/false-or" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="41.1816406" y="57">Is it true/false</tspan>
+                        <tspan x="53.8110352" y="74">or on/off?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 182.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="2-3-options-with-sho" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="34.5234375" y="57">2-3 options with</tspan>
+                        <tspan x="48.3115234" y="74">short labels</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 363.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Less-than-5-options" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="48.8720703" y="57">Less than 5</tspan>
+                        <tspan x="61.4672852" y="74">options</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 545.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Requires-native-OS-i" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="36.6357422" y="55">Requires native</tspan>
+                        <tspan x="40.5288086" y="72">OS interaction</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 787.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Long-or-complex-data" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="60.6767578" y="57">Long or</tspan>
+                        <tspan x="42.1582031" y="74">complex data</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 787.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Embed-media-or-chang" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="42.1865234" y="57">Embed media</tspan>
+                        <tspan x="37.2202148" y="74">or change style</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 1011.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Requires-native-OS-i" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="36.6357422" y="57">Requires native</tspan>
+                        <tspan x="40.5288086" y="74">OS interaction</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(460.000000, 0.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="UI/System-setting?" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="52.2729492" y="57">UI/System</tspan>
+                        <tspan x="59.9223633" y="74">setting?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(175.000000, 54.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(405.000000, 237.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(316.500000, 154.000000) rotate(90.000000) translate(-316.500000, -154.000000) translate(291.000000, 147.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(86.500000, 456.000000) rotate(90.000000) translate(-86.500000, -456.000000) translate(-240.000000, 449.000000)" stroke="#CCCCCC">
+                    <path d="M0.5,6.5 L637.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(645.000000, 7.000000) rotate(90.000000) translate(-645.000000, -7.000000) " points="645 -1 652 15 638 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(175.000000, 841.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="177.186035" y="49">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="177.186035" y="836">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="403.186035" y="49">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="635.186035" y="49">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="528.186035" y="232">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="528.186035" y="413">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="528.186035" y="595">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="528.186035" y="836">Yes</tspan>
+                </text>
+                <g id="Group" transform="translate(405.000000, 54.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(635.000000, 54.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(543.000000, 129.000000)" stroke="#CCCCCC">
+                    <path d="M3.5,24.5 L127.603717,24.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.5,24.5 L1.5,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(135.000000, 25.000000) rotate(90.000000) translate(-135.000000, -25.000000) " points="135 17 142 33 128 33"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="639.451172" y="143">No</tspan>
+                </text>
+                <g id="Group" transform="translate(405.000000, 418.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(405.000000, 600.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(313.000000, 672.000000)" stroke="#CCCCCC">
+                    <path d="M3.48729209,48.5 L357.603717,48.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.48729209,48.5 L1.48729209,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(365.000000, 49.000000) rotate(90.000000) translate(-365.000000, -49.000000) " points="365 41 372 57 358 57"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="532.451172" y="709">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="51.4511719" y="429">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="168.451172" y="1062">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="272.451172" y="159">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="272.451172" y="340">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="272.451172" y="522">No</tspan>
+                </text>
+                <g id="Group" transform="translate(405.000000, 841.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(316.500000, 335.000000) rotate(90.000000) translate(-316.500000, -335.000000) translate(291.000000, 328.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(316.500000, 517.000000) rotate(90.000000) translate(-316.500000, -517.000000) translate(291.000000, 510.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <text id="Toggle" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="848.446289" y="40">Toggle</tspan>
+                </text>
+                <text id="Check-box" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="834.273926" y="136">Check box</tspan>
+                </text>
+                <text id="Radio-segment" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="815.422363" y="211">Radio segment</tspan>
+                </text>
+                <text id="Centered-text-for-ea" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="744.25" y="230">Centered text for each radio segment.</tspan>
+                </text>
+                <text id="Text-aligned-on-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="751.023438" y="61">Text aligned on the side that it’s set.</tspan>
+                </text>
+                <text id="Text-aligned-on-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="736.421875" y="407">Text aligned on the left side of the radio.</tspan>
+                </text>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="704" y="587">Text aligned to the left side.</tspan>
+                </text>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="942" y="587">Text aligned to the left side.</tspan>
+                </text>
+                <text id="Select-box" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="758.418945" y="567">Select box</tspan>
+                </text>
+                <g id="Form/dropdown/dropdown" transform="translate(715.000000, 601.000000)">
+                    <g id="Group" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/secondary-actions/border-square">
+                            <g id="Colour/greyscale/white" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="169" height="50"></rect>
+                            </g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Colour/greyscale/grey-two" mask="url(#mask-2)" fill="#979797" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="169" height="50"></rect>
+                            </g>
+                            <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-2)"></g>
+                        </g>
+                        <g id="icon/expand_more" transform="translate(132.000000, 13.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/black" mask="url(#mask-4)" fill="#000000" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#979797">
+                        <tspan x="19.0700637" y="32">Action Intent</tspan>
+                    </text>
+                </g>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="696.082031" y="709">Text aligned to the left side. Description to the right.</tspan>
+                </text>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="780" y="923">Text aligned to the left side.</tspan>
+                </text>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="775" y="1060">Text aligned to the right side.</tspan>
+                </text>
+                <text id="Text-aligned-to-the" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#6D6D6D">
+                    <tspan x="780" y="1183">Text aligned to the left side.</tspan>
+                </text>
+                <g id="message-editor-bg">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <path stroke="#E1E1E1" stroke-width="1" d="M803,813.5 L948,813.5 C951.037566,813.5 953.5,815.962434 953.5,819 L953.5,869 C953.5,872.037566 951.037566,874.5 948,874.5 L803,874.5 C799.962434,874.5 797.5,872.037566 797.5,869 L797.5,819 C797.5,815.962434 799.962434,813.5 803,813.5 Z"></path>
+                </g>
+                <text id="Radio-group" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="827.204102" y="387">Radio group</tspan>
+                </text>
+                <text id="Select-and-search-bo" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="950.008301" y="567">Select and search box</tspan>
+                </text>
+                <text id="Or" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="899.26709" y="633">Or</tspan>
+                </text>
+                <text id="Combo-box" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="830.068359" y="689">Combo box</tspan>
+                </text>
+                <text id="Rich-text-editor" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="815.395996" y="802">Rich text editor</tspan>
+                </text>
+                <g id="Group-4" transform="translate(742.000000, 244.000000)">
+                    <g id="Radio-segment">
+                        <path d="M89.5,49.5 L89.5,0.5 L3,0.5 C1.61928813,0.5 0.5,1.61928813 0.5,3 L0.5,47 C0.5,48.3807119 1.61928813,49.5 3,49.5 L89.5,49.5 Z" id="Rectangle-6" stroke="#979797" fill="#F0F0F0"></path>
+                        <rect id="Rectangle-6" stroke="#979797" fill="#FFFFFF" x="89.5" y="0.5" width="89" height="49"></rect>
+                        <path d="M178.5,0.5 L178.5,49.5 L265,49.5 C266.380712,49.5 267.5,48.3807119 267.5,47 L267.5,3 C267.5,1.61928813 266.380712,0.5 265,0.5 L178.5,0.5 Z" id="Rectangle-6" stroke="#979797" fill="#F0F0F0"></path>
+                        <text id="Item-1" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#A1A1A1">
+                            <tspan x="17" y="32">Item 1</tspan>
+                        </text>
+                        <text id="Item-2" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" fill="#4B949F">
+                            <tspan x="106" y="32">Item 2</tspan>
+                        </text>
+                        <text id="Item-3" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#B5B5B5">
+                            <tspan x="196" y="32">Item 3</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rich-tex-editor" transform="translate(798.000000, 815.000000)">
+                    <path d="M5,0 L150,0 C152.761424,-5.07265313e-16 155,2.23857625 155,5 L155,20 L0,20 L8.8817842e-16,5 C5.50001544e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-4" fill="#F8F8F8"></path>
+                    <path d="M1,19.1 L154,19.1 C154.552285,19.1 155,19.5477153 155,20.1 L0,20.1 L0,20.1 C-6.76353751e-17,19.5477153 0.44771525,19.1 1,19.1 Z" id="Rectangle-4" fill="#E3E3E3" transform="translate(77.500000, 19.600000) scale(1, -1) translate(-77.500000, -19.600000) "></path>
+                </g>
+                <g id="Group" transform="translate(83.000000, 915.000000)" stroke="#CCCCCC">
+                    <path d="M2.5,158.5 L120.770876,158.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.48729209,158.5 L1.48729209,0.496754535" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(129.000000, 159.000000) rotate(90.000000) translate(-129.000000, -159.000000) " points="129 151 136 167 122 167"></polygon>
+                </g>
+                <g id="Group" transform="translate(313.000000, 915.000000)" stroke="#CCCCCC">
+                    <path d="M3.48729209,48.5 L357.603717,48.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.48729209,48.5 L1.48729209,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(365.000000, 49.000000) rotate(90.000000) translate(-365.000000, -49.000000) " points="365 41 372 57 358 57"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="532.451172" y="952">No</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="528.186035" y="1061">Yes</tspan>
+                </text>
+                <g id="Group" transform="translate(405.000000, 1066.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(313.000000, 1140.000000)" stroke="#CCCCCC">
+                    <path d="M3.48729209,48.5 L357.603717,48.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.48729209,48.5 L1.48729209,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(365.000000, 49.000000) rotate(90.000000) translate(-365.000000, -49.000000) " points="365 41 372 57 358 57"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="532.451172" y="1177">No</tspan>
+                </text>
+                <text id="Text-area" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="838.128906" y="904">Text area</tspan>
+                </text>
+                <g id="Group-6" transform="translate(808.000000, 75.000000)">
+                    <g id="Form/switch/on">
+                        <g id="Switch">
+                            <g id="Group-2">
+                                <rect id="bg" stroke="#13CE66" fill="#FFFFFF" x="0.5" y="0.5" width="59" height="24" rx="12"></rect>
+                                <g id="Oval">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                    <use fill="#13CE66" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                </g>
+                                <text id="On" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#13CE66">
+                                    <tspan x="11" y="18">On</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Form/switch/off" transform="translate(75.000000, 0.000000)">
+                        <g id="Group-2">
+                            <rect id="bg" fill="#FF4949" x="0" y="0" width="60" height="25" rx="12.5"></rect>
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            </g>
+                            <text id="Off" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="29" y="18">Off</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Form/checkbox/active" transform="translate(839.000000, 150.000000)">
+                    <g id="Colour/greyscale/white" transform="translate(4.000000, 4.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="17" height="17"></rect>
+                    </g>
+                    <g id="icon/check_box">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-12)" fill="#4B949F" fill-rule="evenodd">
+                            <g transform="translate(-13.541667, -13.541667)" id="Rectangle">
+                                <rect x="0" y="0" width="52" height="52"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Form/checkbox/inactive" transform="translate(889.000000, 150.000000)">
+                    <g id="Colour/greyscale/white" transform="translate(4.000000, 4.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="17" height="17"></rect>
+                    </g>
+                    <g id="icon/check_box_outline_blank">
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-14)" fill="#979797" fill-rule="evenodd">
+                            <g transform="translate(-13.541667, -13.541667)" id="Rectangle">
+                                <rect x="0" y="0" width="52" height="52"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Form/dropdown/search-dropdown" transform="translate(933.000000, 601.000000)">
+                    <g id="Group" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/secondary-actions/border-square">
+                            <g id="Colour/greyscale/white" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="210" height="50"></rect>
+                            </g>
+                            <mask id="mask-16" fill="white">
+                                <use xlink:href="#path-15"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-15"></use>
+                            <g id="Colour/greyscale/grey-two" mask="url(#mask-16)" fill="#979797" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="210" height="50"></rect>
+                            </g>
+                            <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-16)"></g>
+                        </g>
+                        <g id="icon/expand_more" transform="translate(173.000000, 13.000000)">
+                            <mask id="mask-18" fill="white">
+                                <use xlink:href="#path-17"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/black" mask="url(#mask-18)" fill="#000000" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="icon/search" transform="translate(15.000000, 13.000000)">
+                        <mask id="mask-20" fill="white">
+                            <use xlink:href="#path-19"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-20)" fill="#979797" fill-rule="evenodd">
+                            <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="50" height="50"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#979797">
+                        <tspan x="48" y="32">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Form/inputbox/solo" transform="translate(806.000000, 1197.000000)">
+                    <g id="Form/inputbox/properties/normal">
+                        <mask id="mask-22" fill="white">
+                            <use xlink:href="#path-21"></use>
+                        </mask>
+                        <use id="bg" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-21"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-22)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="140" height="50"></rect>
+                        </g>
+                        <mask id="mask-24" fill="white">
+                            <use xlink:href="#path-23"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                        <g id="Colour/greyscale/grey-three" mask="url(#mask-24)" fill="#C0C0C0" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="140" height="50"></rect>
+                        </g>
+                    </g>
+                    <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;"></g>
+                    <text id="Action-Intent" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#979797">
+                        <tspan x="17" y="33">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Form/inputbox/icon" transform="translate(788.000000, 1075.000000)">
+                    <g id="Form/inputbox/properties/normal">
+                        <mask id="mask-26" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <use id="bg" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-26)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="175" height="50"></rect>
+                        </g>
+                        <mask id="mask-28" fill="white">
+                            <use xlink:href="#path-27"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                        <g id="Colour/greyscale/grey-three" mask="url(#mask-28)" fill="#C0C0C0" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="175" height="50"></rect>
+                        </g>
+                    </g>
+                    <g id="Group" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;"></g>
+                        <g id="icon/date_range" transform="translate(146.000000, 25.000000) rotate(360.000000) translate(-146.000000, -25.000000) translate(134.000000, 13.000000)">
+                            <mask id="mask-30" fill="white">
+                                <use xlink:href="#path-29"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-30)" fill="#4B949F" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" transform="translate(73.000000, 25.000000) rotate(360.000000) translate(-73.000000, -25.000000) " font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#979797">
+                        <tspan x="17" y="32">Action Intent</tspan>
+                    </text>
+                </g>
+                <text id="Text-input" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="836.132812" y="1039">Text input</tspan>
+                </text>
+                <g id="Form/inputbox/solo" transform="translate(745.000000, 935.000000)">
+                    <g id="Form/inputbox/properties/normal">
+                        <mask id="mask-32" fill="white">
+                            <use xlink:href="#path-31"></use>
+                        </mask>
+                        <use id="bg" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-31"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-32)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="262" height="75"></rect>
+                        </g>
+                        <mask id="mask-34" fill="white">
+                            <use xlink:href="#path-33"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                        <g id="Colour/greyscale/grey-three" mask="url(#mask-34)" fill="#C0C0C0" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="262" height="75"></rect>
+                        </g>
+                    </g>
+                    <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;"></g>
+                    <text id="Action-Intent" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#979797">
+                        <tspan x="17" y="33">This is an example of a text area</tspan>
+                    </text>
+                </g>
+                <text id="Text-input" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="836.132812" y="1163">Text input</tspan>
+                </text>
+                <g id="Group-2" transform="translate(713.000000, 723.000000)">
+                    <g id="Form/dropdown/combo-box">
+                        <g id="Button/properties/secondary-actions/border-square">
+                            <g id="Colour/greyscale/white" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="325" height="50"></rect>
+                            </g>
+                            <mask id="mask-36" fill="white">
+                                <use xlink:href="#path-35"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-35"></use>
+                            <g id="Colour/greyscale/grey-two" mask="url(#mask-36)" fill="#979797" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="325" height="50"></rect>
+                            </g>
+                            <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-36)"></g>
+                        </g>
+                        <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(236.363636, 0.000000)">
+                            <mask id="mask-38" fill="white">
+                                <use xlink:href="#path-37"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" xlink:href="#path-37"></use>
+                            <g id="Colour/greyscale/grey-two" mask="url(#mask-38)" fill="#979797">
+                                <g transform="translate(58.636364, 0.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="30" height="50"></rect>
+                                </g>
+                            </g>
+                            <g id="icon/custom/arrow/close" mask="url(#mask-38)">
+                                <g transform="translate(61.636364, 13.000000)">
+                                    <mask id="mask-40" fill="white">
+                                        <use xlink:href="#path-39"></use>
+                                    </mask>
+                                    <use id="arrow_close" stroke="none" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-39"></use>
+                                    <g id="Colour/greyscale/black" stroke="none" fill="none" mask="url(#mask-40)" fill-rule="evenodd">
+                                        <g transform="translate(5.000000, 5.000000)" fill="#000000" id="Rectangle">
+                                            <rect x="0" y="0" width="15" height="15"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="add-tags" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#C0C0C0">
+                            <tspan x="229.93764" y="30">add tags</tspan>
+                        </text>
+                    </g>
+                    <g id="Form/dropdown/tags" transform="translate(10.000000, 8.000000)">
+                        <g id="Button/properties/primary-actions/border-round">
+                            <mask id="mask-42" fill="white">
+                                <use xlink:href="#path-41"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-41"></use>
+                            <g id="Colour/greyscale/white" mask="url(#mask-42)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(0.000000, 0.700000)" id="Rectangle">
+                                    <rect x="0" y="0" width="95" height="35"></rect>
+                                </g>
+                            </g>
+                            <mask id="mask-44" fill="white">
+                                <use xlink:href="#path-43"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-43"></use>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-44)" fill="#4B949F" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="95" height="35"></rect>
+                            </g>
+                            <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-44)"></g>
+                        </g>
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;"></g>
+                        <g id="icon/custom/close" transform="translate(69.000000, 11.000000)">
+                            <mask id="mask-46" fill="white">
+                                <use xlink:href="#path-45"></use>
+                            </mask>
+                            <use id="" fill="#000000" fill-rule="evenodd" xlink:href="#path-45"></use>
+                            <g id="Colour/greyscale/black" mask="url(#mask-46)" fill="#000000" fill-rule="evenodd">
+                                <g transform="translate(2.916667, 2.916667)" id="Rectangle">
+                                    <rect x="0" y="0" width="9" height="9"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Item-1" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#4B949F">
+                            <tspan x="12" y="24">Item 1</tspan>
+                        </text>
+                    </g>
+                    <g id="Form/dropdown/tags" transform="translate(115.000000, 8.000000)">
+                        <g id="Button/properties/primary-actions/border-round">
+                            <mask id="mask-48" fill="white">
+                                <use xlink:href="#path-47"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-47"></use>
+                            <g id="Colour/greyscale/white" mask="url(#mask-48)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(0.000000, 0.700000)" id="Rectangle">
+                                    <rect x="0" y="0" width="95" height="35"></rect>
+                                </g>
+                            </g>
+                            <mask id="mask-50" fill="white">
+                                <use xlink:href="#path-49"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-49"></use>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-50)" fill="#4B949F" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="95" height="35"></rect>
+                            </g>
+                            <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-50)"></g>
+                        </g>
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;"></g>
+                        <g id="icon/custom/close" transform="translate(69.000000, 11.000000)">
+                            <mask id="mask-52" fill="white">
+                                <use xlink:href="#path-51"></use>
+                            </mask>
+                            <use id="" fill="#000000" fill-rule="evenodd" xlink:href="#path-51"></use>
+                            <g id="Colour/greyscale/black" mask="url(#mask-52)" fill="#000000" fill-rule="evenodd">
+                                <g transform="translate(2.916667, 2.916667)" id="Rectangle">
+                                    <rect x="0" y="0" width="9" height="9"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Item-1" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#4B949F">
+                            <tspan x="12" y="24">Item 1</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(809.000000, 421.000000)">
+                    <text id="Example-1" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="40" y="20">Example 1</tspan>
+                    </text>
+                    <g id="Form/radio-button/active">
+                        <path d="M12.5,0 C14.7836653,0 16.8970255,0.570907752 18.8401442,1.71274038 C20.7231665,2.79447656 22.2055234,4.27683353 23.2872596,6.15985577 C24.4290922,8.10297446 25,10.2163347 25,12.5 C25,14.7836653 24.4290922,16.8970255 23.2872596,18.8401442 C22.2055234,20.7231665 20.7231665,22.2055234 18.8401442,23.2872596 C16.8970255,24.4290922 14.7836653,25 12.5,25 C10.2163347,25 8.10297446,24.4290922 6.15985577,23.2872596 C4.27683353,22.1854913 2.79447656,20.6931184 1.71274038,18.8100962 C0.570907752,16.8669775 0,14.7636331 0,12.5 C0,10.2363669 0.570907752,8.13302254 1.71274038,6.18990385 C2.81450871,4.30688161 4.30688161,2.81450871 6.18990385,1.71274038 C8.13302254,0.570907752 10.2363669,0 12.5,0 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        <g id="icon/radio_button_checked">
+                            <mask id="mask-54" fill="white">
+                                <use xlink:href="#path-53"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-54)" fill="#4B949F" fill-rule="evenodd">
+                                <g transform="translate(-13.541667, -13.541667)" id="Rectangle">
+                                    <rect x="0" y="0" width="52" height="52"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(809.000000, 456.000000)">
+                    <text id="Example-1" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="40" y="20">Example 1</tspan>
+                    </text>
+                    <g id="Form/radio-button/inactive">
+                        <g id="icon/radio_button_unchecked">
+                            <mask id="mask-56" fill="white">
+                                <use xlink:href="#path-55"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/grey-two" mask="url(#mask-56)" fill="#979797" fill-rule="evenodd">
+                                <g transform="translate(-13.541667, -13.541667)" id="Rectangle">
+                                    <rect x="0" y="0" width="52" height="52"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

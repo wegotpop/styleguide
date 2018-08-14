@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="797px" height="620px" viewBox="0 0 797 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>CAA4CDF2-2595-4013-9AC3-F516076A9210</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-3" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-5" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-7" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-9" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-11" x="0" y="0" width="155" height="50" rx="25"></rect>
+        <rect id="path-13" x="0" y="0" width="155" height="50" rx="25"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Language-and-text" transform="translate(-404.000000, -572.000000)">
+            <g id="Language-diagram" transform="translate(403.000000, 568.000000)">
+                <g id="Group" transform="translate(69.000000, 307.000000)">
+                    <path d="M16.3472736,6.5 L516.347274,6.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#979797" transform="translate(524.000000, 7.000000) rotate(90.000000) translate(-524.000000, -7.000000) " points="524 -1 531 15 517 15"></polygon>
+                    <polygon id="Triangle" fill="#979797" transform="translate(8.000000, 7.000000) scale(-1, 1) rotate(90.000000) translate(-8.000000, -7.000000) " points="8 -1 15 15 1 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(335.000000, 314.000000) rotate(90.000000) translate(-335.000000, -314.000000) translate(69.000000, 307.000000)">
+                    <path d="M16.3472736,6.5 L516.347274,6.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#979797" transform="translate(524.000000, 7.000000) rotate(90.000000) translate(-524.000000, -7.000000) " points="524 -1 531 15 517 15"></polygon>
+                    <polygon id="Triangle" fill="#979797" transform="translate(8.000000, 7.000000) scale(-1, 1) rotate(90.000000) translate(-8.000000, -7.000000) " points="8 -1 15 15 1 15"></polygon>
+                </g>
+                <text id="Safe" font-family="Roboto-Light, Roboto" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="0" y="320">Safe</tspan>
+                </text>
+                <text id="Edgy/Passionate" font-family="Roboto-Light, Roboto" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="621" y="320">Edgy/Passionate</tspan>
+                </text>
+                <text id="Subdued/Passive" font-family="Roboto-Light, Roboto" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="242" y="622">Subdued/Passive</tspan>
+                </text>
+                <text id="Energetic/Active" font-family="Roboto-Light, Roboto" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="247" y="22">Energetic/Active</tspan>
+                </text>
+                <g id="Button/primary-actions/no-icon" transform="translate(69.000000, 105.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <g id="Colour/blues/blue-main" mask="url(#mask-2)" fill="#6493DC" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-2)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="24.0283203" y="32">Instructions</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(147.000000, 181.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <g id="Colour/actions/green-main" mask="url(#mask-4)" fill="#13CE66" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-4)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="39.7509766" y="32">Success</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(420.000000, 65.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <g id="Colour/actions/red-main" mask="url(#mask-6)" fill="#FF4949" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-6)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="32.2216797" y="32">Marketing</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(430.000000, 75.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-8)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-8)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="32.2216797" y="32">Marketing</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(266.000000, 258.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-10)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-10)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="28.9746094" y="32">Other copy</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(69.000000, 540.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <g id="Colour/actions/red-main" mask="url(#mask-12)" fill="#FF4949" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-12)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="50.6201172" y="32">Errors</tspan>
+                    </text>
+                </g>
+                <g id="Button/primary-actions/no-icon" transform="translate(101.000000, 464.000000)">
+                    <g id="Button/properties/primary-actions/flat">
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <use id="shape/fill" fill="#000000" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <g id="Colour/actions/yellow-main" mask="url(#mask-14)" fill="#F5BB16" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="50"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-14)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="35.4296875" y="32">Warnings</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

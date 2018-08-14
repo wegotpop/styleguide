@@ -1,4 +1,5 @@
 import React from 'react';
+import LanguageDiagram from './assets/language-diagram.png';
 
 export default () => (
   <div>
@@ -16,7 +17,9 @@ export default () => (
         may vary based on the role it serves. This diagram shares how the tone
         of various elements relate in an interface.
       </p>
-      <p>TODO: Insert image here</p>
+      <p>
+        <img style={{ width: '100%' }} src={LanguageDiagram} />
+      </p>
     </section>
     <section>
       <h4>Grammar</h4>
@@ -52,7 +55,7 @@ export default () => (
         the label should not be dependent on reading the other labels in a form
         or on the screen.
       </p>
-      <p>TODO: Add example</p>
+      <div />
     </section>
   </div>
 );
