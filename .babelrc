@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "inline-react-svg"
+    "inline-react-svg", "transform-object-rest-spread"
   ]
 }

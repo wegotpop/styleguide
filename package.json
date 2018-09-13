@@ -1,6 +1,6 @@
 {
   "name": "@wegotpop/styleguide",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "license": "MIT",
   "files": [
     "css/*.css"
@@ -16,17 +16,23 @@
     "format:md": "prettier **/*.md --parser=markdown --write",
     "dev": "parcel index.html --no-cache",
     "precommit": "lint-staged && yarn build && git add docs",
-    "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html"
+    "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html",
+    "compile": "postcss -m -u postcss-partial-import -u postcss-modules -u cssnano -d build css/global.css"
   },
   "devDependencies": {
     "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
-    "parcel-bundler": "^1.9.3",
+    "lint-staged": "^7.2.2",
+    "parcel-bundler": "^1.9.7",
     "postcss-modules": "^1.1.0",
-    "prettier": "^1.13.7",
-    "react": "^16.4.1",
+    "prettier": "^1.14.2",
+    "react": "^16.5.0",
     "react-color": "^2.14.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.5.0",
+    "babel-plugin-inline-react-svg": "^0.5.4",
+    "cssnano": "^4.1.0",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
+    "postcss-partial-import": "^4.1.0"
   },
   "prettier": {
     "singleQuote": true
@@ -45,7 +51,5 @@
       "git add"
     ]
   },
-  "dependencies": {
-    "babel-plugin-inline-react-svg": "^0.5.4"
-  }
+  "dependencies": {}
 }

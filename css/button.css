@@ -1,0 +1,80 @@
+.btn {
+    --default-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24),
+        0 0 2px 0 rgba(0, 0, 0, 0.12);
+    color: white;
+    background-color: var(--brand-main);
+    border-radius: 0.2rem;
+    box-shadow: var(--default-box-shadow);
+    outline: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    border: none;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+}
+
+.btn:hover,
+.btn-hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+    filter: brightness(95%);
+}
+
+.btn:focus,
+.btn-focus {
+    filter: brightness(80%);
+}
+
+.btn:hover:focus {
+    box-shadow: var(--default-box-shadow);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+.btn:disabled:hover {
+    opacity: 0.5;
+    box-shadow: var(--default-box-shadow);
+    filter: none;
+}
+
+.btn-primary {
+    background-color: var(--brand-main);
+}
+
+.btn-info {
+    background-color: var(--action-info);
+}
+
+.btn-success {
+    background-color: var(--action-positive);
+}
+
+.btn-warning {
+    background-color: var(--action-warning);
+}
+
+.btn-danger {
+    background-color: var(--action-error);
+}
+
+.btn-alteration {
+    background-color: var(--greyscale-two);
+}
+
+.btn-reject {
+    background-color: var(--black);
+}
+
+.btn-reject:hover {
+    background-color: black;
+    filter: brightness(100%);
+}

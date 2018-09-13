@@ -14,6 +14,7 @@ const GREYSCALE_COLOURS = [
   'greyscale-two',
   'greyscale-three',
   'greyscale-four',
+  'greyscale-five',
   'white'
 ];
 const FEEDBACK_COLOURS = [
@@ -57,7 +58,8 @@ const ColourBox = ({ colour }) => (
         `--${colour}`
       )}
     </div>
-    --{colour}
+    --
+    {colour}
   </div>
 );
 

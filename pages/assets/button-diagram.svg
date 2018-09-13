@@ -1,518 +1,614 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1130" height="676" viewBox="0 0 1130 676">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1130px" height="661px" viewBox="0 0 1130 661" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>C32BBE9E-A36E-403E-93A4-7FE4A5565149</title>
+    <desc>Created with sketchtool.</desc>
     <defs>
-        <path id="a" d="M910 517h220v115H910V517z"/>
-        <mask id="c" width="220" height="115" x="0" y="0" fill="#fff">
-            <use xlink:href="#a"/>
+        <path d="M910,517 L1130,517 L1130,632 L910,632 L910,517 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="220" height="115" fill="white">
+            <use xlink:href="#path-1"></use>
         </mask>
-        <path id="b" d="M910 24h220v155H910V24z"/>
-        <mask id="d" width="220" height="155" x="0" y="0" fill="#fff">
-            <use xlink:href="#b"/>
+        <path d="M910,24 L1130,24 L1130,179 L910,179 L910,24 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="220" height="155" fill="white">
+            <use xlink:href="#path-3"></use>
         </mask>
-        <rect id="e" width="180" height="50" rx="3"/>
-        <filter id="f" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <rect id="path-5" x="0" y="0" width="180" height="35" rx="3"></rect>
+        <filter x="-3.3%" y="-11.4%" width="106.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="h" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
-        <rect id="j" width="200" height="50" rx="3"/>
-        <filter id="k" width="106%" height="124%" x="-3%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <polygon id="path-8" points="16.59 8.59 12 13.17 7.41 8.59 6 10 12 16 18 10"></polygon>
+        <rect id="path-10" x="0" y="0" width="180" height="35" rx="3"></rect>
+        <filter x="-3.3%" y="-11.4%" width="106.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="m" d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
-        <path id="o" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
-        <rect id="q" width="155" height="51" rx="3"/>
-        <filter id="r" width="107.7%" height="123.5%" x="-3.9%" y="-7.8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <polygon id="path-13" points="16.59 8.59 12 13.17 7.41 8.59 6 10 12 16 18 10"></polygon>
+        <path d="M10,18 L14,18 L14,16 L10,16 L10,18 L10,18 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z M6,13 L18,13 L18,11 L6,11 L6,13 L6,13 Z" id="path-15"></path>
+        <rect id="path-17" x="0" y="0" width="155" height="35" rx="3"></rect>
+        <filter x="-3.9%" y="-11.4%" width="107.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <rect id="t" width="180" height="50" rx="3"/>
-        <filter id="u" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <rect id="path-20" x="0" y="0" width="180" height="35" rx="3"></rect>
+        <filter x="-3.3%" y="-11.4%" width="106.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="w" d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
-        <rect id="y" width="155" height="50" rx="25"/>
-        <path id="A" d="M25 0h105c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h105c13.255 0 24-10.745 24-24S143.255 1 130 1H25z"/>
-        <circle id="C" cx="25" cy="25" r="25"/>
-        <filter id="D" width="124%" height="124%" x="-12%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <path d="M10,18 L14,18 L14,16 L10,16 L10,18 L10,18 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z M6,13 L18,13 L18,11 L6,11 L6,13 L6,13 Z" id="path-23"></path>
+        <rect id="path-25" x="0" y="0" width="155" height="35" rx="17.5"></rect>
+        <path d="M17.5,0 L137.5,0 C147.164983,-1.7754286e-15 155,7.83501688 155,17.5 C155,27.1649831 147.164983,35 137.5,35 L17.5,35 C7.83501688,35 1.18361906e-15,27.1649831 0,17.5 C-1.18361906e-15,7.83501688 7.83501688,1.7754286e-15 17.5,0 Z M17.5,1 C8.38730163,1 1,8.38730163 1,17.5 C1,26.6126984 8.38730163,34 17.5,34 L137.5,34 C146.612698,34 154,26.6126984 154,17.5 C154,8.38730163 146.612698,1 137.5,1 L17.5,1 Z" id="path-27"></path>
+        <rect id="path-29" x="0" y="0" width="40" height="35" rx="3"></rect>
+        <filter x="-15.0%" y="-11.4%" width="130.0%" height="134.3%" filterUnits="objectBoundingBox" id="filter-31">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="F" d="M12.5 4.688c-5.208 0-9.656 3.24-11.458 7.812 1.802 4.573 6.25 7.813 11.458 7.813s9.656-3.24 11.458-7.813c-1.802-4.573-6.25-7.813-11.458-7.813zm0 13.02A5.21 5.21 0 0 1 7.292 12.5 5.21 5.21 0 0 1 12.5 7.292a5.21 5.21 0 0 1 5.208 5.208 5.21 5.21 0 0 1-5.208 5.208zm0-8.333A3.12 3.12 0 0 0 9.375 12.5a3.12 3.12 0 0 0 3.125 3.125 3.12 3.12 0 0 0 3.125-3.125A3.12 3.12 0 0 0 12.5 9.375z"/>
-        <rect id="H" width="180" height="50" rx="25"/>
-        <filter id="I" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <path d="M12.5,4.6875 C7.29166667,4.6875 2.84375,7.92708333 1.04166667,12.5 C2.84375,17.0729167 7.29166667,20.3125 12.5,20.3125 C17.7083333,20.3125 22.15625,17.0729167 23.9583333,12.5 C22.15625,7.92708333 17.7083333,4.6875 12.5,4.6875 L12.5,4.6875 Z M12.5,17.7083333 C9.625,17.7083333 7.29166667,15.375 7.29166667,12.5 C7.29166667,9.625 9.625,7.29166667 12.5,7.29166667 C15.375,7.29166667 17.7083333,9.625 17.7083333,12.5 C17.7083333,15.375 15.375,17.7083333 12.5,17.7083333 L12.5,17.7083333 Z M12.5,9.375 C10.7708333,9.375 9.375,10.7708333 9.375,12.5 C9.375,14.2291667 10.7708333,15.625 12.5,15.625 C14.2291667,15.625 15.625,14.2291667 15.625,12.5 C15.625,10.7708333 14.2291667,9.375 12.5,9.375 L12.5,9.375 Z" id="path-32"></path>
+        <rect id="path-34" x="0" y="0" width="180" height="35" rx="3"></rect>
+        <filter x="-3.3%" y="-11.4%" width="106.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-36">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="K" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/>
-        <rect id="M" width="155" height="50" rx="25"/>
-        <filter id="N" width="107.7%" height="124%" x="-3.9%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <path d="M10,18 L14,18 L14,16 L10,16 L10,18 L10,18 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z M6,13 L18,13 L18,11 L6,11 L6,13 L6,13 Z" id="path-37"></path>
+        <rect id="path-39" x="0" y="0" width="155" height="35" rx="3"></rect>
+        <filter x="-3.9%" y="-11.4%" width="107.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-41">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <rect id="P" width="180" height="50" rx="25"/>
-        <path id="R" d="M25 0h130c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h130c13.255 0 24-10.745 24-24S168.255 1 155 1H25z"/>
-        <path id="T" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-        <rect id="V" width="180" height="50" rx="25"/>
-        <path id="X" d="M25 0h130c13.807 0 25 11.193 25 25s-11.193 25-25 25H25C11.193 50 0 38.807 0 25S11.193 0 25 0zm0 1C11.745 1 1 11.745 1 25s10.745 24 24 24h130c13.255 0 24-10.745 24-24S168.255 1 155 1H25z"/>
-        <path id="Z" d="M20 6.52l-5.98 5.98L20 18.48 18.48 20l-5.98-5.98L6.52 20 5 18.48l5.98-5.98L5 6.52 6.52 5l5.98 5.98L18.48 5z"/>
-        <rect id="ab" width="180" height="50" rx="25"/>
-        <filter id="ac" width="106.7%" height="124%" x="-3.3%" y="-8%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
-            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
-            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+        <rect id="path-42" x="0" y="0" width="180" height="35" rx="17.5"></rect>
+        <path d="M17.5,0 L162.5,0 C172.164983,-1.7754286e-15 180,7.83501688 180,17.5 C180,27.1649831 172.164983,35 162.5,35 L17.5,35 C7.83501688,35 1.18361906e-15,27.1649831 0,17.5 C-1.18361906e-15,7.83501688 7.83501688,1.7754286e-15 17.5,0 Z M17.5,1 C8.38730163,1 1,8.38730163 1,17.5 C1,26.6126984 8.38730163,34 17.5,34 L162.5,34 C171.612698,34 179,26.6126984 179,17.5 C179,8.38730163 171.612698,1 162.5,1 L17.5,1 Z" id="path-44"></path>
+        <path d="M15.5,14 L14.71,14 L14.43,13.73 C15.41,12.59 16,11.11 16,9.5 C16,5.91 13.09,3 9.5,3 C5.91,3 3,5.91 3,9.5 C3,13.09 5.91,16 9.5,16 C11.11,16 12.59,15.41 13.73,14.43 L14,14.71 L14,15.5 L19,20.49 L20.49,19 L15.5,14 L15.5,14 Z M9.5,14 C7.01,14 5,11.99 5,9.5 C5,7.01 7.01,5 9.5,5 C11.99,5 14,7.01 14,9.5 C14,11.99 11.99,14 9.5,14 L9.5,14 Z" id="path-46"></path>
+        <rect id="path-48" x="0" y="0" width="180" height="35" rx="17.5"></rect>
+        <path d="M17.5,0 L162.5,0 C172.164983,-1.7754286e-15 180,7.83501688 180,17.5 C180,27.1649831 172.164983,35 162.5,35 L17.5,35 C7.83501688,35 1.18361906e-15,27.1649831 0,17.5 C-1.18361906e-15,7.83501688 7.83501688,1.7754286e-15 17.5,0 Z M17.5,1 C8.38730163,1 1,8.38730163 1,17.5 C1,26.6126984 8.38730163,34 17.5,34 L162.5,34 C171.612698,34 179,26.6126984 179,17.5 C179,8.38730163 171.612698,1 162.5,1 L17.5,1 Z" id="path-50"></path>
+        <polygon id="path-52" points="20 6.52061856 14.0206186 12.5 20 18.4793814 18.4793814 20 12.5 14.0206186 6.52061856 20 5 18.4793814 10.9793814 12.5 5 6.52061856 6.52061856 5 12.5 10.9793814 18.4793814 5"></polygon>
+        <rect id="path-54" x="0" y="0" width="180" height="35" rx="3"></rect>
+        <filter x="-3.3%" y="-11.4%" width="106.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-56">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
             <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
             </feMerge>
         </filter>
-        <path id="ae" d="M7.91 9.5l4.59 4.327L17.09 9.5l1.41 1.332-6 5.668-6-5.668z"/>
+        <polygon id="path-57" points="7.91 9.5 12.5 13.8265857 17.09 9.5 18.5 10.8319838 12.5 16.5 6.5 10.8319838"></polygon>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="632.186" y="49">Yes</tspan>
-        </text>
-        <text fill="#FF4949" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="974.217" y="49">Exceptions!</tspan>
-        </text>
-        <text fill="#FF4949" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="974.217" y="542">Exceptions!</tspan>
-        </text>
-        <use stroke="#FF4949" stroke-dasharray="10,5" stroke-width="2" mask="url(#c)" xlink:href="#a"/>
-        <use stroke="#FF4949" stroke-dasharray="10,5" stroke-width="2" mask="url(#d)" xlink:href="#b"/>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M632.419 60.5h35.185"/>
-            <path fill="#4B949F" d="M683 61l-16 7V54z"/>
-        </g>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="635.451" y="142">No</tspan>
-        </text>
-        <path fill="#4B949F" d="M84.5 0L169 61l-84.5 61L0 61z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
-            <tspan x="42.344" y="58">Is it a primary</tspan> <tspan x="62.151" y="75">action?</tspan>
-        </text>
-        <path fill="#4B949F" d="M314.5 0L399 61l-84.5 61L230 61z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230)">
-            <tspan x="51.87" y="57">Secondary</tspan> <tspan x="37.2" y="74">action or form?</tspan>
-        </text>
-        <path fill="#4B949F" d="M314.5 183l84.5 61-84.5 61-84.5-61z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230 183)">
-            <tspan x="55.031" y="58">Search or</tspan> <tspan x="40.464" y="75">a third action?</tspan>
-        </text>
-        <path fill="#4B949F" d="M314.5 365l84.5 61-84.5 61-84.5-61z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(230 365)">
-            <tspan x="35.099" y="49">No need for text</tspan> <tspan x="39.788" y="66">and it’s mobile</tspan> <tspan x="58.57" y="83">friendly?</tspan>
-        </text>
-        <path fill="#4B949F" d="M84.5 487l84.5 61-84.5 61L0 548z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(0 487)">
-            <tspan x="53.255" y="49">Icon helps</tspan> <tspan x="52.971" y="66">enhancing</tspan> <tspan x="50.938" y="83">the action?</tspan>
-        </text>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M405.347 426.5h265.257"/>
-            <path fill="#4B949F" d="M686 427l-16 7v-14z"/>
-        </g>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M173.21 547.5h497.394"/>
-            <path fill="#4B949F" d="M686 548l-16 7v-14z"/>
-        </g>
-        <path fill="#4B949F" d="M544.5 0L629 61l-84.5 61L460 61z"/>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(460)">
-            <tspan x="52.755" y="49">Icon helps</tspan> <tspan x="52.471" y="66">enhancing</tspan> <tspan x="50.438" y="83">the action?</tspan>
-        </text>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M405.419 60.5h35.185"/>
-            <path fill="#4B949F" d="M456 61l-16 7V54z"/>
-        </g>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M84.5 126.347v340.629"/>
-            <path fill="#4B949F" d="M84.5 484.047l-7-16h14z"/>
-        </g>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M317 128.919v35.185"/>
-            <path fill="#CCC" d="M316.5 179.5l-7-16h14z"/>
-        </g>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M175.419 60.5h35.185"/>
-            <path fill="#CCC" d="M226 61l-16 7V54z"/>
-        </g>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M317 308.919v35.185"/>
-            <path fill="#CCC" d="M316.5 359.5l-7-16h14z"/>
-        </g>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="272.451" y="338">No</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="403.186" y="49">Yes</tspan>
-        </text>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M546.5 153.5h124.104M544.5 153.5v-24"/>
-            <path fill="#CCC" d="M686 154l-16 7v-14z"/>
-        </g>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="48.186" y="339">Yes</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="272.451" y="159">No</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="183.451" y="49">No</tspan>
-        </text>
-        <g transform="translate(930 58)">
-            <mask id="g" fill="#fff">
-                <use xlink:href="#e"/>
-            </mask>
-            <g fill="#000">
-                <use filter="url(#f)" xlink:href="#e"/>
-                <use xlink:href="#e"/>
-            </g>
-            <g fill="#3F639A" mask="url(#g)">
-                <path d="M0 0h180v50H0z"/>
-            </g>
-        </g>
-        <g transform="translate(1076 73)">
-            <mask id="i" fill="#fff">
-                <use xlink:href="#h"/>
-            </mask>
-            <g fill="#FFF" mask="url(#i)">
-                <path d="M-13-13h50v50h-50z"/>
-            </g>
-        </g>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(930 58)">
-            <tspan x="20" y="32">Action Intent</tspan>
-        </text>
-        <g transform="translate(920 118)">
-            <mask id="l" fill="#fff">
-                <use xlink:href="#j"/>
-            </mask>
-            <g fill="#000">
-                <use filter="url(#k)" xlink:href="#j"/>
-                <use xlink:href="#j"/>
-            </g>
-            <g fill="#3F639A" mask="url(#l)">
-                <path d="M0 0h200v50H0z"/>
-            </g>
-        </g>
-        <g transform="translate(934 131)">
-            <mask id="n" fill="#fff">
-                <use xlink:href="#m"/>
-            </mask>
-            <g fill="#FFF" mask="url(#n)">
-                <path d="M-13-13h50v50h-50z"/>
-            </g>
-        </g>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(934 130)">
-            <tspan x="29.024" y="20">Action Intent</tspan>
-        </text>
-        <g transform="translate(1083 131)">
-            <mask id="p" fill="#fff">
-                <use xlink:href="#o"/>
-            </mask>
-            <g fill="#FFF" mask="url(#p)">
-                <path d="M-13-13h50v50h-50z"/>
-            </g>
-        </g>
-        <g transform="translate(704 128)">
-            <mask id="s" fill="#fff">
-                <use xlink:href="#q"/>
-            </mask>
-            <g fill="#000">
-                <use filter="url(#r)" xlink:href="#q"/>
-                <use xlink:href="#q"/>
-            </g>
-            <g fill="#4B949F" mask="url(#s)">
-                <path d="M0 0h155v51H0z"/>
-            </g>
-        </g>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(704 129)">
-            <tspan x="20.024" y="32">Action Intent</tspan>
-        </text>
-        <g transform="translate(704 36)">
-            <mask id="v" fill="#fff">
-                <use xlink:href="#t"/>
-            </mask>
-            <g fill="#000">
-                <use filter="url(#u)" xlink:href="#t"/>
-                <use xlink:href="#t"/>
-            </g>
-            <g fill="#979797" mask="url(#v)">
-                <path d="M0 0h180v50H0z"/>
-            </g>
-        </g>
-        <g transform="translate(722 49)">
-            <mask id="x" fill="#fff">
-                <use xlink:href="#w"/>
-            </mask>
-            <g fill="#FFF" mask="url(#x)">
-                <path d="M-13-13h50v50h-50z"/>
-            </g>
-        </g>
-        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(751 49)">
-            <tspan x=".024" y="19">Action Intent</tspan>
-        </text>
-        <g transform="translate(704 317)">
-            <mask id="z" fill="#fff">
-                <use xlink:href="#y"/>
-            </mask>
-            <use fill="#D8D8D8" xlink:href="#y"/>
-            <g fill="#FFF" mask="url(#z)">
-                <path d="M0 1h155v50H0z"/>
-            </g>
-            <mask id="B" fill="#fff">
-                <use xlink:href="#A"/>
-            </mask>
-            <use fill="#D8D8D8" xlink:href="#A"/>
-            <g fill="#4B949F" mask="url(#B)">
-                <path d="M0 0h155v50H0z"/>
-            </g>
-        </g>
-        <text fill="#000" font-family="Roboto-Regular, Roboto" font-size="20" transform="translate(704 317)">
-            <tspan x="20.767" y="32">Action Intent</tspan>
-        </text>
-        <g transform="translate(704 402)">
-            <mask id="E" fill="#fff">
-                <use xlink:href="#C"/>
-            </mask>
-            <use fill="#000" filter="url(#D)" xlink:href="#C"/>
-            <use fill="#D8D8D8" xlink:href="#C"/>
-            <g fill="#6493DC" mask="url(#E)">
-                <path d="M0 0h50v50H0z"/>
-            </g>
-        </g>
-        <g transform="translate(717 415)">
-            <mask id="G" fill="#fff">
-                <use xlink:href="#F"/>
-            </mask>
-            <g fill="#FFF" mask="url(#G)">
-                <path d="M-13.542-13.542h52v52h-52z"/>
-            </g>
-        </g>
-        <g>
-            <g transform="translate(704 528)">
-                <mask id="J" fill="#fff">
-                    <use xlink:href="#H"/>
-                </mask>
-                <g fill="#000">
-                    <use filter="url(#I)" xlink:href="#H"/>
-                    <use xlink:href="#H"/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons-and-links" transform="translate(-270.000000, -895.000000)">
+            <g id="Button-diagram" transform="translate(270.000000, 895.000000)">
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="632.186035" y="49">Yes</tspan>
+                </text>
+                <text id="Exceptions!" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#FF4949">
+                    <tspan x="974.216797" y="49">Exceptions!</tspan>
+                </text>
+                <text id="Exceptions!" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#FF4949">
+                    <tspan x="974.216797" y="542">Exceptions!</tspan>
+                </text>
+                <use id="Rectangle" stroke="#FF4949" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="10,5" xlink:href="#path-1"></use>
+                <use id="Rectangle" stroke="#FF4949" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="10,5" xlink:href="#path-3"></use>
+                <g id="Group" transform="translate(632.000000, 54.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
                 </g>
-                <g fill="#4B949F" mask="url(#J)">
-                    <path d="M0 0h180v50H0z"/>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="635.451172" y="142">No</tspan>
+                </text>
+                <g id="Group">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Is-it-a-primary-acti" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="42.34375" y="58">Is it a primary</tspan>
+                        <tspan x="62.1508789" y="75">action?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 0.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Secondary-action-or" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="51.8696289" y="57">Secondary</tspan>
+                        <tspan x="37.199707" y="74">action or form?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 183.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Search-or-a-third-ac" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="55.03125" y="58">Search or</tspan>
+                        <tspan x="40.4638672" y="75">a third action?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(230.000000, 365.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="No-need-for-text-and" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="35.0986328" y="49">No need for text</tspan>
+                        <tspan x="39.7880859" y="66">and it’s mobile</tspan>
+                        <tspan x="58.5698242" y="83">friendly?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 487.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Icon-helps-enhancing" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="53.2548828" y="49">Icon helps</tspan>
+                        <tspan x="52.9711914" y="66">enhancing</tspan>
+                        <tspan x="50.9375" y="83">the action?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(405.000000, 420.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,6.5 L265.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(273.000000, 7.000000) rotate(90.000000) translate(-273.000000, -7.000000) " points="273 -1 280 15 266 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(173.000000, 541.000000)" stroke="#4B949F">
+                    <path d="M0.209401135,6.5 L497.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(505.000000, 7.000000) rotate(90.000000) translate(-505.000000, -7.000000) " points="505 -1 512 15 498 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(460.000000, 0.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Icon-helps-enhancing" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="52.7548828" y="49">Icon helps</tspan>
+                        <tspan x="52.4711914" y="66">enhancing</tspan>
+                        <tspan x="50.4375" y="83">the action?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(405.000000, 54.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(84.500000, 305.500000) rotate(90.000000) translate(-84.500000, -305.500000) translate(-95.000000, 298.000000)" stroke="#4B949F">
+                    <path d="M0.347273596,7.5 L340.975924,7.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(350.047081, 7.500000) rotate(90.000000) translate(-350.047081, -7.500000) " points="350.047081 -0.5 357.047081 15.5 343.047081 15.5"></polygon>
+                </g>
+                <g id="Group" transform="translate(316.500000, 154.000000) rotate(90.000000) translate(-316.500000, -154.000000) translate(291.000000, 147.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(175.000000, 54.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(316.500000, 334.000000) rotate(90.000000) translate(-316.500000, -334.000000) translate(291.000000, 327.000000)" stroke="#CCCCCC">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="272.451172" y="338">No</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="403.186035" y="49">Yes</tspan>
+                </text>
+                <g id="Group" transform="translate(543.000000, 129.000000)" stroke="#CCCCCC">
+                    <path d="M3.5,24.5 L127.603717,24.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.5,24.5 L1.5,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(135.000000, 25.000000) rotate(90.000000) translate(-135.000000, -25.000000) " points="135 17 142 33 128 33"></polygon>
+                </g>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="48.1860352" y="339">Yes</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="272.451172" y="159">No</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="183.451172" y="49">No</tspan>
+                </text>
+                <g id="Button/secondary-actions/right-icon" transform="translate(930.000000, 58.000000)">
+                    <g id="Group" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/secondary-actions/shadow">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="shape/fill">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-5"></use>
+                                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-6)" fill="#4B949F" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/expand_more" transform="translate(146.000000, 6.000000)">
+                            <mask id="mask-9" fill="white">
+                                <use xlink:href="#path-8"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/white" mask="url(#mask-9)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="15" y="23">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Button/secondary-actions/double-icon" transform="translate(930.000000, 118.000000)">
+                    <g id="Group-2" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/secondary-actions/shadow">
+                            <mask id="mask-11" fill="white">
+                                <use xlink:href="#path-10"></use>
+                            </mask>
+                            <g id="shape/fill">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-10"></use>
+                                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            </g>
+                            <g id="Colour/brand/teal-main" mask="url(#mask-11)" fill="#4B949F" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                            </g>
+                            <g id="Button/properties/state/normal" mask="url(#mask-11)"></g>
+                        </g>
+                        <g id="Group" transform="translate(160.200000, 18.000000) rotate(180.000000) translate(-160.200000, -18.000000) translate(148.200000, 6.000000)">
+                            <g id="icon/expand_more" transform="translate(12.000000, 12.480000) rotate(-180.000000) translate(-12.000000, -12.480000) translate(0.000000, 0.480000)">
+                                <mask id="mask-14" fill="white">
+                                    <use xlink:href="#path-13"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Colour/greyscale/white" mask="url(#mask-14)" fill="#FFFFFF" fill-rule="evenodd">
+                                    <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                        <rect x="0" y="0" width="50" height="50"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="-0.48" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                    <g id="icon/filter_list" transform="translate(27.000000, 18.000000) rotate(360.000000) translate(-27.000000, -18.000000) translate(15.000000, 6.000000)">
+                        <mask id="mask-16" fill="white">
+                            <use xlink:href="#path-15"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/greyscale/white" mask="url(#mask-16)" fill="#FFFFFF" fill-rule="evenodd">
+                            <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="50" height="50"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" transform="translate(88.907285, 17.500000) rotate(360.000000) translate(-88.907285, -17.500000) " font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="42.926816" y="23">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Button/secondary-actions/no-icon" transform="translate(704.000000, 129.000000)">
+                    <g id="Button/properties/secondary-actions/shadow">
+                        <mask id="mask-18" fill="white">
+                            <use xlink:href="#path-17"></use>
+                        </mask>
+                        <g id="shape/fill">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-17"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        </g>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-18)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-18)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="32.0195312" y="23">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Button/secondary-actions/left-icon" transform="translate(704.000000, 36.000000)">
+                    <g id="Button/properties/secondary-actions/shadow">
+                        <mask id="mask-21" fill="white">
+                            <use xlink:href="#path-20"></use>
+                        </mask>
+                        <g id="shape/fill">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-20"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-20"></use>
+                        </g>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-21)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-21)"></g>
+                    </g>
+                    <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 18.000000) rotate(180.000000) translate(-90.000000, -18.000000) translate(27.000000, 6.000000)">
+                        <g id="icon/filter_list" transform="translate(114.000000, 12.000000) rotate(180.000000) translate(-114.000000, -12.000000) translate(102.000000, -0.000000)">
+                            <mask id="mask-24" fill="white">
+                                <use xlink:href="#path-23"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/white" mask="url(#mask-24)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Action-Intent" transform="translate(46.000000, 11.500000) rotate(180.000000) translate(-46.000000, -11.500000) " font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="0.01953125" y="17">Action Intent</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Button/other-actions/no-icon" transform="translate(704.000000, 317.000000)">
+                    <g id="Button/properties/primary-actions/border-round">
+                        <mask id="mask-26" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-26)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="35"></rect>
+                        </g>
+                        <mask id="mask-28" fill="white">
+                            <use xlink:href="#path-27"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-27"></use>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-28)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-28)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#000000">
+                        <tspan x="32.0195312" y="23">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Button/other-actions/round" transform="translate(704.000000, 402.000000)">
+                    <g id="Button/properties/secondary-actions/shadow">
+                        <mask id="mask-30" fill="white">
+                            <use xlink:href="#path-29"></use>
+                        </mask>
+                        <g id="shape/fill">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-29"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-29"></use>
+                        </g>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-30)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="40" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-30)"></g>
+                    </g>
+                    <g id="icon/visibility" transform="translate(7.500000, 5.000000)">
+                        <mask id="mask-33" fill="white">
+                            <use xlink:href="#path-32"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/greyscale/white" mask="url(#mask-33)" fill="#FFFFFF" fill-rule="evenodd">
+                            <g transform="translate(-13.541667, -13.541667)" id="Rectangle">
+                                <rect x="0" y="0" width="52" height="52"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Button/secondary-actions/left-icon" transform="translate(704.000000, 528.000000)">
+                    <g id="Button/properties/secondary-actions/shadow">
+                        <mask id="mask-35" fill="white">
+                            <use xlink:href="#path-34"></use>
+                        </mask>
+                        <g id="shape/fill">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-34"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-34"></use>
+                        </g>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-35)" fill="#979797" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-35)"></g>
+                    </g>
+                    <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 18.000000) rotate(180.000000) translate(-90.000000, -18.000000) translate(27.000000, 6.000000)">
+                        <g id="icon/filter_list" transform="translate(114.000000, 12.000000) rotate(180.000000) translate(-114.000000, -12.000000) translate(102.000000, -0.000000)">
+                            <mask id="mask-38" fill="white">
+                                <use xlink:href="#path-37"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Colour/greyscale/white" mask="url(#mask-38)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Action-Intent" transform="translate(46.000000, 11.500000) rotate(180.000000) translate(-46.000000, -11.500000) " font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="0.01953125" y="17">Action Intent</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Button/secondary-actions/no-icon" transform="translate(704.000000, 622.000000)">
+                    <g id="Button/properties/secondary-actions/shadow">
+                        <mask id="mask-40" fill="white">
+                            <use xlink:href="#path-39"></use>
+                        </mask>
+                        <g id="shape/fill">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-41)" xlink:href="#path-39"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-39"></use>
+                        </g>
+                        <g id="Colour/green/green-main" mask="url(#mask-40)" fill="#13CE66" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="155" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/normal" mask="url(#mask-40)"></g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="32.0195312" y="23">Action Intent</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(405.000000, 238.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="403.186035" y="233">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="403.186035" y="413">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="403.186035" y="533">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="632.186035" y="233">Yes</tspan>
+                </text>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="635.451172" y="326">No</tspan>
+                </text>
+                <g id="Group" transform="translate(632.000000, 238.000000)" stroke="#4B949F">
+                    <path d="M0.418604651,6.5 L35.603717,6.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#4B949F" transform="translate(43.000000, 7.000000) rotate(90.000000) translate(-43.000000, -7.000000) " points="43 -1 50 15 36 15"></polygon>
+                </g>
+                <g id="Group" transform="translate(460.000000, 184.000000)">
+                    <polygon id="Polygon" fill="#4B949F" points="84.5 0 169 61 84.5 122 0 61"></polygon>
+                    <text id="Icon-helps-enhancing" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="53.2548828" y="49">Icon helps</tspan>
+                        <tspan x="52.9711914" y="66">enhancing</tspan>
+                        <tspan x="50.9375" y="83">the action?</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(543.000000, 313.000000)" stroke="#CCCCCC">
+                    <path d="M3.5,24.5 L127.603717,24.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.5,24.5 L1.5,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(135.000000, 25.000000) rotate(90.000000) translate(-135.000000, -25.000000) " points="135 17 142 33 128 33"></polygon>
+                </g>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#6D6D6D">
+                    <tspan x="406.451172" y="629">No</tspan>
+                </text>
+                <g id="Group" transform="translate(83.000000, 616.000000)" stroke="#CCCCCC">
+                    <path d="M2.49658181,24.5 L587.603717,24.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M1.5,24.5 L1.5,0.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#CCCCCC" transform="translate(595.000000, 25.000000) rotate(90.000000) translate(-595.000000, -25.000000) " points="595 17 602 33 588 33"></polygon>
+                </g>
+                <g id="Button/other-actions/search" transform="translate(704.000000, 219.000000)">
+                    <g id="Button/properties/primary-actions/border-round">
+                        <mask id="mask-43" fill="white">
+                            <use xlink:href="#path-42"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-42"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-43)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <mask id="mask-45" fill="white">
+                            <use xlink:href="#path-44"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-44"></use>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-45)" fill="#979797" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-45)"></g>
+                    </g>
+                    <g id="icon/search" transform="translate(146.000000, 6.000000)">
+                        <mask id="mask-47" fill="white">
+                            <use xlink:href="#path-46"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-47)" fill="#979797" fill-rule="evenodd">
+                            <g transform="translate(-13.000000, -13.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="50" height="50"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="search.." font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#979797">
+                        <tspan x="15" y="23">search..</tspan>
+                    </text>
+                </g>
+                <g id="Button/other-actions/search-active" transform="translate(909.000000, 219.000000)">
+                    <g id="Button/properties/primary-actions/border-round">
+                        <mask id="mask-49" fill="white">
+                            <use xlink:href="#path-48"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-48"></use>
+                        <g id="Colour/greyscale/white" mask="url(#mask-49)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <mask id="mask-51" fill="white">
+                            <use xlink:href="#path-50"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-50"></use>
+                        <g id="Colour/brand/teal-main" mask="url(#mask-51)" fill="#4B949F" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                        </g>
+                        <g id="Button/properties/state/border_normal" style="mix-blend-mode: multiply;" mask="url(#mask-51)"></g>
+                    </g>
+                    <g id="icon/custom/close" transform="translate(146.000000, 6.000000)">
+                        <mask id="mask-53" fill="white">
+                            <use xlink:href="#path-52"></use>
+                        </mask>
+                        <use id="" fill="#000000" fill-rule="evenodd" xlink:href="#path-52"></use>
+                        <g id="Colour/greyscale/grey-two" mask="url(#mask-53)" fill="#979797" fill-rule="evenodd">
+                            <g transform="translate(5.000000, 5.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="search.." font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#000000">
+                        <tspan x="15" y="23">example</tspan>
+                    </text>
+                </g>
+                <g id="Button/secondary-actions/right-icon" transform="translate(931.000000, 562.000000)">
+                    <g id="Group" stroke-width="1" fill-rule="evenodd">
+                        <g id="Button/properties/secondary-actions/shadow">
+                            <mask id="mask-55" fill="white">
+                                <use xlink:href="#path-54"></use>
+                            </mask>
+                            <g id="shape/fill">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-56)" xlink:href="#path-54"></use>
+                                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-54"></use>
+                            </g>
+                            <g id="Colour/blues/blue-two" mask="url(#mask-55)" fill="#3F639A" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="180" height="35"></rect>
+                            </g>
+                            <g id="Button/properties/state/normal" mask="url(#mask-55)"></g>
+                        </g>
+                        <g id="icon/custom/arrow/forward" transform="translate(146.000000, 6.000000)">
+                            <mask id="mask-58" fill="white">
+                                <use xlink:href="#path-57"></use>
+                            </mask>
+                            <use id="arrow_previous" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.500000, 13.000000) scale(-1, -1) rotate(90.000000) translate(-12.500000, -13.000000) " xlink:href="#path-57"></use>
+                            <g id="Colour/greyscale/white" mask="url(#mask-58)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(5.000000, 5.000000)" id="Rectangle">
+                                    <rect x="0" y="0" width="15" height="15"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Action-Intent" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="15" y="23">Action Intent</tspan>
+                    </text>
                 </g>
             </g>
-            <g transform="translate(722.514 541)">
-                <mask id="L" fill="#fff">
-                    <use xlink:href="#K"/>
-                </mask>
-                <g fill="#FFF" mask="url(#L)">
-                    <path d="M-13-13h50v50h-50z"/>
-                </g>
-            </g>
-            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(751.027 541)">
-                <tspan x=".511" y="19">Action Intent</tspan>
-            </text>
-        </g>
-        <g>
-            <g transform="translate(704 622)">
-                <mask id="O" fill="#fff">
-                    <use xlink:href="#M"/>
-                </mask>
-                <g fill="#000">
-                    <use filter="url(#N)" xlink:href="#M"/>
-                    <use xlink:href="#M"/>
-                </g>
-                <g fill="#4B949F" mask="url(#O)">
-                    <path d="M0 0h155v50H0z"/>
-                </g>
-            </g>
-            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(704 622)">
-                <tspan x="20.024" y="32">Action Intent</tspan>
-            </text>
-        </g>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M405.419 244.5h35.185"/>
-            <path fill="#4B949F" d="M456 245l-16 7v-14z"/>
-        </g>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="403.186" y="233">Yes</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="403.186" y="413">Yes</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="403.186" y="533">Yes</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="632.186" y="233">Yes</tspan>
-        </text>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="635.451" y="326">No</tspan>
-        </text>
-        <g stroke="#4B949F">
-            <path stroke-linecap="square" stroke-width="5" d="M632.419 244.5h35.185"/>
-            <path fill="#4B949F" d="M683 245l-16 7v-14z"/>
-        </g>
-        <g>
-            <path fill="#4B949F" d="M544.5 184l84.5 61-84.5 61-84.5-61z"/>
-            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" transform="translate(460 184)">
-                <tspan x="53.255" y="49">Icon helps</tspan> <tspan x="52.971" y="66">enhancing</tspan> <tspan x="50.938" y="83">the action?</tspan>
-            </text>
-        </g>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M546.5 337.5h124.104M544.5 337.5v-24"/>
-            <path fill="#CCC" d="M686 338l-16 7v-14z"/>
-        </g>
-        <text fill="#6D6D6D" font-family="Roboto-Regular, Roboto" font-size="18">
-            <tspan x="406.451" y="629">No</tspan>
-        </text>
-        <g stroke="#CCC">
-            <path stroke-linecap="square" stroke-width="5" d="M85.497 640.5h585.107M84.5 640.5v-24"/>
-            <path fill="#CCC" d="M686 641l-16 7v-14z"/>
-        </g>
-        <g>
-            <g transform="translate(704 219)">
-                <mask id="Q" fill="#fff">
-                    <use xlink:href="#P"/>
-                </mask>
-                <use fill="#D8D8D8" xlink:href="#P"/>
-                <g fill="#FFF" mask="url(#Q)">
-                    <path d="M0 1h180v50H0z"/>
-                </g>
-                <mask id="S" fill="#fff">
-                    <use xlink:href="#R"/>
-                </mask>
-                <use fill="#D8D8D8" xlink:href="#R"/>
-                <g fill="#979797" mask="url(#S)">
-                    <path d="M0 0h180v50H0z"/>
-                </g>
-            </g>
-            <g transform="translate(845 232)">
-                <mask id="U" fill="#fff">
-                    <use xlink:href="#T"/>
-                </mask>
-                <g fill="#979797" mask="url(#U)">
-                    <path d="M-13-13h50v50h-50z"/>
-                </g>
-            </g>
-            <text fill="#979797" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" transform="translate(704 219)">
-                <tspan x="21" y="32">search..</tspan>
-            </text>
-        </g>
-        <g>
-            <g transform="translate(909 219)">
-                <mask id="W" fill="#fff">
-                    <use xlink:href="#V"/>
-                </mask>
-                <use fill="#D8D8D8" xlink:href="#V"/>
-                <g fill="#FFF" mask="url(#W)">
-                    <path d="M0 1h180v50H0z"/>
-                </g>
-                <mask id="Y" fill="#fff">
-                    <use xlink:href="#X"/>
-                </mask>
-                <use fill="#D8D8D8" xlink:href="#X"/>
-                <g fill="#4B949F" mask="url(#Y)">
-                    <path d="M0 0h180v50H0z"/>
-                </g>
-            </g>
-            <g transform="translate(1050 232)">
-                <mask id="aa" fill="#fff">
-                    <use xlink:href="#Z"/>
-                </mask>
-                <use fill="#000" xlink:href="#Z"/>
-                <g fill="#979797" mask="url(#aa)">
-                    <path d="M5 5h15v15H5z"/>
-                </g>
-            </g>
-            <text fill="#000" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" transform="translate(909 219)">
-                <tspan x="21" y="32">example</tspan>
-            </text>
-        </g>
-        <g>
-            <g transform="translate(931 562)">
-                <mask id="ad" fill="#fff">
-                    <use xlink:href="#ab"/>
-                </mask>
-                <g fill="#000">
-                    <use filter="url(#ac)" xlink:href="#ab"/>
-                    <use xlink:href="#ab"/>
-                </g>
-                <g fill="#4B949F" mask="url(#ad)">
-                    <path d="M0 0h180v50H0z"/>
-                </g>
-            </g>
-            <g transform="translate(1069 575)">
-                <mask id="af" fill="#fff">
-                    <use xlink:href="#ae"/>
-                </mask>
-                <use fill="#FFF" fill-rule="nonzero" transform="rotate(-90 12.5 13)" xlink:href="#ae"/>
-                <g fill="#FFF" mask="url(#af)">
-                    <path d="M5 5h15v15H5z"/>
-                </g>
-            </g>
-            <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" transform="translate(949 575)">
-                <tspan x=".024" y="19">Action Intent</tspan>
-            </text>
         </g>
     </g>
 </svg>
