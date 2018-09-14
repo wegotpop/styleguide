@@ -51,7 +51,7 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem
         onClick={onClick}
         href="/content_containers"
-        title="Content containers"
+        title="Content containers (Panels)"
       />
       <MenuItem onClick={onClick} href="/notifications" title="Notifications" />
     </ul>

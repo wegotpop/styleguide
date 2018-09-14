@@ -6,24 +6,53 @@ import styles from './css/ThemeBuilder.css';
 import * as themeManager from '../themeManager';
 
 const VARIABLES = [
-  ['Disabled', 'disabled'],
-  ['Brand one', 'brand-one'],
-  ['Brand two', 'brand-two'],
-  ['Brand main', 'brand-main'],
-  ['Brand three', 'brand-three'],
-  ['Brand four', 'brand-four'],
-  ['Secondary one', 'secondary-one'],
-  ['Secondary two', 'secondary-two'],
-  ['Info', 'action-info'],
-  ['Positive', 'action-positive'],
-  ['Warning', 'action-warning'],
-  ['Error', 'action-error'],
-  ['Black', 'black'],
-  ['greyscale one', 'greyscale-one'],
-  ['greyscale two', 'greyscale-two'],
-  ['greyscale three', 'greyscale-three'],
-  ['greyscale four', 'greyscale-four'],
-  ['white', 'white'],
+  '--disabled',
+  '--brand-one',
+  '--brand-two',
+  '--brand-main',
+  '--brand-three',
+  '--brand-four',
+  '--black',
+  '--greyscale-one',
+  '--greyscale-two',
+  '--greyscale-three',
+  '--greyscale-four',
+  '--greyscale-five',
+  '--white',
+  '--secondary-one',
+  '--secondary-two',
+  '--action-info',
+  '--action-positive',
+  '--action-warning',
+  '--action-error',
+  '--font-family',
+  '--font-size',
+  '--link-colour',
+  '--blue-one',
+  '--blue-two',
+  '--blue-main',
+  '--blue-three',
+  '--blue-four',
+  '--purple-one',
+  '--purple-two',
+  '--purple-main',
+  '--purple-three',
+  '--purple-four',
+  '--green-one',
+  '--green-two',
+  '--green-main',
+  '--green-three',
+  '--green-four',
+  '--yellow-one',
+  '--yellow-two',
+  '--yellow-main',
+  '--yellow-three',
+  '--yellow-four',
+  '--red-one',
+  '--red-two',
+  '--red-main',
+  '--red-three',
+  '--red-four'
 ];
 
 class ColourPicker extends React.Component {
@@ -41,24 +70,32 @@ class ColourPicker extends React.Component {
   onChange({ hex }) {
     document
       .querySelector(':root')
-      .style.setProperty(`--${this.props.name}`, hex);
+      .style.setProperty(`${this.props.name}`, hex);
     themeManager.saveValue(this.props.name, hex);
   }
 
   getPropertyValue(name) {
     return getComputedStyle(document.querySelector(':root')).getPropertyValue(
-      name,
+      name
     );
   }
 
   render() {
-    const { title, name } = this.props;
+    const { name } = this.props;
     const colour = this.getPropertyValue(`--${name}`);
     return (
       <tr>
         <td>
-          {title}
-          <pre>var(--{name})</pre>
+          {name
+            .replace('--', '')
+            .replace('-', ' ')
+            .split(' ')
+            .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(' ')}
+          <pre>
+            var(
+            {name})
+          </pre>
         </td>
         <td>
           {this.state.open ? (
@@ -70,7 +107,7 @@ class ColourPicker extends React.Component {
             <div
               onClick={this.onClick}
               className={styles.colourBox}
-              style={{ backgroundColor: `var(--${name})` }}
+              style={{ backgroundColor: `var(${name})` }}
             />
           )}
         </td>
@@ -93,8 +130,8 @@ class ThemeBuilder extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {VARIABLES.map(([title, name]) => (
-              <ColourPicker title={title} name={name} />
+            {VARIABLES.map(name => (
+              <ColourPicker name={name} />
             ))}
           </tbody>
         </table>

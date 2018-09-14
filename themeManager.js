@@ -26,7 +26,7 @@ export function loadCSSFromTheme() {
 }
 
 export function updateCSSValue(name, value) {
-  document.querySelector(':root').style.setProperty(`--${name}`, value);
+  document.querySelector(':root').style.setProperty(`${name}`, value);
 }
 
 export function themeActive() {
