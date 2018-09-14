@@ -20,8 +20,8 @@ const remCalculator = elementName => {
   const x = parseFloat(pixels);
   const y = parseFloat(
     getComputedStyle(document.querySelector(':root')).getPropertyValue(
-      'font-size',
-    ),
+      'font-size'
+    )
   );
 
   return x / y;
@@ -46,7 +46,8 @@ export default () => {
                 <h1>Heading Level 1</h1>
               </td>
               <td>
-                <strong>H1</strong> - {remCalculator('h1')}rem, light weight
+                <strong>H1</strong> - {remCalculator('h1')}
+                rem, light weight
               </td>
             </tr>
 
@@ -55,7 +56,8 @@ export default () => {
                 <h2>Heading Level 2</h2>
               </td>
               <td>
-                <strong>H2</strong> - {remCalculator('h2')}rem, light weight
+                <strong>H2</strong> - {remCalculator('h2')}
+                rem, light weight
               </td>
             </tr>
 
@@ -64,7 +66,8 @@ export default () => {
                 <h3>Heading Level 3</h3>
               </td>
               <td>
-                <strong>H3</strong> - {remCalculator('h3')}rem, light weight
+                <strong>H3</strong> - {remCalculator('h3')}
+                rem, light weight
               </td>
             </tr>
 
@@ -73,7 +76,8 @@ export default () => {
                 <h4>Heading Level 4</h4>
               </td>
               <td>
-                <strong>H4</strong> - {remCalculator('h4')}rem, regular weight
+                <strong>H4</strong> - {remCalculator('h4')}
+                rem, regular weight
               </td>
             </tr>
 
@@ -82,17 +86,50 @@ export default () => {
                 <h5>Heading Level 5</h5>
               </td>
               <td>
-                <strong>H5</strong> - {remCalculator('h5')}rem, bold weight
+                <strong>H5</strong> - {remCalculator('h5')}
+                rem, bold weight
               </td>
             </tr>
 
             <tr>
               <td>Base</td>
-              <td>Standard font size - {remCalculator(':root')}rem</td>
+              <td>
+                Standard font size - {remCalculator(':root')}
+                rem
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
+
+      <section>
+        <h4>Usage</h4>
+        <code>
+          {
+            '<link rel="stylesheet" type="text/css" media="screen,print" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500">'
+          }
+        </code>
+      </section>
+      <section>
+        <h3>Spacing</h3>
+        <div>
+          <p>
+            Spacing, also known as white space, is the empty space between and
+            around individual elements of a page layout; these elements could be
+            pieces of copy, images, cards, buttons, icons, etc. When used
+            correctly, white space brings visual clarity and balance to a
+            layout. White space can also greatly improve the readability of a
+            page or an element.
+          </p>
+          <p>
+            Our guideline rule states that the spacing between every design
+            element should be a multiple of 10 pixels; this means that the
+            spacing could be 20, 30, 40, 50, 60 pixels and so on. This rule
+            brings intentionality to our use of white space and creates visual
+            consistency across our site experience.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
