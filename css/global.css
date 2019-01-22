@@ -5,12 +5,12 @@
 }
 
 :global(h1) {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: lighter;
 }
 
 :global(h2) {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: lighter;
 }
 

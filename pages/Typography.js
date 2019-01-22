@@ -123,9 +123,8 @@ export default () => {
           </p>
           <p>
             Our guideline rule states that the spacing between every design
-            element should be a multiple of 10 pixels; this means that the
-            spacing could be 20, 30, 40, 50, 60 pixels and so on. This rule
-            brings intentionality to our use of white space and creates visual
+            element should be a multiple of 0.5rem. This rule brings
+            intentionality to our use of white space and creates visual
             consistency across our site experience.
           </p>
         </div>
