@@ -1,4 +1,4 @@
-.navigation-page-links {
+:global(.navigation-page-links) {
     font-size: 1.5rem;
     list-style-type: circle;
     padding-left: 2rem;
