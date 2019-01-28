@@ -34,6 +34,11 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/typography" title="Typography" />
       <MenuItem onClick={onClick} href="/language" title="Language and text" />
       <MenuItem onClick={onClick} href="/navigation" title="Navigation" />
+      <MenuItem
+        onClick={onClick}
+        href="/navigation-pages"
+        title="Navigation Pages"
+      />
       <MenuItem onClick={onClick} href="/animation" title="Animation" />
     </ul>
 

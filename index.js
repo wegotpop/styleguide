@@ -20,6 +20,7 @@ import Notifications from './pages/Notifications';
 import ContentContainers from './pages/ContentContainers';
 import FormElements from './pages/FormElements';
 import BannerSVG from './pages/assets/banner.svg';
+import { NavigationPage } from './pages/NavigationPages';
 
 const PAGES = {
   home: () => (
@@ -36,6 +37,7 @@ const PAGES = {
   '/theme': ThemeBuilder,
   '/icons_and_media': IconsAndMedia,
   '/navigation': Navigation,
+  '/navigation-pages': NavigationPage,
   '/animation': Animation,
   '/case_headers': CaseHeaders,
   '/notifications': Notifications,
