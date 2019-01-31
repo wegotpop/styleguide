@@ -34,11 +34,6 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/typography" title="Typography" />
       <MenuItem onClick={onClick} href="/language" title="Language and text" />
       <MenuItem onClick={onClick} href="/navigation" title="Navigation" />
-      <MenuItem
-        onClick={onClick}
-        href="/navigation-pages"
-        title="Navigation Pages"
-      />
       <MenuItem onClick={onClick} href="/animation" title="Animation" />
     </ul>
 
@@ -46,16 +41,22 @@ export const Sidebar = ({ onClick }) => (
       <h4>Components</h4>
       <MenuItem
         onClick={onClick}
+        href="/navigation-pages"
+        title="Navigation pages"
+      />
+      <MenuItem
+        onClick={onClick}
         href="/icons_and_media"
         title="Icons and media"
       />
+      <MenuItem onClick={onClick} href="/page-headings" title="Page headings" />
       <MenuItem onClick={onClick} href="/forms" title="Form elements" />
       <MenuItem onClick={onClick} href="/buttons" title="Buttons and links" />
       <MenuItem onClick={onClick} href="/tables" title="Tables and lists" />
-      <MenuItem onClick={onClick} href="/case_headers" title="Case headers" />
+      <MenuItem onClick={onClick} href="/case-headers" title="Case headers" />
       <MenuItem
         onClick={onClick}
-        href="/content_containers"
+        href="/content-containers"
         title="Content containers (Panels)"
       />
       <MenuItem onClick={onClick} href="/notifications" title="Notifications" />

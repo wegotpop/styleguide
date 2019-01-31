@@ -21,6 +21,7 @@ import ContentContainers from './pages/ContentContainers';
 import FormElements from './pages/FormElements';
 import BannerSVG from './pages/assets/banner.svg';
 import { NavigationPage } from './pages/NavigationPages';
+import { PageHeadings } from './pages/PageHeadings';
 
 const PAGES = {
   home: () => (
@@ -39,9 +40,10 @@ const PAGES = {
   '/navigation': Navigation,
   '/navigation-pages': NavigationPage,
   '/animation': Animation,
-  '/case_headers': CaseHeaders,
+  '/case-headers': CaseHeaders,
+  '/page-headings': PageHeadings,
   '/notifications': Notifications,
-  '/content_containers': ContentContainers,
+  '/content-containers': ContentContainers,
   '/forms': FormElements,
   unknown: () => <div>Page could not be found</div>
 };

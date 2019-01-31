@@ -1,0 +1,6 @@
+.project-page-heading {
+    line-height: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--greyscale-four);
+    padding: 1rem;
+}
