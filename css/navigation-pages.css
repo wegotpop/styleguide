@@ -1,0 +1,6 @@
+:global(.navigation-page-links) {
+    font-size: 1.5rem;
+    list-style-type: circle;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
