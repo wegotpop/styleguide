@@ -10,7 +10,7 @@ export default () => (
       dashboard, review harness, or landing page.
     </p>
     <br />
-    <div class={panelStyles.panel}>
+    <div className={panelStyles.panel}>
       <div className={panelStyles['panel-heading']}>
         <h3>Heading goes here</h3>
       </div>

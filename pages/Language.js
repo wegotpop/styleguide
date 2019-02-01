@@ -57,5 +57,12 @@ export default () => (
       </p>
       <div />
     </section>
+    <section>
+      <h4>Specific abbreviations</h4>
+      <p>
+        ID should always be capitals rather than Id or id. This should mean the
+        identity of the object (usually a primary key or UUID).
+      </p>
+    </section>
   </div>
 );
