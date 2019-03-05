@@ -1,0 +1,9 @@
+:global(.navigation-fast-links) {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+:global(.navigation-fast-links__fast-link-item) {
+    margin-right: 1rem;
+}
