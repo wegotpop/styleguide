@@ -110,7 +110,7 @@ class App extends React.Component {
           </div>
           <div className={styles.content}>
             <Banner />
-            <Page />
+            <Page onClick={this.handleClick} />
           </div>
         </div>
       </React.Fragment>
