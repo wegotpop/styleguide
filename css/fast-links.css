@@ -2,6 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 :global(.navigation-fast-links__fast-link-item) {
