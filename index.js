@@ -23,6 +23,7 @@ import BannerSVG from './pages/assets/banner.svg';
 import { NavigationPage } from './pages/NavigationPages';
 import { PageHeadings } from './pages/PageHeadings';
 import { FastLinks } from './pages/FastLinks';
+import { Microcopy } from './pages/Microcopy';
 
 const PAGES = {
   home: () => (
@@ -47,6 +48,7 @@ const PAGES = {
   '/content-containers': ContentContainers,
   '/forms': FormElements,
   '/fast-links': FastLinks,
+  '/microcopy': Microcopy,
   unknown: () => <div>Page could not be found</div>
 };
 

@@ -33,6 +33,7 @@ p {
     margin-bottom: 0.5rem;
 }
 
-li {
-    margin-left: 2rem;
+ul,
+ol {
+    padding: 2rem;
 }
