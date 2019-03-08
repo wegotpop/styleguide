@@ -1,8 +1,13 @@
 import React from 'react';
 
-export default () => (
+import { MenuItem } from './components/MenuItem';
+
+export default props => (
   <div>
     <h2>Navigation</h2>
-    <p>TBC</p>
+    <h3>In-page navigation</h3>
+    <ul>
+      <MenuItem onClick={props.onClick} href="/fast-links" title="Fast links" />
+    </ul>
   </div>
 );

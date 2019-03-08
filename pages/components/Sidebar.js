@@ -1,25 +1,7 @@
 import * as React from 'react';
 
 import styles from './Sidebar.css';
-import linkStyles from '../../css/link.css';
-
-const MenuItem = ({ href, title, onClick }) => {
-  return (
-    <li>
-      {window.location.pathname === href ? '> ' : ''}
-      <a
-        className={linkStyles.link}
-        href={href}
-        onClick={e => {
-          e.preventDefault();
-          onClick(href);
-        }}
-      >
-        {title}
-      </a>
-    </li>
-  );
-};
+import { MenuItem } from './MenuItem';
 
 export const Sidebar = ({ onClick }) => (
   <div id={styles['sidebar']}>
@@ -53,6 +35,7 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/page-headings" title="Page headings" />
       <MenuItem onClick={onClick} href="/forms" title="Form elements" />
       <MenuItem onClick={onClick} href="/buttons" title="Buttons and links" />
+      <MenuItem onClick={onClick} href="/fast-links" title="Fast links" />
       <MenuItem onClick={onClick} href="/tables" title="Tables and lists" />
       <MenuItem onClick={onClick} href="/case-headers" title="Case headers" />
       <MenuItem
