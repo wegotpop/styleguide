@@ -22,6 +22,7 @@ import FormElements from './pages/FormElements';
 import BannerSVG from './pages/assets/banner.svg';
 import { NavigationPage } from './pages/NavigationPages';
 import { PageHeadings } from './pages/PageHeadings';
+import { Microcopy } from './pages/Microcopy';
 
 const PAGES = {
   home: () => (
@@ -45,6 +46,7 @@ const PAGES = {
   '/notifications': Notifications,
   '/content-containers': ContentContainers,
   '/forms': FormElements,
+  '/microcopy': Microcopy,
   unknown: () => <div>Page could not be found</div>
 };
 
