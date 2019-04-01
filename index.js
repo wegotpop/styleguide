@@ -24,6 +24,7 @@ import { NavigationPage } from './pages/NavigationPages';
 import { PageHeadings } from './pages/PageHeadings';
 import { FastLinks } from './pages/FastLinks';
 import { Microcopy } from './pages/Microcopy';
+import { Badges } from './pages/Badges';
 
 const PAGES = {
   home: () => (
@@ -49,6 +50,7 @@ const PAGES = {
   '/forms': FormElements,
   '/fast-links': FastLinks,
   '/microcopy': Microcopy,
+  '/badges': Badges,
   unknown: () => <div>Page could not be found</div>
 };
 
