@@ -18,6 +18,7 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/microcopy" title="Microcopy" />
       <MenuItem onClick={onClick} href="/navigation" title="Navigation" />
       <MenuItem onClick={onClick} href="/animation" title="Animation" />
+      <MenuItem onClick={onClick} href="/widget-pages" title="Widget pages" />
     </ul>
 
     <ul className={styles['sidebar-menu']}>
