@@ -25,6 +25,7 @@ import { PageHeadings } from './pages/PageHeadings';
 import { FastLinks } from './pages/FastLinks';
 import { Microcopy } from './pages/Microcopy';
 import { Badges } from './pages/Badges';
+import { WidgetPages } from './pages/WidgetPages';
 
 const PAGES = {
   home: () => (
@@ -51,6 +52,7 @@ const PAGES = {
   '/fast-links': FastLinks,
   '/microcopy': Microcopy,
   '/badges': Badges,
+  '/widget-pages': WidgetPages,
   unknown: () => <div>Page could not be found</div>
 };
 
