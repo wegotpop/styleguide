@@ -129,6 +129,12 @@ export default () => {
       </section>
       <section>
         <h3>Colours</h3>
+        <ButtonExample
+          label="Default"
+          colour="White"
+          cssClass="btn-default"
+          blurb="White colour is the defaut colour across platform, associated with secondary actions."
+        />
 
         <ButtonExample
           label="Primary"

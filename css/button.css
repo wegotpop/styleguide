@@ -1,10 +1,12 @@
 .btn {
-    --default-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24),
-        0 0 2px 0 rgba(0, 0, 0, 0.12);
+    --default-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+        0 1px 3px 1px rgba(60, 64, 67, 0.1);
     color: white;
     background-color: var(--brand-main);
     border-radius: 0.2rem;
     box-shadow: var(--default-box-shadow);
+    transition: box-shadow 0.08s linear,
+        min-width 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     font-size: 1rem;
     display: inline-block;
@@ -23,7 +25,8 @@
 
 .btn:hover,
 .btn-hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3),
+        0 4px 6px 3px rgba(60, 64, 67, 0.1);
     filter: brightness(95%);
 }
 
@@ -44,6 +47,11 @@
     opacity: 0.5;
     box-shadow: var(--default-box-shadow);
     filter: none;
+}
+
+.btn-default {
+    background-color: white;
+    color: black;
 }
 
 .btn-primary {
