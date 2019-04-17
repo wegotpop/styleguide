@@ -7,9 +7,8 @@ export function PageHeadings() {
     <main>
       <h1>Page headings</h1>
       <p>
-        Page headings are implemented by a <code>h1</code> element and use
-        titlecase by default. Configuration and historic headings may be
-        different.
+        Page headings are implemented by a <code>h1</code> element and use title
+        case by default. Configuration and historic headings may be different.
       </p>
       <h1>This Is A Page Heading</h1>
       <p>

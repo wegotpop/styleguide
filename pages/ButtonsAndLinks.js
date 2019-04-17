@@ -35,6 +35,12 @@ export default () => {
         should be used. If the form on the screen is simply altered, a button
         control should be used.
       </p>
+      <p>Button text should use title case</p>
+      <p>
+        Links ideally should highlight a description of the linked item within
+        the text and should follow the normal copy conventions for text in a
+        page.
+      </p>
       <section>
         <h3>States</h3>
         <table className={tableStyles.table}>
