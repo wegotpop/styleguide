@@ -135,6 +135,12 @@ export default () => {
       </section>
       <section>
         <h3>Colours</h3>
+        <ButtonExample
+          label="Default"
+          colour="White"
+          cssClass="btn-default"
+          blurb="White colour is the defaut colour across platform, associated with secondary actions."
+        />
 
         <ButtonExample
           label="Primary"
@@ -169,6 +175,13 @@ export default () => {
           colour="Red"
           cssClass="btn-danger"
           blurb="Red colour is associated with negative or destructive actions that have an immediate affect on the workflow."
+        />
+
+        <ButtonExample
+          label="Link"
+          colour="N/A"
+          cssClass="btn-link"
+          blurb="Used when buttons need to look like a link, but behave like a button."
         />
 
         <ButtonExample
