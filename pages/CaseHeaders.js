@@ -15,14 +15,29 @@ export default () => (
     <section>
       <h3>Tab headers</h3>
       <div>
-        <ul class={classNames(styles.nav, styles['nav-tabs'])}>
-          <li class="active" role="presentation">
+        <ul className={classNames(styles['navigation-tabs'])}>
+          <li
+            className={classNames(
+              styles['navigation-tabs--item'],
+              styles['navigation-tabs--active']
+            )}
+            role="presentation"
+          >
             <a href="#">Selected</a>
           </li>
-          <li class={styles.hover} role="presentation">
+          <li
+            className={classNames(
+              styles['navigation-tabs--item'],
+              styles.hover
+            )}
+            role="presentation"
+          >
             <a href="#">Hover</a>
           </li>
-          <li class="" role="presentation">
+          <li
+            className={classNames(styles['navigation-tabs--item'])}
+            role="presentation"
+          >
             <a href="#">Default</a>
           </li>
         </ul>
