@@ -1,0 +1,43 @@
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: table;
+}
+
+.nav.nav-tabs li {
+    margin-bottom: -3px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.nav.nav-tabs li > a:hover,
+.nav.nav-tabs li.hover > a {
+    background-color: var(--greyscale-four);
+}
+
+.nav.nav-tabs li > a {
+    border-radius: inherit;
+    border: none;
+    color: var(--greyscale-one);
+    margin-right: 2px;
+    line-height: 1.42857143;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav.nav-tabs li:global(.active) > a {
+    font-weight: 500;
+    background-color: inherit;
+    border: none;
+    border-bottom: 3px solid var(--brand-main);
+    color: var(--brand-main);
+}
