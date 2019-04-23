@@ -74,6 +74,21 @@
     background-color: var(--action-error);
 }
 
+.btn-link {
+    background-color: white;
+    border: none;
+    color: var(--link-colour);
+    box-shadow: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    filter: inherit;
+}
+
 .btn-alteration {
     background-color: var(--greyscale-two);
 }
