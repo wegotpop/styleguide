@@ -14,12 +14,12 @@
     display: block;
 }
 
-.navigation-tabs--item > a:hover,
-.navigation-tabs--item.hover > a {
+.navigation-tabs--item > .navigation-tabs--item---link:hover,
+.navigation-tabs--item.hover > .navigation-tabs--item---link {
     background-color: var(--greyscale-four);
 }
 
-.navigation-tabs--item > a {
+.navigation-tabs--item > .navigation-tabs--item---link {
     border-radius: inherit;
     border: none;
     color: var(--greyscale-one);
@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-.navigation-tabs--active > a {
+.navigation-tabs--active > .navigation-tabs--item---link {
     font-weight: 500;
     background-color: inherit;
     border: none;
@@ -38,6 +38,6 @@
     color: var(--brand-main);
 }
 
-.navigation-tabs--active > a:hover {
+.navigation-tabs--item---link:hover {
     background-color: inherit;
 }

@@ -23,7 +23,9 @@ export default () => (
             )}
             role="presentation"
           >
-            <a href="#">Selected</a>
+            <a className={styles['navigation-tabs--item---link']} href="#">
+              Selected
+            </a>
           </li>
           <li
             className={classNames(
@@ -32,13 +34,17 @@ export default () => (
             )}
             role="presentation"
           >
-            <a href="#">Hover</a>
+            <a className={styles['navigation-tabs--item---link']} href="#">
+              Hover
+            </a>
           </li>
           <li
             className={classNames(styles['navigation-tabs--item'])}
             role="presentation"
           >
-            <a href="#">Default</a>
+            <a className={styles['navigation-tabs--item---link']} href="#">
+              Default
+            </a>
           </li>
         </ul>
       </div>
