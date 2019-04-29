@@ -2,6 +2,7 @@
 @import './navigation-pages.css';
 @import './fast-links.css';
 @import './action-buttons.css';
+@import './text.css';
 
 :root {
     font-size: var(--font-size);
