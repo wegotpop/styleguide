@@ -1,0 +1,6 @@
+:global(.page-help-text) {
+    font-size: 1.25rem;
+    color: var(--greyscale-two);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -26,6 +26,7 @@ import { FastLinks } from './pages/FastLinks';
 import { Microcopy } from './pages/Microcopy';
 import { Badges } from './pages/Badges';
 import { WidgetPages } from './pages/WidgetPages';
+import { PageText } from './pages/PageText';
 
 const PAGES = {
   home: () => (
@@ -46,6 +47,7 @@ const PAGES = {
   '/animation': Animation,
   '/case-headers': CaseHeaders,
   '/page-headings': PageHeadings,
+  '/page-text': PageText,
   '/notifications': Notifications,
   '/content-containers': ContentContainers,
   '/forms': FormElements,
