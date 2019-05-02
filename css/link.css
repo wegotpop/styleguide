@@ -1,13 +1,14 @@
 .link {
     color: var(--brand-main);
+    text-decoration: none;
 }
 
 .link:hover,
 .link:focus,
 .hover,
 .focus {
-    font-weight: bold;
     color: var(--brand-darker, var(--brand-main));
+    text-decoration: underline;
 }
 
 .disabled,
