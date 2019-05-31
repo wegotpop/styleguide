@@ -48,4 +48,8 @@
     --red-main: #d54a4a;
     --red-three: #cb8d8d;
     --red-four: #fff2f2;
+
+    --breakpoint-small: 480px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
 }
