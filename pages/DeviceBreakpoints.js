@@ -17,23 +17,23 @@ export function DeviceBreakpoints() {
         </thead>
         <tbody>
           <tr>
-            <td>Mobile</td>
+            <td>Small</td>
             <td>
-              <code>--breakpoint-mobile</code>
+              <code>--breakpoint-small</code>
             </td>
             <td>480px</td>
           </tr>
           <tr>
-            <td>tablet</td>
+            <td>Medium</td>
             <td>
-              <code>--breakpoint-tablet</code>
+              <code>--breakpoint-medium</code>
             </td>
             <td>768px</td>
           </tr>
           <tr>
-            <td>Desktop</td>
+            <td>Large</td>
             <td>
-              <code>--breakpoint-desktop</code>
+              <code>--breakpoint-large</code>
             </td>
             <td>992px</td>
           </tr>

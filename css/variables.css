@@ -49,7 +49,7 @@
     --red-three: #cb8d8d;
     --red-four: #fff2f2;
 
-    --breakpoint-mobile: 480px;
-    --breakpoint-tablet: 768px;
-    --breakpoint-desktop: 992px;
+    --breakpoint-small: 480px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
 }
