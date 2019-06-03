@@ -27,7 +27,7 @@
     --blue-two: #3f639a;
     --blue-main: #6493dc;
     --blue-three: #a2beea;
-    --blue-four: #f5f9ff;
+    --blue-four: #f1f7ff;
     --purple-one: #2a4265;
     --purple-two: #4a3572;
     --purple-main: #624798;
@@ -42,10 +42,14 @@
     --yellow-two: #ac8f3c;
     --yellow-main: #edb71b;
     --yellow-three: #f9d37d;
-    --yellow-four: #fffbf1;
+    --yellow-four: #fffaeb;
     --red-one: #612828;
     --red-two: #973b3b;
     --red-main: #d54a4a;
     --red-three: #cb8d8d;
     --red-four: #fff2f2;
+
+    --breakpoint-small: 480px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
 }

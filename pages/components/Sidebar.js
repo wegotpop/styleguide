@@ -47,6 +47,11 @@ export const Sidebar = ({ onClick }) => (
         title="Content containers (Panels)"
       />
       <MenuItem onClick={onClick} href="/notifications" title="Notifications" />
+      <MenuItem
+        onClick={onClick}
+        href="/device-breakpoints"
+        title="Device Breakpoints"
+      />
     </ul>
     <ul className={styles['sidebar-menu']}>
       <h4>Other</h4>
