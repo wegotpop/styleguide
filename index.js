@@ -27,6 +27,7 @@ import { Microcopy } from './pages/Microcopy';
 import { Badges } from './pages/Badges';
 import { WidgetPages } from './pages/WidgetPages';
 import { PageText } from './pages/PageText';
+import { DeviceBreakpoints } from './pages/DeviceBreakpoints';
 
 const PAGES = {
   home: () => (
@@ -55,6 +56,7 @@ const PAGES = {
   '/microcopy': Microcopy,
   '/badges': Badges,
   '/widget-pages': WidgetPages,
+  '/device-breakpoints': DeviceBreakpoints,
   unknown: () => <div>Page could not be found</div>
 };
 
