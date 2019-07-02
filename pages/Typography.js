@@ -77,7 +77,7 @@ export default () => {
               </td>
               <td>
                 <strong>H4</strong> - {remCalculator('h4')}
-                rem, regular weight
+                rem, light weight
               </td>
             </tr>
 
@@ -87,7 +87,7 @@ export default () => {
               </td>
               <td>
                 <strong>H5</strong> - {remCalculator('h5')}
-                rem, bold weight
+                rem, light weight
               </td>
             </tr>
 
