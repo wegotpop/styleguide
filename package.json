@@ -20,6 +20,10 @@
     "compile": "postcss -m -u postcss-partial-import -u postcss-modules -u cssnano -d build css/global.css"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-spread": "^7.2.2",
+    "babel-core": "^6.26.3",
     "babel-plugin-inline-react-svg": "^0.5.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "classname": "^0.0.0",
