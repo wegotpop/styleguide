@@ -28,14 +28,11 @@ import { Badges } from './pages/Badges';
 import { WidgetPages } from './pages/WidgetPages';
 import { PageText } from './pages/PageText';
 import { DeviceBreakpoints } from './pages/DeviceBreakpoints';
+import { HomePage } from './pages/HomePage';
+import { PageNotFound } from './pages/PageNotFound';
 
 const PAGES = {
-  home: () => (
-    <div>
-      <h1>We Got POP - Style guide</h1>
-      <em>Work in progress</em>
-    </div>
-  ),
+  home: HomePage,
   '/colours': Colours,
   '/typography': Typography,
   '/tables': Tables,
@@ -57,7 +54,7 @@ const PAGES = {
   '/badges': Badges,
   '/widget-pages': WidgetPages,
   '/device-breakpoints': DeviceBreakpoints,
-  unknown: () => <div>Page could not be found</div>
+  unknown: PageNotFound
 };
 
 const Banner = () => (
