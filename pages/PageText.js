@@ -13,16 +13,33 @@ export function PageText() {
 
       <p>It should occur after a heading and before the content of the page.</p>
 
+      <p>
+        Any links in help text should be marked with a tabindex of -1 to remove
+        them them from the page's tabbed navigation.
+      </p>
+
+      <h2 className="mb3">Example</h2>
+
+      <hr />
+
       <h1>The Title of the Page</h1>
       <div className="page-help-text">
         <p>
           A description of what the page is for and the kind of thing you should
           find to expect on it.
         </p>
-        <p>A link to further, in-depth information.</p>
+        <p>
+          A link to{' '}
+          <a href="#" tabIndex={-1}>
+            further, in-depth information
+          </a>
+          .
+        </p>
       </div>
 
-      <p>This would then be body copy.</p>
+      <p>
+        This would then be body copy, with a <a href="#">content link</a>.
+      </p>
 
       <hr />
     </main>

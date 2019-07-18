@@ -29,6 +29,8 @@ import { WidgetPages } from './pages/WidgetPages';
 import { PageText } from './pages/PageText';
 import { UXPrinciples } from './pages/UXPrinciples';
 import { DeviceBreakpoints } from './pages/DeviceBreakpoints';
+import { HomePage } from './pages/HomePage';
+import { PageNotFound } from './pages/PageNotFound';
 
 const PAGES = {
   home: () => (
@@ -86,7 +88,7 @@ const PAGES = {
   '/badges': Badges,
   '/widget-pages': WidgetPages,
   '/device-breakpoints': DeviceBreakpoints,
-  unknown: () => <div>Page could not be found</div>
+  unknown: PageNotFound
 };
 
 const Banner = () => (
