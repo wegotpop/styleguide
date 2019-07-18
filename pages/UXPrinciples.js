@@ -72,7 +72,7 @@ export function UXPrinciples() {
             process
           </li>
           <li>
-            Document & share processes and workflows; create material to educate
+            Document &amp; share processes and workflows; create material to educate
             our users
           </li>
           <li>
