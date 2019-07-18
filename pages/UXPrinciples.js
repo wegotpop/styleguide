@@ -10,8 +10,8 @@ export function UXPrinciples() {
       <section>
         <h2>Unify</h2>
         <p>
-          Build a consistent suite of world-class products that enable film &
-          television professionals to be more productive
+          Build a consistent suite of world-class products that enable film
+          &amp; television professionals to be more productive
         </p>
         <ul>
           <li>
@@ -39,7 +39,7 @@ export function UXPrinciples() {
         <ul>
           <li>Be clear and obvious</li>
           <li>
-            Be transparent & open; show our working when we do work or
+            Be transparent &amp; open; show our working when we do work or
             calculations on a user’s behalf
           </li>
           <li>
@@ -57,8 +57,8 @@ export function UXPrinciples() {
       <section>
         <h2>Set The Standard</h2>
         <p>
-          Our user experience should drive us to lead film & TV production into
-          a connected, digital, standardised future
+          Our user experience should drive us to lead film &amp; TV production
+          into a connected, digital, standardised future
         </p>
         <ul>
           <li>
@@ -72,8 +72,8 @@ export function UXPrinciples() {
             process
           </li>
           <li>
-            Document &amp; share processes and workflows; create material to educate
-            our users
+            Document &amp; share processes and workflows; create material to
+            educate our users
           </li>
           <li>
             Bold opinions, weakly held; actively seek contradictory information
