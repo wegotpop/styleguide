@@ -25,7 +25,7 @@ export function UXPrinciples() {
             system
           </li>
           <li>
-            Unify behind Pop’s Brand; ensure consistent use of the brand
+            Unify behind POP's Brand; ensure consistent use of the brand
             guidelines
           </li>
         </ul>
