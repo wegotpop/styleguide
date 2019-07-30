@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "inline-react-svg", "@babel/plugin-proposal-object-rest-spread"
+    "inline-react-svg"
   ]
 }

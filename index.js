@@ -27,6 +27,7 @@ import { Microcopy } from './pages/Microcopy';
 import { Badges } from './pages/Badges';
 import { WidgetPages } from './pages/WidgetPages';
 import { PageText } from './pages/PageText';
+import { UXPrinciples } from './pages/UXPrinciples';
 import { DeviceBreakpoints } from './pages/DeviceBreakpoints';
 import { HomePage } from './pages/HomePage';
 import { PageNotFound } from './pages/PageNotFound';
@@ -46,6 +47,7 @@ const PAGES = {
   '/case-headers': CaseHeaders,
   '/page-headings': PageHeadings,
   '/page-text': PageText,
+  '/ux-principles': UXPrinciples,
   '/notifications': Notifications,
   '/content-containers': ContentContainers,
   '/forms': FormElements,
