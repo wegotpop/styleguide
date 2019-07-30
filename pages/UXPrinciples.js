@@ -21,11 +21,11 @@ export function UXPrinciples() {
           </li>
           <li>
             Build a platform; reuse components and data where applicable,
-            consider how new features & services fit within the wider design
+            consider how new features &amp; services fit within the wider design
             system
           </li>
           <li>
-            Unify behind POP's Brand; ensure consistent use of the brand
+            Unify behind POP’s Brand; ensure consistent use of the brand
             guidelines
           </li>
         </ul>
