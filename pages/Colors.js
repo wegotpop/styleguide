@@ -17,15 +17,8 @@ const GREYSCALE_COLOURS = [
   'greyscale-five',
   'white'
 ];
-const FEEDBACK_COLOURS = [
-  'action-info',
-  'action-positive',
-  'action-warning',
-  'action-error'
-];
 
 const SECONDARY = {
-  Other: ['secondary-one', 'secondary-two'],
   Blue: ['blue-one', 'blue-two', 'blue-main', 'blue-three', 'blue-four'],
   Purple: [
     'purple-one',
@@ -42,7 +35,8 @@ const SECONDARY = {
     'yellow-three',
     'yellow-four'
   ],
-  Red: ['red-one', 'red-two', 'red-main', 'red-three', 'red-four']
+  Red: ['red-one', 'red-two', 'red-main', 'red-three', 'red-four'],
+  Other: ['secondary-one', 'secondary-two']
 };
 
 const ColourBox = ({ colour }) => (
@@ -67,6 +61,7 @@ const Section = ({ name, colours }) => {
   return (
     <section className={colourStyles['flex-container']}>
       <h4>{name}</h4>
+      <br />
       <div className={colourStyles.container}>
         {colours.map(colour => {
           return <ColourBox key={colour} colour={colour} />;
@@ -80,61 +75,27 @@ export default () => (
   <div
     className={`${colourStyles.container} ${colourStyles['column-container']}`}
   >
-    <h2>Color palette</h2>
-    <p>
-      Consistency of color is critical to maintaining a coherent family of
-      products, and accurately communicating the nature of specific content
-      within an application.
-    </p>
-    <p>
-      Colors are also used to distinguish where on the screen particular content
-      resides, such as on mobile devices where users need to be able to see
-      visual breaks while scrolling.
-    </p>
+    <section>
+      <h1>Colour Palette</h1>
+      <p>
+        Consistency of color is critical to maintaining a coherent family of
+        products, and accurately communicating the nature of specific content
+        within an application. Colours are also used to distinguish where on the
+        screen particular content resides, such as on mobile devices where users
+        need to be able to see visual breaks while scrolling.
+      </p>
+      <p>
+        For information about using colours to convey meaning, such as in
+        notifications or badges, read the{' '}
+        <a href="/colour-use" title="Using Colours">
+          Feedback Colour Guide
+        </a>
+      </p>
+    </section>
     <Section name="Primary" colours={PRIMARY_COLOURS} />
     <Section name="Greyscale" colours={GREYSCALE_COLOURS} />
     {Object.keys(SECONDARY).map(key => (
       <Section key={key} name={key} colours={SECONDARY[key]} />
     ))}
-    <Section name="System Feedback" colours={FEEDBACK_COLOURS} />
-    <section>
-      <h4>Meaning</h4>
-      <ul id={colourStyles['meaning-list']}>
-        <li className={colourStyles['list-item']}>
-          <span
-            style={{
-              backgroundColor: 'var(--action-info)'
-            }}
-          />{' '}
-          Blue - Status - info / no issues
-        </li>
-        <li className={colourStyles['list-item']}>
-          <span
-            style={{
-              backgroundColor: 'var(--action-positive)'
-            }}
-          />{' '}
-          Green - Successes, completions, increases, positive actions
-        </li>
-        <li className={colourStyles['list-item']}>
-          {' '}
-          <span
-            style={{
-              backgroundColor: 'var(--action-warning)'
-            }}
-          />{' '}
-          Yellow - Warnings
-        </li>
-        <li className={colourStyles['list-item']}>
-          <span
-            style={{
-              backgroundColor: 'var(--action-error)'
-            }}
-          />{' '}
-          Red - Errors, negative messaging, losses, high priority, overdue,
-          important
-        </li>
-      </ul>
-    </section>
   </div>
 );

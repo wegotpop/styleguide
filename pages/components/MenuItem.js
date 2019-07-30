@@ -5,7 +5,7 @@ import linkStyles from '../../css/link.css';
 export const MenuItem = ({ href, title, onClick }) => {
   return (
     <li>
-      {window.location.pathname === href ? '> ' : ''}
+      {window.location.pathname === href ? '¬ ' : ' '}
       <a
         className={linkStyles.link}
         href={href}
