@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import { Sidebar } from './pages/components/Sidebar';
 import Colours from './pages/Colors';
+import ColourUse from './pages/ColorUse';
 import Typography from './pages/Typography';
 import Tables from './pages/Tables';
 import Language from './pages/Language';
@@ -28,34 +29,41 @@ import { Badges } from './pages/Badges';
 import { WidgetPages } from './pages/WidgetPages';
 import { PageText } from './pages/PageText';
 import { UXPrinciples } from './pages/UXPrinciples';
+import { Breadcrumbs } from './pages/Breadcrumbs';
+import { NavigationBar } from './pages/NavigationBar';
+import { Tabs } from './pages/Tabs';
 import { DeviceBreakpoints } from './pages/DeviceBreakpoints';
 import { HomePage } from './pages/HomePage';
 import { PageNotFound } from './pages/PageNotFound';
 
 const PAGES = {
   home: HomePage,
-  '/colours': Colours,
-  '/typography': Typography,
-  '/tables': Tables,
-  '/language': Language,
-  '/buttons': Buttons,
-  '/theme': ThemeBuilder,
-  '/icons_and_media': IconsAndMedia,
-  '/navigation': Navigation,
-  '/navigation-pages': NavigationPage,
   '/animation': Animation,
+  '/badges': Badges,
+  '/breadcrumbs': Breadcrumbs,
+  '/buttons': Buttons,
   '/case-headers': CaseHeaders,
+  '/colours': Colours,
+  '/colour-use': ColourUse,
+  '/content-containers': ContentContainers,
+  '/device-breakpoints': DeviceBreakpoints,
+  '/fast-links': FastLinks,
+  '/forms': FormElements,
+  '/icons_and_media': IconsAndMedia,
+  '/language': Language,
+  '/microcopy': Microcopy,
+  '/navigation': Navigation,
+  '/navigation-bar': NavigationBar,
+  '/navigation-pages': NavigationPage,
+  '/notifications': Notifications,
   '/page-headings': PageHeadings,
   '/page-text': PageText,
+  '/tabs': Tabs,
+  '/tables': Tables,
+  '/typography': Typography,
+  '/theme': ThemeBuilder,
   '/ux-principles': UXPrinciples,
-  '/notifications': Notifications,
-  '/content-containers': ContentContainers,
-  '/forms': FormElements,
-  '/fast-links': FastLinks,
-  '/microcopy': Microcopy,
-  '/badges': Badges,
   '/widget-pages': WidgetPages,
-  '/device-breakpoints': DeviceBreakpoints,
   unknown: PageNotFound
 };
 
