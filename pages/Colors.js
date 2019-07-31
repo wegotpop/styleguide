@@ -1,4 +1,5 @@
 import React from 'react';
+import { MenuItem } from './components/MenuItem';
 import colourStyles from './css/Colours.css';
 
 const PRIMARY_COLOURS = [
@@ -71,7 +72,7 @@ const Section = ({ name, colours }) => {
   );
 };
 
-export default () => (
+export default props => (
   <div
     className={`${colourStyles.container} ${colourStyles['column-container']}`}
   >
@@ -87,9 +88,11 @@ export default () => (
       <p>
         For information about using colours to convey meaning, such as in
         notifications or badges, read the{' '}
-        <a href="/colour-use" title="Using Colours">
-          Feedback Colour Guide
-        </a>
+        <MenuItem
+          onClick={props.onClick}
+          href="/colour-user"
+          title="Feedback Colour Guide"
+        />
       </p>
     </section>
     <Section name="Primary" colours={PRIMARY_COLOURS} />
