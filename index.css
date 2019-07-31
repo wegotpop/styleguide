@@ -44,6 +44,6 @@ li {
 code {
     display: inline-block;
     padding: 0.2em 0.4em;
-    background: #f8f8f8;
-    color: #979797;
+    background: var(--greyscale-five);
+    color: var(--greyscale-two);
 }
