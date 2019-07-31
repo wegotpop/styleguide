@@ -59,7 +59,7 @@ export default () => (
       </p>
       <hr />
       <section>
-        <h2>Actions, Notifications and Statuses</h2>
+        <h2>Feedback Colour Guide</h2>
         <Section
           name="Information"
           label="Blue is used when a status or action is simply informational - the default when no other colour is applicable"
