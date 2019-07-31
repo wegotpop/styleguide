@@ -8,16 +8,15 @@ import styles from './css/ButtonPage.css';
 function ButtonExample({ label, colour, cssClass, blurb }) {
   return (
     <div className={styles['button-section']}>
-      <h4>
-        {label} ({colour})
-      </h4>
-      <div>
-        CSS class: <code>{cssClass}</code>
-      </div>
+      <h4>{label}</h4>
       <div>{blurb}</div>
+      <br />
+      <div>
+        CSS class: &nbsp;<code>{cssClass}</code>
+      </div>
       <div>
         <button className={`${buttonStyles.btn} ${buttonStyles[cssClass]}`}>
-          Action Intent
+          Action
         </button>
       </div>
     </div>
@@ -27,123 +26,80 @@ function ButtonExample({ label, colour, cssClass, blurb }) {
 export default () => {
   return (
     <div>
-      <h2>Buttons and Links</h2>
-      <p>
-        Buttons were created to fire form actions. Hyperlinks were created to
-        allow users to jump from one document to another. For example, If the
-        screen view changes to an entirely different document, a link control
-        should be used. If the form on the screen is simply altered, a button
-        control should be used.
-      </p>
-      <p>Button text should use title case</p>
-      <p>
-        Links ideally should highlight a description of the linked item within
-        the text and should follow the normal copy conventions for text in a
-        page.
-      </p>
       <section>
-        <h3>States</h3>
-        <table className={tableStyles.table}>
-          <thead>
-            <th>Default</th>
-            <th>Hover</th>
-            <th>Pressed</th>
-            <th>Disabled</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <button className={`${buttonStyles.btn}`}>Action Intent</button>
-              </td>
-              <td>
-                <button
-                  className={`${buttonStyles.btn} ${buttonStyles['btn-hover']}`}
-                >
-                  Action Intent
-                </button>
-              </td>
-              <td>
-                <button
-                  className={`${buttonStyles.btn} ${buttonStyles['btn-focus']}`}
-                >
-                  Action Intent
-                </button>
-              </td>
-              <td>
-                <button disabled={true} className={buttonStyles.btn}>
-                  Action Intent
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <h1>Buttons</h1>
+        <p>
+          Buttons are used to fire actions. For example, If the screen view
+          changes to an entirely different document, a link control should be
+          used. If the form on the screen is simply altered, a button control
+          should be used.
+        </p>
       </section>
       <section>
+        <h3>Labelling</h3>
+        <p>
+          Labelling for buttons should be descriptive and will usually follow{' '}
+          <code>(action)(object)</code> syntax; for example, if pressing the
+          button sends a message then the button label should probably be{' '}
+          <code>Send Message</code>.
+        </p>
+        <p>
+          Button labels should always use title case, as this helps to
+          distinguish the button from other nearby text.
+        </p>
+      </section>
+      <section>
+        <h3>Button Types</h3>
+        <br />
+        <h4>Singular Actions</h4>
+        <p>
+          Button labels should always use title case, as this helps to
+          distinguish the button from other nearby text.
+        </p>
+        <h5>Example</h5>
+        <br />
+        <button className={`${buttonStyles.btn}`}>Action</button>
+        <br />
+        <br />
+        <h4>Dropdown Buttons</h4>
+        <p>
+          Related actions; where possible, related actions should be grouped
+          into dropdowns. Grouped actions need to be related and equivalent;
+          this button type should only be used when the nested options are a
+          subtype of the action that’s in the drop down button.
+        </p>
+        <h5>Labelling</h5>
+        <p>
+          The label of a dropdown button should follow the{' '}
+          <code>(action)(object)</code> syntax, as usual.
+        </p>
+        <h5>Example</h5>
+        <p>
+          If multiple versions of the same object can be created, then a
+          dropdown is used. For example, multiple engagement types can be
+          selected from a `New Engagement` button.{' '}
+        </p>
+        <br />
+        <p>
+          <strong>Example TBC</strong>
+        </p>
+      </section>
+      {/*<section>
         <h3>Buttons</h3>
         <ButtonDiagram />
-      </section>
-      <section>
-        <h3>Links</h3>
-        <p>
-          Links always do one of two things — open a new view or move to a
-          position on the current view. Don't use a link when the user is
-          performing an action: use a "Light" button instead.
-        </p>
-        <table className={tableStyles.table}>
-          <thead>
-            <tr>
-              <td>Default</td>
-              <td>Hover</td>
-              <td>Pressed</td>
-              <td>Disabled</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <a className={linkStyles.link} href="#">
-                  Action Intent
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.hover}`}
-                  href="#"
-                >
-                  Action Intent
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.focus}`}
-                  href="#"
-                >
-                  Action Intent
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.disabled}`}
-                  href="#"
-                >
-                  Action Intent
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+      </section>*/}
       <section>
         <h3>Colours</h3>
+        <br />
         <ButtonExample
-          label="Default"
+          label="Default/Secondary Action"
           colour="White"
           cssClass="btn-default"
-          blurb="White colour is the defaut colour across platform, associated with secondary actions."
+          blurb="This is the default button colour; unless a button requires "
         />
 
         <ButtonExample
-          label="Primary"
+          label="Primary Action"
           colour="Teal"
           cssClass="btn-primary"
           blurb="Teal colour is the defaut colour across platform, associated with primary actions."
@@ -177,14 +133,7 @@ export default () => {
           blurb="Red colour is associated with negative or destructive actions that have an immediate affect on the workflow."
         />
 
-        <ButtonExample
-          label="Link"
-          colour="N/A"
-          cssClass="btn-link"
-          blurb="Used when buttons need to look like a link, but behave like a button."
-        />
-
-        <ButtonExample
+        {/*<ButtonExample
           label="Reject"
           colour="Black"
           cssClass="btn-reject"
@@ -196,7 +145,71 @@ export default () => {
           colour="Grey"
           cssClass="btn-alteration"
           blurb="Grey colour is associated with a change on the system or on a content."
-        />
+        />*/}
+      </section>
+      <section>
+        <h3>Button Placement</h3>
+        <h4>Tables and Lists</h4>
+        <p>
+          Due to the volume of actions associated to tables and lists, it's
+          possible for these components to necessitate a high number of buttons;
+          because of this, buttons have been grouped into a series of button
+          bars:
+        </p>
+        <ul>
+          <li>
+            Actions; actions that modify or transform data within a table/list
+            should be placed above the table/list, aligned to the left. The
+            primary action should be the left-aligned button. Secondary actions
+            should be grouped to the right of the primary action.
+          </li>
+          <li>
+            Tools; tooling that enables users to search, select, sort or filter
+            a table/list should be placed above the table/list, aligned to the
+            left
+          </li>
+          <li></li>
+        </ul>
+        <p></p>
+        <p></p>
+      </section>
+      <section>
+        <h3>States</h3>
+        <br />
+        <table className={tableStyles.table}>
+          <thead>
+            <th>Default</th>
+            <th>Hover</th>
+            <th>Pressed</th>
+            <th>Disabled</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <button className={`${buttonStyles.btn}`}>Action</button>
+              </td>
+              <td>
+                <button
+                  className={`${buttonStyles.btn} ${buttonStyles['btn-hover']}`}
+                >
+                  Action
+                </button>
+              </td>
+              <td>
+                <button
+                  className={`${buttonStyles.btn} ${buttonStyles['btn-focus']}`}
+                >
+                  Action
+                </button>
+              </td>
+              <td>
+                <button disabled={true} className={buttonStyles.btn}>
+                  Action
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </div>
   );
