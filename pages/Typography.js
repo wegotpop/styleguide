@@ -31,14 +31,27 @@ const remCalculator = elementName => {
 export default () => {
   return (
     <div>
-      <h2>Typography</h2>
-      <p>
-        Roboto is the foundation type family in all POP applications. With a
-        wide range of weights, and a large diverse character set, the uniform
-        simplicity and legibility over other font families makes ROBOTO a great
-        compliment to POP applications
-      </p>
-      <div>
+      <section>
+        <h1>Typography</h1>
+      </section>
+      <section>
+        <h2>Font Family</h2>
+        <p>
+          Roboto is the foundation type family in all POP applications. With a
+          wide range of weights, and a large diverse character set, the uniform
+          simplicity and legibility over other font families makes ROBOTO a
+          great compliment to POP applications
+        </p>
+        <h3>Implementation</h3>
+        <p>Include the following tag in the site header</p>
+        <code>
+          {
+            '<link rel="stylesheet" type="text/css" media="screen,print" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500">'
+          }
+        </code>
+      </section>
+      <section>
+        <h2>Examples</h2>
         <table className={tableStyle.table}>
           <tbody>
             <tr>
@@ -100,34 +113,6 @@ export default () => {
             </tr>
           </tbody>
         </table>
-      </div>
-
-      <section>
-        <h4>Usage</h4>
-        <code>
-          {
-            '<link rel="stylesheet" type="text/css" media="screen,print" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500">'
-          }
-        </code>
-      </section>
-      <section>
-        <h3>Spacing</h3>
-        <div>
-          <p>
-            Spacing, also known as white space, is the empty space between and
-            around individual elements of a page layout; these elements could be
-            pieces of copy, images, cards, buttons, icons, etc. When used
-            correctly, white space brings visual clarity and balance to a
-            layout. White space can also greatly improve the readability of a
-            page or an element.
-          </p>
-          <p>
-            Our guideline rule states that the spacing between every design
-            element should be a multiple of 0.5rem. This rule brings
-            intentionality to our use of white space and creates visual
-            consistency across our site experience.
-          </p>
-        </div>
       </section>
     </div>
   );

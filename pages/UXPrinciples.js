@@ -5,7 +5,6 @@ export function UXPrinciples() {
     <main>
       <section>
         <h1>UX Principles</h1>
-        <hr />
       </section>
       <section>
         <h2>Unify</h2>
