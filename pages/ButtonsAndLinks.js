@@ -187,7 +187,7 @@ export default props => {
           <li>Actions</li>
         </ol>
         <br />
-        <h4>Forms & Widget Pages</h4>
+        <h4>Forms &amp; Widget Pages</h4>
         <p>
           Actions on widget pages should be grouped into a button bar and to be
           placed in a container at the top and left of the content they relate
