@@ -12,7 +12,7 @@ function ButtonExample({ label, colour, cssClass, blurb }) {
       <div>{blurb}</div>
       <br />
       <div>
-        CSS class: &nbsp;<code>{cssClass}</code>
+        CSS class: <code>{cssClass}</code>
       </div>
       <div>
         <button className={`${buttonStyles.btn} ${buttonStyles[cssClass]}`}>
