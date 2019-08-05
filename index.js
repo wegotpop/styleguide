@@ -8,7 +8,7 @@ import ButtonColours from './pages/ButtonColours';
 import Typography from './pages/Typography';
 import Tables from './pages/Tables';
 import Language from './pages/Language';
-import Buttons from './pages/ButtonsAndLinks';
+import { Buttons } from './pages/Buttons';
 import ThemeBuilder from './pages/ThemeBuilder';
 import './css/global.css';
 import styles from './index.css';
@@ -23,6 +23,7 @@ import ContentContainers from './pages/ContentContainers';
 import FormElements from './pages/FormElements';
 import BannerSVG from './pages/assets/banner.svg';
 import { NavigationPage } from './pages/NavigationPages';
+import { Links } from './pages/Links';
 import { PageHeadings } from './pages/PageHeadings';
 import { FastLinks } from './pages/FastLinks';
 import { Microcopy } from './pages/Microcopy';
@@ -66,6 +67,7 @@ const PAGES = {
   '/theme': ThemeBuilder,
   '/ux-principles': UXPrinciples,
   '/widget-pages': WidgetPages,
+  '/links': Links,
   unknown: PageNotFound
 };
 

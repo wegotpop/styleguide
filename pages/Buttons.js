@@ -7,7 +7,7 @@ import styles from './css/ButtonPage.css';
 import { MenuItem } from './components/MenuItem';
 import { ButtonExample } from './components/ButtonExample';
 
-export default props => {
+export function Buttons(props) {
   return (
     <div>
       <section>
@@ -190,4 +190,4 @@ export default props => {
       </section>
     </div>
   );
-};
+}
