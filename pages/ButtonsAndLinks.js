@@ -5,24 +5,7 @@ import ButtonDiagram from './assets/button-diagram.svg';
 import buttonStyles from '../css/button.css';
 import styles from './css/ButtonPage.css';
 import { MenuItem } from './components/MenuItem';
-
-function ButtonExample({ label, colour, cssClass, blurb }) {
-  return (
-    <div className={styles['button-section']}>
-      <h4>{label}</h4>
-      <div>{blurb}</div>
-      <br />
-      <div>
-        CSS class: <code>{cssClass}</code>
-      </div>
-      <div>
-        <button className={`${buttonStyles.btn} ${buttonStyles[cssClass]}`}>
-          Action
-        </button>
-      </div>
-    </div>
-  );
-}
+import { ButtonExample } from './components/ButtonExample';
 
 export default props => {
   return (
