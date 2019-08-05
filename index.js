@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import { Sidebar } from './pages/components/Sidebar';
 import Colours from './pages/Colors';
 import ColourUse from './pages/ColorUse';
+import ButtonColours from './pages/ButtonColours';
 import Typography from './pages/Typography';
 import Tables from './pages/Tables';
 import Language from './pages/Language';
@@ -42,6 +43,7 @@ const PAGES = {
   '/badges': Badges,
   '/breadcrumbs': Breadcrumbs,
   '/buttons': Buttons,
+  '/button-colours': ButtonColours,
   '/case-headers': CaseHeaders,
   '/colours': Colours,
   '/colour-use': ColourUse,

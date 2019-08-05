@@ -28,6 +28,11 @@ export const Sidebar = ({ onClick }) => (
       <h5>Colours</h5>
       <MenuItem onClick={onClick} href="/colours" title="Colour Palette" />
       <MenuItem onClick={onClick} href="/colour-use" title="Using Colours" />
+      <MenuItem
+        onClick={onClick}
+        href="/button-colours"
+        title="Button Colours"
+      />
       <br />
       <h5>Text</h5>
       <MenuItem onClick={onClick} href="/typography" title="Typography" />
@@ -70,9 +75,12 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/tabs" title="Tabs" />
       <MenuItem onClick={onClick} href="/fast-links" title="Fast Links" />
       <br />
+      <h5>Buttons and Links</h5>
+      <MenuItem onClick={onClick} href="/buttons" title="Buttons" />
+      <MenuItem onClick={onClick} href="/links" title="Links" />
+      <br />
       <h5>Elements</h5>
       <MenuItem onClick={onClick} href="/content-containers" title="Panels" />
-      <MenuItem onClick={onClick} href="/buttons" title="Buttons and Links" />
       <MenuItem onClick={onClick} href="/tables" title="Tables and lists" />
       <MenuItem onClick={onClick} href="/forms" title="Forms" />
       <MenuItem
