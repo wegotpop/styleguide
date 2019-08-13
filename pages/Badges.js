@@ -26,6 +26,7 @@ export function Badges() {
       {badge('Positive', 'positive')}
       {badge('Info', 'info')}
       {badge('Warning', 'warning')}
+      {badge('Warning', 'strong-warning')}
       {badge('Error', 'error')}
     </div>
   );
