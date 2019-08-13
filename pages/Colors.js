@@ -36,6 +36,13 @@ const SECONDARY = {
     'yellow-three',
     'yellow-four'
   ],
+  Orange: [
+    'orange-one',
+    'orange-two',
+    'orange-main',
+    'orange-three',
+    'orange-four'
+  ],
   Red: ['red-one', 'red-two', 'red-main', 'red-three', 'red-four'],
   Other: ['secondary-one', 'secondary-two']
 };
