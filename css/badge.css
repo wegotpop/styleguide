@@ -17,6 +17,10 @@
     background-color: var(--action-warning);
 }
 
+.badge-strong-warning {
+    background-color: var(--action-strong-warning);
+}
+
 .badge-positive {
     background-color: var(--action-positive);
 }
