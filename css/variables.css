@@ -48,7 +48,11 @@
     --red-main: #d54a4a;
     --red-three: #cb8d8d;
     --red-four: #fff2f2;
-
+    --orange-one: #8b5a29;
+    --orange-two: #bf7922;
+    --orange-main: #d9861d;
+    --orange-three: #efdac2;
+    --orange-four: #f9f1e5;
     --breakpoint-small: 480px;
     --breakpoint-medium: 768px;
     --breakpoint-large: 992px;

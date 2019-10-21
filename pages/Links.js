@@ -6,7 +6,7 @@ import buttonStyles from '../css/button.css';
 import styles from './css/ButtonPage.css';
 import { ButtonExample } from './components/ButtonExample';
 
-export default () => {
+export function Links() {
   return (
     <div>
       <section>
@@ -87,4 +87,4 @@ export default () => {
       </section>
     </div>
   );
-};
+}

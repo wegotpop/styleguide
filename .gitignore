@@ -77,3 +77,5 @@ dist
 build
 
 css/*.json
+
+.DS_Store
