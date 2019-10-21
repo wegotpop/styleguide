@@ -18,7 +18,8 @@ import Navigation from './pages/Navigation';
 import Animation from './pages/Animation';
 import CaseHeaders from './pages/CaseHeaders';
 import Notifications from './pages/Notifications';
-import ContentContainers from './pages/ContentContainers';
+import Panels from './pages/Panels';
+import Cards from './pages/cards';
 import FormElements from './pages/FormElements';
 import BannerSVG from './pages/assets/banner.svg';
 import { NavigationPage } from './pages/NavigationPages';
@@ -43,9 +44,10 @@ const PAGES = {
   '/breadcrumbs': Breadcrumbs,
   '/buttons': Buttons,
   '/case-headers': CaseHeaders,
+  '/cards': Cards,
   '/colours': Colours,
   '/colour-use': ColourUse,
-  '/content-containers': ContentContainers,
+  '/panels': Panels,
   '/device-breakpoints': DeviceBreakpoints,
   '/fast-links': FastLinks,
   '/forms': FormElements,

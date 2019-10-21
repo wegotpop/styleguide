@@ -71,8 +71,8 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/fast-links" title="Fast Links" />
       <br />
       <h5>Elements</h5>
-      <MenuItem onClick={onClick} href="/content-containers" title="Panels" />
-      <MenuItem onClick={onClick} href="/buttons" title="Buttons and Links" />
+      <MenuItem onClick={onClick} href="/panels" title="Panels" />
+      <MenuItem onClick={onClick} href="/cards" title="Cards" />
       <MenuItem onClick={onClick} href="/tables" title="Tables and lists" />
       <MenuItem onClick={onClick} href="/forms" title="Forms" />
       <MenuItem
