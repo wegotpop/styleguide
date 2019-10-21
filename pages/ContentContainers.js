@@ -50,10 +50,10 @@ export default () => {
           <li>Content extends to 100% of the table width</li>
           <li>Avoid cluttering the panel with too many calls to action</li>
         </ul>
+        <h3>Basic Panels</h3>
         <p>
-          A panel is made up of 3 sections, a header, a body, and a footer. The
-          header and footer have limitations, but the body section can
-          accommodate any layout of related information.
+          A panel is usually made up of 2 sections; a header and a body. The
+          body section can accommodate any layout of related information.
         </p>
         <ul>
           <li>
@@ -66,6 +66,21 @@ export default () => {
             final calls to actions, or navigational elements.
           </li>
         </ul>
+        <h5>Example</h5>
+        <p>
+          <div
+            className={panelStyles.panel}
+            id="widget_set_personal_information"
+          >
+            <div className={panelStyles['panel-heading']}>
+              <h3>This is the Panel Header</h3>
+            </div>
+            <div className={panelStyles['panel-body']}>
+              This is the panel body, where content and links are placed
+            </div>
+          </div>
+        </p>
+        <br />
         <h3>Expandable Panels</h3>
         <p>
           Multiple panels stacked on top of each other make information that is
@@ -73,11 +88,7 @@ export default () => {
           easy to reach and to allow a better user focus use expandable panels.
         </p>
         <h5>Example</h5>
-        <p>
-          <a href="https://staging-crew.wegotpop.com/activity/project/project_record?project_record_id=4237">
-            View Project Record
-          </a>
-        </p>
+        <p>example TBC</p>
         <br />
         <h3>Panels with Tables</h3>
         <p>
@@ -86,11 +97,7 @@ export default () => {
           horizontal scroll.
         </p>
         <h5>Example</h5>
-        <p>
-          <a href="https://staging-crew.wegotpop.com/timesheets/review?timesheet_id=22">
-            View Table
-          </a>
-        </p>
+        <p>example TBC</p>
         <br />
         <h3>Panels with Lists</h3>
         <p>
@@ -100,11 +107,7 @@ export default () => {
           flexible and can have many uses.
         </p>
         <h5>Example</h5>
-        <p>
-          <a href="https://staging-crew.wegotpop.com/activity/project/dashboard?project_id=89">
-            View Dashboard
-          </a>
-        </p>
+        <p>example TBC</p>
         <br />
         <h3>Panels with Forms</h3>
         <p>
@@ -114,11 +117,7 @@ export default () => {
           the user’s eye tracking as they work down the form.
         </p>
         <h5>Example</h5>
-        <p>
-          <a href="https://staging-crew.wegotpop.com/activity/project/create?project_id=89">
-            View Form
-          </a>
-        </p>
+        <p>example TBC</p>
         <br />
         <h3>Panels with contextual alternatives</h3>
         <p>
@@ -128,11 +127,7 @@ export default () => {
           colour.
         </p>
         <h5>Example</h5>
-        <p>
-          <a href="https://staging-crew.wegotpop.com/project/data/compliance/reports?project_id=74">
-            View Report
-          </a>
-        </p>
+        <p>example TBC</p>
       </section>
       <section>
         <h2>Mobile</h2>
