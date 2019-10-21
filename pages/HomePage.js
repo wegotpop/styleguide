@@ -4,7 +4,9 @@ export function HomePage() {
   return (
     <div>
       <section>
-        <h1>We Got POP - Style guide</h1>
+        <h1>
+          <strong>We Got POP Design</strong>
+        </h1>
         <p>
           Predictable, consistent design enables users to focus on the task at
           hand, rather than how to use our service. This Styleguide covers the

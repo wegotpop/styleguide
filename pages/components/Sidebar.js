@@ -15,7 +15,7 @@ export const Sidebar = ({ onClick }) => (
 
     <ul className={styles['sidebar-menu']}>
       <h4>
-        <strong>Principles</strong>
+        <strong>About</strong>
       </h4>
       <MenuItem onClick={onClick} href="/ux-principles" title="UX Principles" />
     </ul>
@@ -34,6 +34,15 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/language" title="Language and text" />
       <MenuItem onClick={onClick} href="/microcopy" title="Microcopy" />
       {/*<MenuItem onClick={onClick} href="/animation" title="Animation" />*/}
+      <br />
+      <h5>Layout</h5>
+      <MenuItem
+        onClick={onClick}
+        href="/device-breakpoints"
+        title="Device Breakpoints"
+      />
+      <MenuItem onClick={onClick} href="/widget-pages" title="Widget pages" />
+      <br />
     </ul>
     <hr />
 
@@ -55,14 +64,6 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/breadcrumbs" title="Breadcrumbs" />
       <MenuItem title="Pagination" />
       <br />
-      <h5>Layout</h5>
-      <MenuItem
-        onClick={onClick}
-        href="/device-breakpoints"
-        title="Device Breakpoints"
-      />
-      <MenuItem onClick={onClick} href="/widget-pages" title="Widget pages" />
-      <br />
       <h5>Headers</h5>
       <MenuItem onClick={onClick} href="/page-headings" title="Page Headings" />
       <MenuItem onClick={onClick} href="/case-headers" title="Case Headers" />
@@ -70,9 +71,11 @@ export const Sidebar = ({ onClick }) => (
       <MenuItem onClick={onClick} href="/tabs" title="Tabs" />
       <MenuItem onClick={onClick} href="/fast-links" title="Fast Links" />
       <br />
-      <h5>Elements</h5>
+      <h5>Containers</h5>
       <MenuItem onClick={onClick} href="/panels" title="Panels" />
       <MenuItem onClick={onClick} href="/cards" title="Cards" />
+      <br />
+      <h5>Elements</h5>
       <MenuItem onClick={onClick} href="/tables" title="Tables and lists" />
       <MenuItem onClick={onClick} href="/forms" title="Forms" />
       <MenuItem
@@ -85,12 +88,12 @@ export const Sidebar = ({ onClick }) => (
     </ul>
     <hr />
 
-    <ul className={styles['sidebar-menu']}>
+    {/*<ul className={styles['sidebar-menu']}>
       <h4>
         <strong>Other</strong>
       </h4>
       <MenuItem onClick={onClick} href="/theme" title="Theme builder" />
     </ul>
-    <hr />
+    <hr />*/}
   </div>
 );
