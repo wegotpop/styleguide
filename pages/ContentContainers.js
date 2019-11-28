@@ -1,7 +1,6 @@
 import React from 'react';
 import panelStyles from '../css/panel.css';
 
-// TODO: CreateElement doesn't work
 export default () => {
   return (
     <div>
