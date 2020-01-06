@@ -9,33 +9,14 @@ import styles from './css/tables.css';
 export default () => {
   return (
     <div>
-      <h3>Tables and lists</h3>
+      <h3>Tables</h3>
+      <h4>Overview</h4>
       <p>
-        Use a table when displaying tabular data, or comparing data both
-        vertically and horizontally.
+        Tables are good for managing large amounts of data. These layouts work
+        well when users need to scan for patterns or compare data.
       </p>
       <section>
-        <div>
-          <ul style={{ padding: '2rem' }}>
-            <li>
-              Tables should extend to 100% of the available space of the card;
-            </li>
-            <li>
-              Data should aligned left, unless it’s a label then the data should
-              be center aligned;
-            </li>
-            <li>
-              Column headings should always match the text alignment of the data
-              in the column;
-            </li>
-            <li>Columns should be presented in a logical order;</li>
-            <li>Primary data should appear in column 1;</li>
-            <li>Row actions, such as delete, should be in the last column;</li>
-            <li>Checkboxes should be in the first column.</li>
-          </ul>
-        </div>
-      </section>
-      <section>
+        <h4>Principles</h4>
         <table>
           <tbody>
             <tr>
@@ -53,22 +34,22 @@ export default () => {
               <td>
                 <h5>Hierarchical</h5>
                 <p>
-                  Data table content should be hierarchical, alphabetical, or
-                  similarly organized.
+                  Table content should be organized in a meaningful way for
+                  users.
                 </p>
               </td>
               <td>
                 <h5>Interactive</h5>
                 <p>
-                  Data tables should allow user interaction, so that users can
-                  sort information in custom ways.
+                  Tables should allow user interaction, so that users can sort
+                  or filter information in custom ways.
                 </p>
               </td>
               <td>
                 <h5>Intuitive</h5>
                 <p>
-                  Data tables should work intuitively, allowing users to focus
-                  on the content, not the structure.
+                  Data tables be intuitive and focus on the basics to increase
+                  ease of learning for the novice users.
                 </p>
               </td>
             </tr>
@@ -76,57 +57,237 @@ export default () => {
         </table>
       </section>
       <section>
-        <h3>Anatomy</h3>
-        <div>
-          Data tables can include three or more columns. A header row at the top
-          lists column names, and all subsequent rows contain data. If users
-          need to interact with row data, checkboxes should accompany each row.
-        </div>
-        <div>
-          <img style={{ width: '100%' }} src={Anatomy} />
-        </div>
-        <div>
-          <ol>
+        <h4>Positioning</h4>
+        <table>
+          <tr>
+            <td>
+              <h5>Table actions</h5>
+              <p>
+                To improve visibility actions should either sit at the top or
+                both at the top and bottom of the table.
+              </p>
+            </td>
+            <td>
+              <h5>Pagination</h5>
+              <p>Pagination is placed at the bottom left side of a table.</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h4>Behaviour</h4>
+        <h5>Controls</h5>
+        <p>
+          <b>Baseline elements:</b>
+          <ul>
             <li>
-              <h4>Container</h4>
-              Container holds all data table content.
+              <b>Column header</b> - Column headers are titles for the column
+              content.
             </li>
             <li>
-              <h4>Column title</h4>
-              if necessary a table can contain a title.
+              <b>Table content</b> - Table content displays all the raw data. As
+              default tables use 25 rows per page.
             </li>
             <li>
-              <h4>Column header</h4>
-              Column headers are titles for the column content.
+              <b>Table pagination</b> - Table pagination is a simple navigation
+              method that lets you split a huge amount of content while
+              indicating that more pages exist.
+            </li>
+          </ul>
+        </p>
+        <p>
+          {' '}
+          <b>Interactive elements:</b>
+          <ul>
+            <li>
+              <b>Row selection</b> - Allows users to select a row and perform an
+              action. When a row checkbox is selected, the row should display a
+              background color and the number rows currently selected.
             </li>
             <li>
-              <h4>Sorting tool</h4>
-              Sorting tools allow users to reorder the table content.
+              <b>Bulk selections</b> - Allows users to select all of the rows on
+              the table, to select only the visible rows or to deselect all
+              rows.
             </li>
             <li>
-              <h4>Table content</h4>
-              Table contains raw data.
+              <b>Sorting tool</b> - To help users sort information, a column can
+              display column sorting by default. For custom sorting, place a
+              sort button at the top of the table with the description of the
+              header name.
             </li>
             <li>
-              <h4>Row checkbox</h4>
-              To allow users to select a row and perform an action.
+              <b>Filtering tool</b> - Filtering tools allow users to limit the
+              data displayed within a long table. There are 2 ways of using
+              filters on a table.
+              <ul>
+                <li>
+                  <b>Column filtering</b> - A filter for each column located
+                  below the column header. Only search and single dropdown
+                  single selection are allowed.
+                </li>
+                <li>
+                  <b>Expandable filtering</b> - An expandable filter button
+                  located at the top of the table. Note that custom filtering
+                  has to be built from scratch.
+                </li>
+              </ul>
             </li>
-          </ol>
-        </div>
+          </ul>
+        </p>
       </section>
       <section>
-        <h3>Fixed tables</h3>
+        <h4>Content</h4>
+        <ul>
+          <li>
+            Table content should be aligned left, unless it’s a status then the
+            data should be center aligned
+          </li>
+          <li>
+            Column headings should be in bold and always match the text
+            alignment of the data in the column
+          </li>
+          <li>
+            Columns usually start with the person’s name or with an aggregate
+            information ID:Person’s name.
+            <ul>
+              <li>
+                Example:
+                <a href="https://staging-crew.wegotpop.com/activity/project/contracts?project_id=48"></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Checkboxes should be in the first column as it puts the selection
+            mechanism near the beginning of the label, so users don't tend to
+            read the entire label but scan it instead
+          </li>
+          <li>Row actions, such as delete, should be in the last column</li>
+          <li>
+            Rows should be highlighted when hovered
+            <ul>
+              <li>
+                Example:{' '}
+                <a href="https://staging-crew.wegotpop.com/activity/project/engagement_summary?project_id=48"></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Links allow access to other pages. Aim to reduce the links to as few
+            as possible, in order to focus the user's attention on primary
+            information.
+          </li>
+        </ul>
+
         <div>
-          Fixed tables should contain a width bar to be able to scroll through
-          the right once the user clicks in the container
+          <h5>Empty tables</h5>
+          <p>
+            Empty tables display no data. Example:{' '}
+            <a href="https://staging-crew.wegotpop.com/project/data/rates/reports?project_id=74"></a>
+          </p>
         </div>
-        <img style={{ width: '100%' }} src={FixedTable} />
-      </section>
-      <section>
-        <h3>Sorting and filtering</h3>
         <div>
-          Table related actions like sorting and filtering should be kept on the
-          table container as a header.
+          <h5>Overflows</h5>
+          <ul>
+            <li>
+              <b>Fixed tables</b> - Fixed tables overflow on the screen.
+            </li>
+            <li>
+              <b>Responsive tables</b> - Responsive tables allow tables to be
+              scrolled horizontally with ease. Make any table responsive across
+              all viewports by wrapping a .table with .table-responsive. Or,
+              pick a maximum breakpoint with which to have a responsive table up
+              to by using .table-responsive{'-sm|-md|-lg|-xl'}.
+            </li>
+          </ul>
+          <p>
+            Note: Text wrapping applies by default on both views and it wraps
+            the text in different lines on a row.
+          </p>
+        </div>
+
+        <div>
+          <h5>Anatomy</h5>
+          <p>
+            A table is composed by it’s basic table elements. If users need to
+            interact with the table, additional elements can be added.
+          </p>
+          <b>Table elements:</b>
+          <ul>
+            <li>
+              Column header - Column headers are titles for the column content.
+            </li>
+            <li>
+              Table content - Table content displays all the raw data. As
+              default tables use 25 rows per page.
+            </li>
+            <li>
+              Table pagination - Table pagination is a simple navigation method
+              that lets you split a huge amount of content while indicating that
+              more pages exist.
+            </li>
+          </ul>
+
+          <b>Interactive elements:</b>
+          <ul>
+            <li>
+              <b>Table title</b> - Used to differentiate between multiple
+              elements or multiple tables on the same page.
+            </li>
+            <li>
+              <b>Badges</b> - Badges are coloured pills to display statuses on a
+              table.
+            </li>
+            <li>
+              <b>Editable tables</b> - Editable tables allow the user to
+              manipulate data on a different page. It is great for the entry of
+              tabular data like in the case of a spreadsheet. To enter edit mode
+              provide an Edit button on the top of the page. Clicking Save or
+              Cancel will bring you back to the view mode.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mobile</h5>
+          <p>
+            On mobile screens, users can only see a small portion of the large
+            data on the table, additional considerations have to be made to find
+            out what should be the user-specified criteria to allow them to view
+            the data in a meaningful way.
+          </p>
+          <b>Currently we have 2 ways of displaying tables on mobile:</b>
+          <ul>
+            <li>
+              <b>Responsive/Scroll</b>
+              <p>
+                This solution is not quite responsive but it’s our default
+                solution and fast for development. It’s just about using swipe
+                gestures to scroll through the whole table horizontally.
+              </p>
+              <ul>
+                <li>
+                  Example:{' '}
+                  <a href="https://staging-crew.wegotpop.com/activity/project/engagement_summary?project_id=48"></a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <b>Transformed</b>
+              <p>
+                A more versatile form of data presentation is a transformed
+                table. On smaller screens, the tabled data will display as
+                separate rows, repeating the header titles on each line for
+                consistency.
+              </p>
+              <ul>
+                <li>
+                  Example:{' '}
+                  <a href="https://staging-crew.wegotpop.com/timesheets/review?timesheet_id=38"></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
