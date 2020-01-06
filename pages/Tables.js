@@ -150,12 +150,6 @@ export default () => {
           <li>
             Columns usually start with the person’s name or with an aggregate
             information ID:Person’s name.
-            <ul>
-              <li>
-                Example:
-                <a href="https://staging-crew.wegotpop.com/activity/project/contracts?project_id=48"></a>
-              </li>
-            </ul>
           </li>
           <li>
             Checkboxes should be in the first column as it puts the selection
@@ -163,15 +157,7 @@ export default () => {
             read the entire label but scan it instead
           </li>
           <li>Row actions, such as delete, should be in the last column</li>
-          <li>
-            Rows should be highlighted when hovered
-            <ul>
-              <li>
-                Example:{' '}
-                <a href="https://staging-crew.wegotpop.com/activity/project/engagement_summary?project_id=48"></a>
-              </li>
-            </ul>
-          </li>
+          <li>Rows should be highlighted when hovered</li>
           <li>
             Links allow access to other pages. Aim to reduce the links to as few
             as possible, in order to focus the user's attention on primary
@@ -181,10 +167,7 @@ export default () => {
 
         <div>
           <h5>Empty tables</h5>
-          <p>
-            Empty tables display no data. Example:{' '}
-            <a href="https://staging-crew.wegotpop.com/project/data/rates/reports?project_id=74"></a>
-          </p>
+          <p>Empty tables display no data.</p>
         </div>
         <div>
           <h5>Overflows</h5>
@@ -264,12 +247,6 @@ export default () => {
                 solution and fast for development. It’s just about using swipe
                 gestures to scroll through the whole table horizontally.
               </p>
-              <ul>
-                <li>
-                  Example:{' '}
-                  <a href="https://staging-crew.wegotpop.com/activity/project/engagement_summary?project_id=48"></a>
-                </li>
-              </ul>
             </li>
 
             <li>
@@ -280,12 +257,6 @@ export default () => {
                 separate rows, repeating the header titles on each line for
                 consistency.
               </p>
-              <ul>
-                <li>
-                  Example:{' '}
-                  <a href="https://staging-crew.wegotpop.com/timesheets/review?timesheet_id=38"></a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
