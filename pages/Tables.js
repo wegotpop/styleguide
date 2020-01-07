@@ -58,21 +58,22 @@ export default () => {
       </section>
       <section>
         <h4>Positioning</h4>
-        <table>
-          <tr>
-            <td>
-              <h5>Table actions</h5>
-              <p>
-                To improve visibility actions should either sit at the top or
-                both at the top and bottom of the table.
-              </p>
-            </td>
-            <td>
-              <h5>Pagination</h5>
-              <p>Pagination is placed at the bottom left side of a table.</p>
-            </td>
-          </tr>
-        </table>
+        <ul>
+          <li>
+            <p>
+              <strong>Table actions</strong> - To improve visibility actions
+              should either sit at the top or both at the top and bottom of the
+              table.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <strong>Pagination</strong> - Pagination is placed at the bottom
+              left side of a table.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section>
@@ -97,7 +98,6 @@ export default () => {
           </ul>
         </p>
         <p>
-          {' '}
           <b>Interactive elements:</b>
           <ul>
             <li>
@@ -140,7 +140,7 @@ export default () => {
         <h4>Content</h4>
         <ul>
           <li>
-            Table content should be aligned left, unless it’s a status then the
+            Table content should be aligned left, unless it's a status then the
             data should be center aligned
           </li>
           <li>
@@ -148,8 +148,8 @@ export default () => {
             alignment of the data in the column
           </li>
           <li>
-            Columns usually start with the person’s name or with an aggregate
-            information ID:Person’s name.
+            Columns usually start with the person's name or with an aggregate
+            information
           </li>
           <li>
             Checkboxes should be in the first column as it puts the selection
@@ -180,7 +180,7 @@ export default () => {
               scrolled horizontally with ease. Make any table responsive across
               all viewports by wrapping a .table with .table-responsive. Or,
               pick a maximum breakpoint with which to have a responsive table up
-              to by using .table-responsive{'-sm|-md|-lg|-xl'}.
+              to by using <code>.table-responsive{'-sm|-md|-lg|-xl'}.</code>
             </li>
           </ul>
           <p>
@@ -192,7 +192,7 @@ export default () => {
         <div>
           <h5>Anatomy</h5>
           <p>
-            A table is composed by it’s basic table elements. If users need to
+            A table is composed by it's basic table elements. If users need to
             interact with the table, additional elements can be added.
           </p>
           <b>Table elements:</b>
@@ -243,8 +243,8 @@ export default () => {
             <li>
               <b>Responsive/Scroll</b>
               <p>
-                This solution is not quite responsive but it’s our default
-                solution and fast for development. It’s just about using swipe
+                This solution is not quite responsive but it's our default
+                solution and fast for development. It's just about using swipe
                 gestures to scroll through the whole table horizontally.
               </p>
             </li>
