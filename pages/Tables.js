@@ -164,102 +164,99 @@ export default () => {
             information.
           </li>
         </ul>
+      </section>
+      <section>
+        <h5>Empty tables</h5>
+        <p>Empty tables display no data.</p>
+      </section>
+      <section>
+        <h5>Overflows</h5>
+        <ul>
+          <li>
+            <b>Fixed tables</b> - Fixed tables overflow on the screen.
+          </li>
+          <li>
+            <b>Responsive tables</b> - Responsive tables allow tables to be
+            scrolled horizontally with ease. Make any table responsive across
+            all viewports by wrapping a .table with .table-responsive. Or, pick
+            a maximum breakpoint with which to have a responsive table up to by
+            using <code>.table-responsive{'-sm|-md|-lg|-xl'}.</code>
+          </li>
+        </ul>
+        <p>
+          Note: Text wrapping applies by default on both views and it wraps the
+          text in different lines on a row.
+        </p>
+      </section>
+      <section>
+        <h5>Anatomy</h5>
+        <p>
+          A table is composed by it's basic table elements. If users need to
+          interact with the table, additional elements can be added.
+        </p>
+        <b>Table elements:</b>
+        <ul>
+          <li>
+            Column header - Column headers are titles for the column content.
+          </li>
+          <li>
+            Table content - Table content displays all the raw data. As default
+            tables use 25 rows per page.
+          </li>
+          <li>
+            Table pagination - Table pagination is a simple navigation method
+            that lets you split a huge amount of content while indicating that
+            more pages exist.
+          </li>
+        </ul>
 
-        <div>
-          <h5>Empty tables</h5>
-          <p>Empty tables display no data.</p>
-        </div>
-        <div>
-          <h5>Overflows</h5>
-          <ul>
-            <li>
-              <b>Fixed tables</b> - Fixed tables overflow on the screen.
-            </li>
-            <li>
-              <b>Responsive tables</b> - Responsive tables allow tables to be
-              scrolled horizontally with ease. Make any table responsive across
-              all viewports by wrapping a .table with .table-responsive. Or,
-              pick a maximum breakpoint with which to have a responsive table up
-              to by using <code>.table-responsive{'-sm|-md|-lg|-xl'}.</code>
-            </li>
-          </ul>
-          <p>
-            Note: Text wrapping applies by default on both views and it wraps
-            the text in different lines on a row.
-          </p>
-        </div>
+        <b>Interactive elements:</b>
+        <ul>
+          <li>
+            <b>Table title</b> - Used to differentiate between multiple elements
+            or multiple tables on the same page.
+          </li>
+          <li>
+            <b>Badges</b> - Badges are coloured pills to display statuses on a
+            table.
+          </li>
+          <li>
+            <b>Editable tables</b> - Editable tables allow the user to
+            manipulate data on a different page. It is great for the entry of
+            tabular data like in the case of a spreadsheet. To enter edit mode
+            provide an Edit button on the top of the page. Clicking Save or
+            Cancel will bring you back to the view mode.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h5>Mobile</h5>
+        <p>
+          On mobile screens, users can only see a small portion of the large
+          data on the table, additional considerations have to be made to find
+          out what should be the user-specified criteria to allow them to view
+          the data in a meaningful way.
+        </p>
+        <b>Currently we have 2 ways of displaying tables on mobile:</b>
+        <ul>
+          <li>
+            <b>Responsive/Scroll</b>
+            <p>
+              This solution is not quite responsive but it's our default
+              solution and fast for development. It's just about using swipe
+              gestures to scroll through the whole table horizontally.
+            </p>
+          </li>
 
-        <div>
-          <h5>Anatomy</h5>
-          <p>
-            A table is composed by it's basic table elements. If users need to
-            interact with the table, additional elements can be added.
-          </p>
-          <b>Table elements:</b>
-          <ul>
-            <li>
-              Column header - Column headers are titles for the column content.
-            </li>
-            <li>
-              Table content - Table content displays all the raw data. As
-              default tables use 25 rows per page.
-            </li>
-            <li>
-              Table pagination - Table pagination is a simple navigation method
-              that lets you split a huge amount of content while indicating that
-              more pages exist.
-            </li>
-          </ul>
-
-          <b>Interactive elements:</b>
-          <ul>
-            <li>
-              <b>Table title</b> - Used to differentiate between multiple
-              elements or multiple tables on the same page.
-            </li>
-            <li>
-              <b>Badges</b> - Badges are coloured pills to display statuses on a
-              table.
-            </li>
-            <li>
-              <b>Editable tables</b> - Editable tables allow the user to
-              manipulate data on a different page. It is great for the entry of
-              tabular data like in the case of a spreadsheet. To enter edit mode
-              provide an Edit button on the top of the page. Clicking Save or
-              Cancel will bring you back to the view mode.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5>Mobile</h5>
-          <p>
-            On mobile screens, users can only see a small portion of the large
-            data on the table, additional considerations have to be made to find
-            out what should be the user-specified criteria to allow them to view
-            the data in a meaningful way.
-          </p>
-          <b>Currently we have 2 ways of displaying tables on mobile:</b>
-          <ul>
-            <li>
-              <b>Responsive/Scroll</b>
-              <p>
-                This solution is not quite responsive but it's our default
-                solution and fast for development. It's just about using swipe
-                gestures to scroll through the whole table horizontally.
-              </p>
-            </li>
-
-            <li>
-              <b>Transformed</b>
-              <p>
-                A more versatile form of data presentation is a transformed
-                table. On smaller screens, the tabled data will display as
-                separate rows, repeating the header titles on each line for
-                consistency.
-              </p>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <b>Transformed</b>
+            <p>
+              A more versatile form of data presentation is a transformed table.
+              On smaller screens, the tabled data will display as separate rows,
+              repeating the header titles on each line for consistency.
+            </p>
+          </li>
+        </ul>
       </section>
     </div>
   );
