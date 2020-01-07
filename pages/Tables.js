@@ -80,56 +80,56 @@ export default () => {
         <h4>Behaviour</h4>
         <h5>Controls</h5>
         <p>
-          <b>Baseline elements:</b>
+          <strong>Baseline elements:</strong>
           <ul>
             <li>
-              <b>Column header</b> - Column headers are titles for the column
-              content.
+              <strong>Column header</strong> - Column headers are titles for the
+              column content.
             </li>
             <li>
-              <b>Table content</b> - Table content displays all the raw data. As
-              default tables use 25 rows per page.
+              <strong>Table content</strong> - Table content displays all the
+              raw data. As default tables use 25 rows per page.
             </li>
             <li>
-              <b>Table pagination</b> - Table pagination is a simple navigation
-              method that lets you split a huge amount of content while
-              indicating that more pages exist.
+              <strong>Table pagination</strong> - Table pagination is a simple
+              navigation method that lets you split a huge amount of content
+              while indicating that more pages exist.
             </li>
           </ul>
         </p>
         <p>
-          <b>Interactive elements:</b>
+          <strong>Interactive elements:</strong>
           <ul>
             <li>
-              <b>Row selection</b> - Allows users to select a row and perform an
-              action. When a row checkbox is selected, the row should display a
-              background color and the number rows currently selected.
+              <strong>Row selection</strong> - Allows users to select a row and
+              perform an action. When a row checkbox is selected, the row should
+              display a background color and the number rows currently selected.
             </li>
             <li>
-              <b>Bulk selections</b> - Allows users to select all of the rows on
-              the table, to select only the visible rows or to deselect all
-              rows.
+              <strong>Bulk selections</strong> - Allows users to select all of
+              the rows on the table, to select only the visible rows or to
+              deselect all rows.
             </li>
             <li>
-              <b>Sorting tool</b> - To help users sort information, a column can
-              display column sorting by default. For custom sorting, place a
-              sort button at the top of the table with the description of the
-              header name.
+              <strong>Sorting tool</strong> - To help users sort information, a
+              column can display column sorting by default. For custom sorting,
+              place a sort button at the top of the table with the description
+              of the header name.
             </li>
             <li>
-              <b>Filtering tool</b> - Filtering tools allow users to limit the
-              data displayed within a long table. There are 2 ways of using
-              filters on a table.
+              <strong>Filtering tool</strong> - Filtering tools allow users to
+              limit the data displayed within a long table. There are 2 ways of
+              using filters on a table.
               <ul>
                 <li>
-                  <b>Column filtering</b> - A filter for each column located
-                  below the column header. Only search and single dropdown
-                  single selection are allowed.
+                  <strong>Column filtering</strong> - A filter for each column
+                  located below the column header. Only search and single
+                  dropdown single selection are allowed.
                 </li>
                 <li>
-                  <b>Expandable filtering</b> - An expandable filter button
-                  located at the top of the table. Note that custom filtering
-                  has to be built from scratch.
+                  <strong>Expandable filtering</strong> - An expandable filter
+                  button located at the top of the table. Note that custom
+                  filtering has to be built from scratch.
                 </li>
               </ul>
             </li>
@@ -173,14 +173,14 @@ export default () => {
         <h5>Overflows</h5>
         <ul>
           <li>
-            <b>Fixed tables</b> - Fixed tables overflow on the screen.
+            <strong>Fixed tables</strong> - Fixed tables overflow on the screen.
           </li>
           <li>
-            <b>Responsive tables</b> - Responsive tables allow tables to be
-            scrolled horizontally with ease. Make any table responsive across
-            all viewports by wrapping a .table with .table-responsive. Or, pick
-            a maximum breakpoint with which to have a responsive table up to by
-            using <code>.table-responsive{'-sm|-md|-lg|-xl'}.</code>
+            <strong>Responsive tables</strong> - Responsive tables allow tables
+            to be scrolled horizontally with ease. Make any table responsive
+            across all viewports by wrapping a .table with .table-responsive.
+            Or, pick a maximum breakpoint with which to have a responsive table
+            up to by using <code>.table-responsive{'-sm|-md|-lg|-xl'}.</code>
           </li>
         </ul>
         <p>
@@ -194,7 +194,7 @@ export default () => {
           A table is composed by it's basic table elements. If users need to
           interact with the table, additional elements can be added.
         </p>
-        <b>Table elements:</b>
+        <strong>Table elements:</strong>
         <ul>
           <li>
             Column header - Column headers are titles for the column content.
@@ -210,18 +210,18 @@ export default () => {
           </li>
         </ul>
 
-        <b>Interactive elements:</b>
+        <strong>Interactive elements:</strong>
         <ul>
           <li>
-            <b>Table title</b> - Used to differentiate between multiple elements
-            or multiple tables on the same page.
+            <strong>Table title</strong> - Used to differentiate between
+            multiple elements or multiple tables on the same page.
           </li>
           <li>
-            <b>Badges</b> - Badges are coloured pills to display statuses on a
-            table.
+            <strong>Badges</strong> - Badges are coloured pills to display
+            statuses on a table.
           </li>
           <li>
-            <b>Editable tables</b> - Editable tables allow the user to
+            <strong>Editable tables</strong> - Editable tables allow the user to
             manipulate data on a different page. It is great for the entry of
             tabular data like in the case of a spreadsheet. To enter edit mode
             provide an Edit button on the top of the page. Clicking Save or
@@ -237,10 +237,12 @@ export default () => {
           out what should be the user-specified criteria to allow them to view
           the data in a meaningful way.
         </p>
-        <b>Currently we have 2 ways of displaying tables on mobile:</b>
+        <strong>
+          Currently we have 2 ways of displaying tables on mobile:
+        </strong>
         <ul>
           <li>
-            <b>Responsive/Scroll</b>
+            <strong>Responsive/Scroll</strong>
             <p>
               This solution is not quite responsive but it's our default
               solution and fast for development. It's just about using swipe
@@ -249,7 +251,7 @@ export default () => {
           </li>
 
           <li>
-            <b>Transformed</b>
+            <strong>Transformed</strong>
             <p>
               A more versatile form of data presentation is a transformed table.
               On smaller screens, the tabled data will display as separate rows,
