@@ -30,6 +30,20 @@ export function Tabs() {
           each tab.
         </p>
       </section>
+      <section>
+        <h2>Example</h2>
+        <ul class="nav nav-tabs">
+          <li class="active" role="presentation">
+            <a href="#">Tab 1</a>
+          </li>
+          <li role="presentation">
+            <a href="#">Tab 2</a>
+          </li>
+          <li role="presentation">
+            <a href="#">Tab 3</a>
+          </li>
+        </ul>
+      </section>
     </main>
   );
 }

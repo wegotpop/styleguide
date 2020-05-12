@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../css/ButtonPage.css';
-import buttonStyles from '../../css/button.css';
+import classNames from 'classname';
 
 export function ButtonExample({ label, colour, cssClass, blurb }) {
   return (
@@ -12,9 +12,7 @@ export function ButtonExample({ label, colour, cssClass, blurb }) {
         CSS class: <code>{cssClass}</code>
       </div>
       <div>
-        <button className={`${buttonStyles.btn} ${buttonStyles[cssClass]}`}>
-          Action
-        </button>
+        <button className={classNames('btn', cssClass)}>Action</button>
       </div>
     </div>
   );
