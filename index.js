@@ -10,7 +10,6 @@ import Tables from './pages/Tables';
 import Language from './pages/Language';
 import { Buttons } from './pages/Buttons';
 import ThemeBuilder from './pages/ThemeBuilder';
-import './css/global.css';
 import styles from './index.css';
 import notificationStyle from './css/notifications.css';
 import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
