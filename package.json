@@ -10,10 +10,11 @@
     "url": "https://github.com/wegotpop/styleguide.git"
   },
   "scripts": {
-    "format": "yarn format:js && yarn format:css && yarn format:md",
+    "format": "yarn format:js && yarn format:css && yarn format:md && yarn format:html",
     "format:js": "prettier ./*.js --write",
     "format:css": "prettier **/*.css --parser=css --write",
     "format:md": "prettier **/*.md --parser=markdown --write",
+    "format:html": "prettier index.html --parser=html --write",
     "dev": "parcel index.html --no-cache",
     "precommit": "lint-staged && yarn build && git add docs",
     "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html",
