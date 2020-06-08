@@ -33,18 +33,6 @@ body {
     margin-top: 2rem;
 }
 
-p {
-    margin: 0.5rem 0 1rem 0;
-}
-
-ul {
-    margin: 1em 0;
-}
-
-li {
-    margin: 0 1em;
-}
-
 code {
     display: inline-block;
     padding: 0.2em 0.4em;

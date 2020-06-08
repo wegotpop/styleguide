@@ -39,8 +39,16 @@ export function Breadcrumbs() {
         </ul>
       </section>
       <section>
-        <h2>Example(s)</h2>
-        <code>Project Name / Message Overview / New Message / Attachments</code>
+        <h2>Example</h2>
+        <ol class="breadcrumb">
+          <li>
+            <a href="#">Project Name</a>
+          </li>
+          <li>
+            <a>People</a>
+          </li>
+          <li class="active">Person</li>
+        </ol>
       </section>
       <section>
         <h2>Links Permissions</h2>
