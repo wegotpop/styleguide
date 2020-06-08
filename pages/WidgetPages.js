@@ -52,27 +52,27 @@ export function WidgetPages() {
       <h3>Example</h3>
 
       <div class="action-button-container">
-        <button>Action button</button>
-        <button>Another action</button>
+        <button className="btn btn-default">Action button</button>
+        <button className="btn btn-default">Another action</button>
       </div>
 
       <div class="action-button-container">
-        <button>Different action</button>
-        <button>For a different user type</button>
-        <button>Or group of actions</button>
+        <button className="btn btn-default">Different action</button>
+        <button className="btn btn-default">For a different user type</button>
+        <button className="btn btn-default">Or group of actions</button>
       </div>
 
       <p class="mt2 mb2">Widgets go here...</p>
 
       <div class="action-button-container">
-        <button>Action button</button>
-        <button>Another action</button>
+        <button className="btn btn-default">Action button</button>
+        <button className="btn btn-default">Another action</button>
       </div>
 
       <div class="action-button-container">
-        <button>Different action type</button>
-        <button>For a different user type</button>
-        <button>Or group of actions</button>
+        <button className="btn btn-default">Different action type</button>
+        <button className="btn btn-default">For a different user type</button>
+        <button className="btn btn-default">Or group of actions</button>
       </div>
     </main>
   );
