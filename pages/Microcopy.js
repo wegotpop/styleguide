@@ -37,6 +37,13 @@ export function Microcopy() {
         <li>Pop-ups or toasts</li>
       </ul>
 
+      <p>
+        If the copy requires other punctuation in it (like semi-colons) then you
+        should also add the fullstop. Try to rewrite the copy so the additional
+        punctuation is not required though. In general having punctuation
+        indicates that the text is too complex for it's purpose.
+      </p>
+
       <h3>Buttons</h3>
 
       <p>
@@ -49,6 +56,21 @@ export function Microcopy() {
       <p>
         Keep titles down to a short sentence fragment. If they grow too large
         then they cease to be useful.
+      </p>
+
+      <h3>When Microcopy isn't Microcopy</h3>
+
+      <p>
+        Where the copy includes multiple sentences then this is no longer
+        microcopy but is just regular copy and should follow the normal rules
+        for copy.
+      </p>
+
+      <p>
+        If you find yourself needing to put a lot of copy onto a UI element then
+        consider simplifying the UI copy and adding a link to a help page or
+        more detailed documentation. That way the user has an option to get more
+        in-depth information without drowning the UI in detail.
       </p>
     </main>
   );
