@@ -66,19 +66,14 @@ export default () => {
           </li>
         </ul>
         <h5>Example</h5>
-        <p>
-          <div
-            className={panelStyles.panel}
-            id="widget_set_personal_information"
-          >
-            <div className={panelStyles['panel-heading']}>
-              <h3>This is the Panel Header</h3>
-            </div>
-            <div className={panelStyles['panel-body']}>
-              This is the panel body, where content and links are placed
-            </div>
+        <div className="panel panel-default" id="my-panel">
+          <div className="panel-heading">
+            <h3>This is the Panel Header</h3>
           </div>
-        </p>
+          <div className="panel-body">
+            This is the panel body, where content and links are placed
+          </div>
+        </div>
         <br />
         <h3>Expandable Panels</h3>
         <p>
@@ -96,7 +91,39 @@ export default () => {
           horizontal scroll.
         </p>
         <h5>Example</h5>
-        <p>example TBC</p>
+        <div>
+          <div className="panel panel-default" id="my-panel">
+            <div className="panel-heading">
+              <h3>This is the Panel Header</h3>
+            </div>
+            <table className="table table-striped">
+              <thead>
+                <tr>
+                  <th>First</th>
+                  <th>Second</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>First</td>
+                  <td>Second</td>
+                </tr>
+                <tr>
+                  <td>First</td>
+                  <td>Second</td>
+                </tr>
+                <tr>
+                  <td>First</td>
+                  <td>Second</td>
+                </tr>
+                <tr>
+                  <td>First</td>
+                  <td>Second</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         <br />
         <h3>Panels with Lists</h3>
         <p>
@@ -116,7 +143,27 @@ export default () => {
           the user’s eye tracking as they work down the form.
         </p>
         <h5>Example</h5>
-        <p>example TBC</p>
+        <div className="panel panel-default" id="my-panel">
+          <div className="panel-heading">
+            <h3>This is the Panel Header</h3>
+          </div>
+          <div className="panel-body">
+            <p>This is the panel body, where content and links are placed</p>
+            <div className="form-group">
+              <label htmlFor="my-input" className="field-required">
+                Label for the Input
+              </label>
+              <input type="text" name="my-input" className="form-control" />
+            </div>
+            <div className="form-group">
+              <label htmlFor="my-input" className="field-required">
+                Another Input
+              </label>
+              <input type="text" name="my-input" className="form-control" />
+            </div>
+            <button className="btn btn-primary">Submit</button>
+          </div>
+        </div>
         <br />
         <h3>Panels with contextual alternatives</h3>
         <p>
