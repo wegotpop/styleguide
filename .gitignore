@@ -79,3 +79,5 @@ build
 css/*.json
 
 .DS_Store
+
+docs

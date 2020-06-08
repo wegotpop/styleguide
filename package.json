@@ -15,8 +15,8 @@
     "format:css": "prettier **/*.css --parser=css --write",
     "format:md": "prettier **/*.md --parser=markdown --write",
     "dev": "parcel index.html --no-cache",
-    "precommit": "lint-staged && yarn build && git add docs",
-    "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url /styleguide/ && cp 404.html ./docs/404.html",
+    "precommit": "lint-staged",
+    "build": "rm -rf dist && parcel build index.html --out-dir dist --public-url /styleguide/ && cp 404.html ./dist/404.html",
     "compile": "postcss -m -u postcss-partial-import -u postcss-modules -u cssnano -d build css/global.css"
   },
   "devDependencies": {
