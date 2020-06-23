@@ -97,7 +97,7 @@ export default props => (
         notifications or badges, read the{' '}
         <MenuItem
           onClick={props.onClick}
-          href="/colour-user"
+          href="/colour-use"
           title="Feedback Colour Guide"
         />
       </p>
