@@ -1,10 +1,7 @@
 {
-  "name": "@wegotpop/styleguide",
-  "version": "1.11.0",
+  "name": "@wegotpop/styleguide-website",
+  "version": "0.0.1",
   "license": "MIT",
-  "files": [
-    "css/*.css"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/wegotpop/styleguide.git"

@@ -43,4 +43,5 @@ yarn format:<js|css|md>
 
 ## Publishing
 
-Publishing can be done by running `npm publish`.
+To publish a new version
+Enter the `package` directory and run `yarn compile` then `npm publish`
