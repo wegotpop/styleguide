@@ -1,7 +1,6 @@
 import React from 'react';
 import { ChromePicker as Picker } from 'react-color';
 
-import tableStyles from '../css/tables.css';
 import styles from './css/ThemeBuilder.css';
 import * as themeManager from '../themeManager';
 
@@ -122,7 +121,7 @@ class ThemeBuilder extends React.Component {
       <div>
         <h4>Theme builder</h4>
         <button onClick={themeManager.resetTheme}>Reset</button>
-        <table className={tableStyles.table}>
+        <table className="table">
           <thead>
             <tr>
               <td>Property</td>

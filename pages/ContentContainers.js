@@ -1,5 +1,4 @@
 import React from 'react';
-import panelStyles from '../css/panel.css';
 
 export default () => {
   return (

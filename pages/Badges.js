@@ -1,16 +1,11 @@
 import React from 'react';
-import badgeStyles from '../css/badge.css';
 import className from 'classname';
 import pageStyles from './css/BadgesPage.css';
 
 function badge(name, style) {
   return (
     <div className={pageStyles.item}>
-      <span
-        className={className(badgeStyles.badge, badgeStyles[`badge-${style}`])}
-      >
-        {name}
-      </span>
+      <span className={className('badge', `badge-${style}`)}>{name}</span>
       <div>
         class: <code>.badge {style && `.badge-${style}`}</code>
       </div>

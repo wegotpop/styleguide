@@ -1,8 +1,5 @@
 import React from 'react';
-import tableStyles from '../css/tables.css';
-import linkStyles from '../css/link.css';
 import ButtonDiagram from './assets/button-diagram.svg';
-import buttonStyles from '../css/button.css';
 import styles from './css/ButtonPage.css';
 import { ButtonExample } from './components/ButtonExample';
 
@@ -32,7 +29,7 @@ export function Links() {
           position on the current view. Don't use a link when the user is
           performing an action: use a "Light" button instead.
         </p>
-        <table className={tableStyles.table}>
+        <table className="table">
           <thead>
             <tr>
               <td>Default</td>

@@ -1,8 +1,6 @@
 import React from 'react';
-import tableStyles from '../css/tables.css';
 import linkStyles from '../css/link.css';
 import ButtonDiagram from './assets/button-diagram.svg';
-import buttonStyles from '../css/button.css';
 import styles from './css/ButtonPage.css';
 import { MenuItem } from './components/MenuItem';
 import { ButtonExample } from './components/ButtonExample';
@@ -89,7 +87,7 @@ export function Buttons(props) {
         <br />
         <h3>States</h3>
         <br />
-        <table className={tableStyles.table}>
+        <table className="table">
           <thead>
             <th>Default</th>
             <th>Hover</th>

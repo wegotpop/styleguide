@@ -1,5 +1,4 @@
 import React from 'react';
-import tableStyle from '../css/tables.css';
 
 const remCalculator = elementName => {
   let pixels;
@@ -52,7 +51,7 @@ export default () => {
       </section>
       <section>
         <h2>Examples</h2>
-        <table className={tableStyle.table}>
+        <table className="table">
           <tbody>
             <tr>
               <td>
