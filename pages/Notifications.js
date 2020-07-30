@@ -88,33 +88,33 @@ export default () => {
 
           <h5>Info</h5>
           <code>alert alert-info</code>
-          <p>
+          <p className="alert alert-info">
             The general information alert is used to give a user non-critical
             status update on a piece of information or action.
           </p>
           <h5>Success</h5>
           <code>alert alert-success</code>
-          <p>
+          <p className="alert alert-success">
             The success alert is used to inform the user of a success of a case
             and or when a task has been successfully completed.
           </p>
           <h5>Warning</h5>
           <code>alert alert-warning</code>
-          <p>
+          <p className="alert alert-warning">
             The warning alert is meant to capture a user's attention in a manner
             similar to the danger alert; however, the issue presented to the
             user is much less critical.
           </p>
           <h5>Danger</h5>
           <code>alert alert-danger</code>
-          <p>
+          <p className="alert alert-danger">
             Danger alert is used to inform user of errors in processing or that
             a failure in the process has occurred. Error messages should
             precisely state what the problem is and how the user can solve it.
           </p>
           <h5>Dismissable</h5>
           <code>alert alert-info alert-dismissible</code>
-          <p>
+          <p className="alert alert-info alert-dismissible">
             Optionally alerts can also be dismissible. They are meant to be used
             when information doesn't necessarily need to be persistent and when
             users need more time to notice, read, or interact with alerts.
