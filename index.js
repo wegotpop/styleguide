@@ -11,7 +11,6 @@ import Language from './pages/Language';
 import { Buttons } from './pages/Buttons';
 import ThemeBuilder from './pages/ThemeBuilder';
 import styles from './index.css';
-import notificationStyle from './css/notifications.css';
 import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
 import IconsAndMedia from './pages/IconsAndMedia';
 import Navigation from './pages/Navigation';
@@ -99,7 +98,7 @@ class App extends React.Component {
 
   renderResetWarning() {
     return (
-      <div className={notificationStyle.warning}>
+      <div className="alert alert-warning">
         <button onClick={resetTheme}>Reset</button> There are theme
         customisations active
       </div>
