@@ -29,49 +29,6 @@ export function Links() {
           position on the current view. Don't use a link when the user is
           performing an action: use a "Light" button instead.
         </p>
-        <table className="table">
-          <thead>
-            <tr>
-              <td>Default</td>
-              <td>Hover</td>
-              <td>Pressed</td>
-              <td>Disabled</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <a className={linkStyles.link} href="#">
-                  Action
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.hover}`}
-                  href="#"
-                >
-                  Action
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.focus}`}
-                  href="#"
-                >
-                  Action
-                </a>
-              </td>
-              <td>
-                <a
-                  className={`${linkStyles.link} ${linkStyles.disabled}`}
-                  href="#"
-                >
-                  Action
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
       </section>
       <section>
         <h3>Colours</h3>

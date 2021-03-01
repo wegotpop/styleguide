@@ -1,7 +1,6 @@
 import React from 'react';
 import linkStyles from '../css/link.css';
 import ButtonDiagram from './assets/button-diagram.svg';
-import styles from './css/ButtonPage.css';
 import { MenuItem } from './components/MenuItem';
 import { ButtonExample } from './components/ButtonExample';
 
@@ -67,7 +66,7 @@ export function Buttons(props) {
           Button labels should always use title case, as this helps to
           distinguish the button from other nearby text.
         </p>
-        <button className={`${buttonStyles.btn}`}>Action</button>
+        <button className="btn">Action</button>
         <br />
         <br />
         <h4>Dropdown Buttons</h4>
@@ -84,43 +83,6 @@ export function Buttons(props) {
         <p>
           <strong>[Example TBC, Dropdown Button]</strong>
         </p>
-        <br />
-        <h3>States</h3>
-        <br />
-        <table className="table">
-          <thead>
-            <th>Default</th>
-            <th>Hover</th>
-            <th>Pressed</th>
-            <th>Disabled</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <button className={`${buttonStyles.btn}`}>Action</button>
-              </td>
-              <td>
-                <button
-                  className={`${buttonStyles.btn} ${buttonStyles['btn-hover']}`}
-                >
-                  Action
-                </button>
-              </td>
-              <td>
-                <button
-                  className={`${buttonStyles.btn} ${buttonStyles['btn-focus']}`}
-                >
-                  Action
-                </button>
-              </td>
-              <td>
-                <button disabled={true} className={buttonStyles.btn}>
-                  Action
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
       </section>
       <section>
         <h2>
