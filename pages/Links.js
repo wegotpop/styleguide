@@ -1,7 +1,4 @@
 import React from 'react';
-import ButtonDiagram from './assets/button-diagram.svg';
-import styles from './css/ButtonPage.css';
-import { ButtonExample } from './components/ButtonExample';
 
 export function Links() {
   return (
@@ -29,15 +26,6 @@ export function Links() {
           position on the current view. Don't use a link when the user is
           performing an action: use a "Light" button instead.
         </p>
-      </section>
-      <section>
-        <h3>Colours</h3>
-        <ButtonExample
-          label="Link"
-          colour="N/A"
-          cssClass="btn-link"
-          blurb="Used when buttons need to look like a link, but behave like a button."
-        />
       </section>
     </div>
   );

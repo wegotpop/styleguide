@@ -1,6 +1,5 @@
 import React from 'react';
 import ButtonDiagram from './assets/button-diagram.svg';
-import styles from './css/ButtonPage.css';
 import { ButtonExample } from './components/ButtonExample';
 
 export default () => {

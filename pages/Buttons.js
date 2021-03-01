@@ -55,6 +55,13 @@ export function Buttons(props) {
           href="/button-colours"
           title="Button Colour Guide"
         />
+
+        <ButtonExample
+          label="Link"
+          colour="N/A"
+          cssClass="btn-link"
+          blurb="Used when buttons need to look like a link, but behave like a button."
+        />
       </section>
       <section>
         <h2>
