@@ -28,6 +28,7 @@ const SECONDARY = {
     'purple-three',
     'purple-four'
   ],
+  Dusk: ['dusk-one', 'dusk-two', 'dusk-main', 'dusk-three', 'dusk-four'],
   Green: ['green-one', 'green-two', 'green-main', 'green-three', 'green-four'],
   Yellow: [
     'yellow-one',
@@ -44,6 +45,13 @@ const SECONDARY = {
     'orange-four'
   ],
   Red: ['red-one', 'red-two', 'red-main', 'red-three', 'red-four'],
+  Magenta: [
+    'magenta-one',
+    'magenta-two',
+    'magenta-main',
+    'magenta-three',
+    'magenta-four'
+  ],
   Other: ['secondary-one', 'secondary-two']
 };
 
