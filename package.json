@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
-    "@babel/plugin-transform-spread": "^7.13.8",
+    "@babel/plugin-transform-spread": "^7.13.0",
     "babel-plugin-inline-react-svg": "^0.5.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "classname": "^0.0.0",
