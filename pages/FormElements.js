@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './css/forms.css';
+import * as styles from './css/forms.css';
 // import FormDiagram from './assets/form-diagram.png';
 
 export default () => (

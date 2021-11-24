@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import styles from './Sidebar.css';
+import * as styles from './Sidebar.css';
 import { MenuItem } from './MenuItem';
 
 export const Sidebar = ({ onClick }) => (

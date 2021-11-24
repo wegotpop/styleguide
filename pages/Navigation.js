@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { MenuItem } from './components/MenuItem';
-import styles from './css/NavigationPage.css';
+import * as styles from './css/NavigationPage.css';
 
 export default props => (
   <div>

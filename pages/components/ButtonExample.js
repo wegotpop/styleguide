@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/ButtonPage.css';
+import * as styles from '../css/ButtonPage.css';
 import classNames from 'classname';
 
 export function ButtonExample({ label, colour, cssClass, blurb }) {

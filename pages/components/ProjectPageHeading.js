@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ProjectPageHeading.css';
+import * as styles from './ProjectPageHeading.css';
 
 export function ProjectPageHeading(props) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChromePicker as Picker } from 'react-color';
 
-import styles from './css/ThemeBuilder.css';
+import * as styles from './css/ThemeBuilder.css';
 import * as themeManager from '../themeManager';
 
 const VARIABLES = [

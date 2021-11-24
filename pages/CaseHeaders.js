@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classname';
 import CaseHeaders from './assets/caseHeaders.png';
-import styles from './css/caseHeaders.css';
+import * as styles from './css/caseHeaders.css';
 
 export default () => (
   <div>

@@ -10,7 +10,7 @@ import Tables from './pages/Tables';
 import Language from './pages/Language';
 import { Buttons } from './pages/Buttons';
 import ThemeBuilder from './pages/ThemeBuilder';
-import styles from './index.css';
+import * as styles from './index.css';
 import { loadCSSFromTheme, themeActive, resetTheme } from './themeManager';
 import IconsAndMedia from './pages/IconsAndMedia';
 import Navigation from './pages/Navigation';

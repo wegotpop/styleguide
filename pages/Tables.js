@@ -4,7 +4,7 @@ import Interactive from './assets/tables/interactive.png';
 import Intuitive from './assets/tables/intuitive.png';
 import Anatomy from './assets/tables/anatomy.png';
 import FixedTable from './assets/tables/fixedTable.png';
-import styles from './css/tables.css';
+import * as styles from './css/tables.css';
 
 export default () => {
   return (
