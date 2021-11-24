@@ -1,5 +1,5 @@
 import React from 'react';
-import colourStyles from './css/Colours.css';
+import * as colourStyles from './css/Colours.css';
 
 const FEEDBACK_INFO = ['action-info'];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import linkStyles from '../css/link.css';
+import * as linkStyles from '../css/link.css';
 import ButtonDiagram from './assets/button-diagram.svg';
 import { MenuItem } from './components/MenuItem';
 import { ButtonExample } from './components/ButtonExample';

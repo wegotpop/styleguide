@@ -1,8 +1,8 @@
 import React from 'react';
-import tableStyles from '../css/tables.css';
-import linkStyles from '../css/link.css';
+import * as tableStyles from '../css/tables.css';
+import * as linkStyles from '../css/link.css';
 import ButtonDiagram from './assets/button-diagram.svg';
-import buttonStyles from '../css/button.css';
+import * as buttonStyles from '../css/button.css';
 import * as styles from './css/ButtonPage.css';
 import { MenuItem } from './components/MenuItem';
 import { ButtonExample } from './components/ButtonExample';

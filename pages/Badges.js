@@ -1,6 +1,6 @@
 import React from 'react';
 import className from 'classname';
-import pageStyles from './css/BadgesPage.css';
+import * as pageStyles from './css/BadgesPage.css';
 
 function badge(name, style) {
   return (

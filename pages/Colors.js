@@ -1,6 +1,6 @@
 import React from 'react';
 import { MenuItem } from './components/MenuItem';
-import colourStyles from './css/Colours.css';
+import * as colourStyles from './css/Colours.css';
 
 const PRIMARY_COLOURS = [
   'brand-one',

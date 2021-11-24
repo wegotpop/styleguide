@@ -1,6 +1,6 @@
 import React from 'react';
 
-import linkStyles from '../../css/link.css';
+import * as linkStyles from '../../css/link.css';
 
 export const MenuItem = ({ href, title, onClick }) => {
   return (
