@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.17.3",
     "@babel/plugin-transform-spread": "^7.16.0",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
