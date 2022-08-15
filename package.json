@@ -33,7 +33,7 @@
     "parcel": "^2.6.1",
     "postcss": "^8.4.0",
     "postcss-cli": "^9.0.2",
-    "postcss-modules": "^4.2.2",
+    "postcss-modules": "^5.0.0",
     "postcss-partial-import": "^4.1.0",
     "prettier": "^2.4.1",
     "react": "^17.0.2",
